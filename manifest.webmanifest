@@ -1,0 +1,9 @@
+{
+  "name":"TenWords · 每日10词",
+  "short_name":"TenWords",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f7f8fb",
+  "theme_color":"#0f172a",
+  "icons":[{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

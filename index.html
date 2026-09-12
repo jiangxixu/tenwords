@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>TenWords · 每日10词</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">TENWORDS</div>
+        <h1>每日 10 词</h1>
+      </div>
+      <button class="icon-btn" id="themeBtn" aria-label="切换主题">◐</button>
+    </header>
+
+    <main>
+      <section class="hero card">
+        <div>
+          <div class="hero-date" id="heroDate"></div>
+          <h2 id="heroTitle">今天，记住 10 个真正有用的词</h2>
+          <p id="heroSubtitle">通用英语为主，适当加入 AI、论文阅读和工程高频词。</p>
+        </div>
+        <div class="progress-ring" id="progressRing">
+          <span id="progressText">0/10</span>
+        </div>
+      </section>
+
+      <nav class="tabs" aria-label="主导航">
+        <button class="tab active" data-view="today">今日</button>
+        <button class="tab" data-view="review">复习</button>
+        <button class="tab" data-view="history">历史</button>
+        <button class="tab" data-view="library">词库</button>
+      </nav>
+
+      <section id="todayView" class="view active-view">
+        <div class="section-head">
+          <div>
+            <h3>今日 10 词</h3>
+            <p>点击单词或例句旁的喇叭即可朗读。</p>
+          </div>
+          <button class="secondary-btn" id="speakAllBtn" aria-pressed="false">▶ 连续朗读</button>
+        </div>
+        <div id="todayList" class="word-list"></div>
+      </section>
+
+      <section id="reviewView" class="view">
+        <div class="section-head">
+          <div>
+            <h3>今日复习</h3>
+            <p>按 1 / 3 / 7 / 14 / 30 天间隔复习；每组标明原学习日、复习次数和间隔天数。</p>
+          </div>
+          <button class="secondary-btn" id="shuffleReviewBtn">↻ 打乱</button>
+        </div>
+        <div class="review-schedule-note">复习计划：第1次（1天后）· 第2次（3天后）· 第3次（7天后）· 第4次（14天后）· 第5次（30天后）</div>
+        <div id="reviewList" class="review-groups"></div>
+      </section>
+
+      <section id="historyView" class="view">
+        <div class="section-head">
+          <div>
+            <h3>历史记录</h3>
+            <p>按日期查看你以前学过的单词。</p>
+          </div>
+        </div>
+        <div id="historyList" class="history-grid"></div>
+      </section>
+
+      <section id="libraryView" class="view">
+        <div class="section-head stacked">
+          <div>
+            <h3>全部词库</h3>
+            <p id="libraryCount"></p>
+          </div>
+          <div class="filters">
+            <input id="searchInput" type="search" placeholder="搜索单词、中文、搭配或例句…" />
+            <select id="statusFilter">
+              <option value="all">全部状态</option>
+              <option value="mastered">已掌握</option>
+              <option value="fuzzy">模糊</option>
+              <option value="new">未标记</option>
+            </select>
+          </div>
+        </div>
+        <div id="libraryList" class="word-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>每天 10 个，长期积累。</span>
+      <button id="resetBtn" class="text-btn">重置学习记录</button>
+    </footer>
+  </div>
+
+  <template id="wordCardTemplate">
+    <article class="word-card">
+      <div class="word-main">
+        <div class="word-title-row">
+          <div>
+            <div class="word-title-wrap">
+              <h4 class="word-title"></h4>
+              <button class="speak-word mini-icon" aria-label="朗读单词">🔊</button>
+            </div>
+            <div class="ipa"></div>
+          </div>
+          <div class="status-actions">
+            <button class="status-btn fuzzy-btn" data-status="fuzzy">模糊</button>
+            <button class="status-btn mastered-btn" data-status="mastered">掌握</button>
+          </div>
+        </div>
+        <div class="meaning"></div>
+        <div class="pill-row">
+          <span class="pill collocation"></span>
+          <span class="pill date-pill"></span>
+        </div>
+      </div>
+      <div class="example-box">
+        <div class="example-head">
+          <span>例句</span>
+          <button class="speak-example mini-icon" aria-label="朗读例句">🔊</button>
+        </div>
+        <p class="example"></p>
+        <p class="translation"></p>
+      </div>
+      <div class="scene-box"><span>使用场景</span><p class="scene"></p></div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

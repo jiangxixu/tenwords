@@ -1,0 +1,3161 @@
+{
+  "reviewIntervals": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "packs": [
+    {
+      "date": "2026-08-14",
+      "words": [
+        {
+          "id": "2026-08-14-01",
+          "word": "retrieve",
+          "ipa": "/rɪˈtriːv/",
+          "meaning": "检索；取回",
+          "collocation": "retrieve information",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "The system retrieves relevant information.",
+          "translation": "系统检索相关信息。"
+        },
+        {
+          "id": "2026-08-14-02",
+          "word": "relevant",
+          "ipa": "/ˈreləvənt/",
+          "meaning": "相关的",
+          "collocation": "relevant information",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "We need relevant data.",
+          "translation": "我们需要相关数据。"
+        },
+        {
+          "id": "2026-08-14-03",
+          "word": "query",
+          "ipa": "/ˈkwɪri/",
+          "meaning": "查询；询问",
+          "collocation": "user query",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "The model receives a user query.",
+          "translation": "模型接收用户查询。"
+        },
+        {
+          "id": "2026-08-14-04",
+          "word": "context",
+          "ipa": "/ˈkɑːntekst/",
+          "meaning": "上下文；背景",
+          "collocation": "provide context",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "Context helps the model understand the question.",
+          "translation": "上下文帮助模型理解问题。"
+        },
+        {
+          "id": "2026-08-14-05",
+          "word": "evidence",
+          "ipa": "/ˈevɪdəns/",
+          "meaning": "证据；依据",
+          "collocation": "provide evidence",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "The result needs more evidence.",
+          "translation": "这个结果需要更多证据。"
+        },
+        {
+          "id": "2026-08-14-06",
+          "word": "approach",
+          "ipa": "/əˈproʊtʃ/",
+          "meaning": "方法；处理方式",
+          "collocation": "proposed approach",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "This approach is simple and effective.",
+          "translation": "这种方法简单而有效。"
+        },
+        {
+          "id": "2026-08-14-07",
+          "word": "require",
+          "ipa": "/rɪˈkwaɪər/",
+          "meaning": "需要；要求",
+          "collocation": "require training",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "This task requires more data.",
+          "translation": "这个任务需要更多数据。"
+        },
+        {
+          "id": "2026-08-14-08",
+          "word": "improve",
+          "ipa": "/ɪmˈpruːv/",
+          "meaning": "改进；提高",
+          "collocation": "improve performance",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "We want to improve model performance.",
+          "translation": "我们希望提高模型性能。"
+        },
+        {
+          "id": "2026-08-14-09",
+          "word": "efficient",
+          "ipa": "/ɪˈfɪʃənt/",
+          "meaning": "高效的",
+          "collocation": "efficient method",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "We need a more efficient method.",
+          "translation": "我们需要一种更高效的方法。"
+        },
+        {
+          "id": "2026-08-14-10",
+          "word": "robust",
+          "ipa": "/roʊˈbʌst/",
+          "meaning": "稳健的；鲁棒的",
+          "collocation": "robust system",
+          "scene": "RAG、AI 与论文阅读的基础表达。",
+          "example": "The robot needs a robust control system.",
+          "translation": "机器人需要一个稳健的控制系统。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "words": [
+        {
+          "id": "2026-08-15-01",
+          "word": "feature",
+          "ipa": "/ˈfiːtʃər/",
+          "meaning": "特征；特点",
+          "collocation": "extract features",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "The model extracts useful features from images.",
+          "translation": "模型从图像中提取有用特征。"
+        },
+        {
+          "id": "2026-08-15-02",
+          "word": "perform",
+          "ipa": "/pərˈfɔːrm/",
+          "meaning": "执行；表现",
+          "collocation": "perform a task",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "The robot can perform this task automatically.",
+          "translation": "机器人可以自动执行这个任务。"
+        },
+        {
+          "id": "2026-08-15-03",
+          "word": "evaluate",
+          "ipa": "/ɪˈvæljueɪt/",
+          "meaning": "评估；评价",
+          "collocation": "evaluate performance",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "We evaluate the model on a test set.",
+          "translation": "我们在测试集上评估模型。"
+        },
+        {
+          "id": "2026-08-15-04",
+          "word": "generate",
+          "ipa": "/ˈdʒenəreɪt/",
+          "meaning": "生成；产生",
+          "collocation": "generate text",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "The model can generate natural language.",
+          "translation": "模型可以生成自然语言。"
+        },
+        {
+          "id": "2026-08-15-05",
+          "word": "predict",
+          "ipa": "/prɪˈdɪkt/",
+          "meaning": "预测",
+          "collocation": "predict results",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "The system predicts the next action.",
+          "translation": "系统预测下一个动作。"
+        },
+        {
+          "id": "2026-08-15-06",
+          "word": "available",
+          "ipa": "/əˈveɪləbəl/",
+          "meaning": "可获得的；可用的",
+          "collocation": "available data",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "We use all available data for training.",
+          "translation": "我们使用所有可用数据进行训练。"
+        },
+        {
+          "id": "2026-08-15-07",
+          "word": "specific",
+          "ipa": "/spəˈsɪfɪk/",
+          "meaning": "具体的；特定的",
+          "collocation": "specific task",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "This model is designed for a specific task.",
+          "translation": "这个模型是为特定任务设计的。"
+        },
+        {
+          "id": "2026-08-15-08",
+          "word": "represent",
+          "ipa": "/ˌreprɪˈzent/",
+          "meaning": "表示；代表",
+          "collocation": "represent information",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "Vectors can represent semantic information.",
+          "translation": "向量可以表示语义信息。"
+        },
+        {
+          "id": "2026-08-15-09",
+          "word": "compare",
+          "ipa": "/kəmˈper/",
+          "meaning": "比较；对比",
+          "collocation": "compare methods",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "We compare our method with several baselines.",
+          "translation": "我们把方法与几个基线方法进行比较。"
+        },
+        {
+          "id": "2026-08-15-10",
+          "word": "accurate",
+          "ipa": "/ˈækjərət/",
+          "meaning": "准确的",
+          "collocation": "accurate prediction",
+          "scene": "机器学习任务、特征与实验评估场景。",
+          "example": "The model produces more accurate predictions.",
+          "translation": "模型产生更准确的预测结果。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "words": [
+        {
+          "id": "2026-08-16-01",
+          "word": "analyze",
+          "ipa": "/ˈænəlaɪz/",
+          "meaning": "分析",
+          "collocation": "analyze data",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "We analyze the data before training.",
+          "translation": "训练前我们先分析数据。"
+        },
+        {
+          "id": "2026-08-16-02",
+          "word": "obtain",
+          "ipa": "/əbˈteɪn/",
+          "meaning": "获得；取得",
+          "collocation": "obtain results",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "We obtained better results.",
+          "translation": "我们得到了更好的结果。"
+        },
+        {
+          "id": "2026-08-16-03",
+          "word": "contain",
+          "ipa": "/kənˈteɪn/",
+          "meaning": "包含；容纳",
+          "collocation": "contain information",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "This file contains useful information.",
+          "translation": "这个文件包含有用信息。"
+        },
+        {
+          "id": "2026-08-16-04",
+          "word": "response",
+          "ipa": "/rɪˈspɑːns/",
+          "meaning": "回答；响应",
+          "collocation": "model response",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "The model gives a clear response.",
+          "translation": "模型给出了清晰的回答。"
+        },
+        {
+          "id": "2026-08-16-05",
+          "word": "parameter",
+          "ipa": "/pəˈræmɪtər/",
+          "meaning": "参数",
+          "collocation": "model parameter",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "The model has millions of parameters.",
+          "translation": "模型有数百万个参数。"
+        },
+        {
+          "id": "2026-08-16-06",
+          "word": "process",
+          "ipa": "/ˈprɑːses/",
+          "meaning": "处理；过程",
+          "collocation": "process data",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "The system processes sensor data.",
+          "translation": "系统处理传感器数据。"
+        },
+        {
+          "id": "2026-08-16-07",
+          "word": "affect",
+          "ipa": "/əˈfekt/",
+          "meaning": "影响",
+          "collocation": "affect performance",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "Data quality affects model performance.",
+          "translation": "数据质量会影响模型性能。"
+        },
+        {
+          "id": "2026-08-16-08",
+          "word": "significant",
+          "ipa": "/sɪɡˈnɪfɪkənt/",
+          "meaning": "显著的；重要的",
+          "collocation": "significant improvement",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "We observed a significant improvement.",
+          "translation": "我们观察到了显著提升。"
+        },
+        {
+          "id": "2026-08-16-09",
+          "word": "maintain",
+          "ipa": "/meɪnˈteɪn/",
+          "meaning": "保持；维护",
+          "collocation": "maintain stability",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "The controller maintains system stability.",
+          "translation": "控制器保持系统稳定。"
+        },
+        {
+          "id": "2026-08-16-10",
+          "word": "deploy",
+          "ipa": "/dɪˈplɔɪ/",
+          "meaning": "部署",
+          "collocation": "deploy a model",
+          "scene": "数据处理、模型参数与部署工程场景。",
+          "example": "We deploy the model on a robot.",
+          "translation": "我们把模型部署到机器人上。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "words": [
+        {
+          "id": "2026-08-17-01",
+          "word": "reduce",
+          "ipa": "/rɪˈduːs/",
+          "meaning": "减少；降低",
+          "collocation": "reduce error",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "This method reduces prediction error.",
+          "translation": "这种方法降低了预测误差。"
+        },
+        {
+          "id": "2026-08-17-02",
+          "word": "increase",
+          "ipa": "/ɪnˈkriːs/",
+          "meaning": "增加；提高",
+          "collocation": "increase accuracy",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "More data can increase accuracy.",
+          "translation": "更多数据可以提高准确率。"
+        },
+        {
+          "id": "2026-08-17-03",
+          "word": "measure",
+          "ipa": "/ˈmeʒər/",
+          "meaning": "测量；衡量",
+          "collocation": "measure performance",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "We measure model performance on the test set.",
+          "translation": "我们在测试集上衡量模型性能。"
+        },
+        {
+          "id": "2026-08-17-04",
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "meaning": "结果",
+          "collocation": "experimental result",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "The experimental results are promising.",
+          "translation": "实验结果很有希望。"
+        },
+        {
+          "id": "2026-08-17-05",
+          "word": "method",
+          "ipa": "/ˈmeθəd/",
+          "meaning": "方法",
+          "collocation": "proposed method",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "Our proposed method is simple.",
+          "translation": "我们提出的方法很简单。"
+        },
+        {
+          "id": "2026-08-17-06",
+          "word": "model",
+          "ipa": "/ˈmɑːdəl/",
+          "meaning": "模型",
+          "collocation": "train a model",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "We train a model on the dataset.",
+          "translation": "我们在该数据集上训练模型。"
+        },
+        {
+          "id": "2026-08-17-07",
+          "word": "dataset",
+          "ipa": "/ˈdeɪtəset/",
+          "meaning": "数据集",
+          "collocation": "training dataset",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "The dataset contains thousands of images.",
+          "translation": "该数据集包含数千张图像。"
+        },
+        {
+          "id": "2026-08-17-08",
+          "word": "objective",
+          "ipa": "/əbˈdʒektɪv/",
+          "meaning": "目标；目的",
+          "collocation": "training objective",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "The training objective is to minimize error.",
+          "translation": "训练目标是最小化误差。"
+        },
+        {
+          "id": "2026-08-17-09",
+          "word": "adapt",
+          "ipa": "/əˈdæpt/",
+          "meaning": "适应；调整",
+          "collocation": "adapt to changes",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "The robot must adapt to environmental changes.",
+          "translation": "机器人必须适应环境变化。"
+        },
+        {
+          "id": "2026-08-17-10",
+          "word": "generalize",
+          "ipa": "/ˈdʒenərəlaɪz/",
+          "meaning": "泛化",
+          "collocation": "generalize to new data",
+          "scene": "模型训练、数据集与泛化能力场景。",
+          "example": "The model should generalize to new data.",
+          "translation": "模型应该能泛化到新数据。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "words": [
+        {
+          "id": "2026-08-18-01",
+          "word": "implement",
+          "ipa": "/ˈɪmplɪment/",
+          "meaning": "实现；实施",
+          "collocation": "implement a method",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "We implemented the method in Python.",
+          "translation": "我们用 Python 实现了该方法。"
+        },
+        {
+          "id": "2026-08-18-02",
+          "word": "optimize",
+          "ipa": "/ˈɑːptɪmaɪz/",
+          "meaning": "优化",
+          "collocation": "optimize performance",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "We optimize the model for faster inference.",
+          "translation": "我们优化模型以加快推理。"
+        },
+        {
+          "id": "2026-08-18-03",
+          "word": "infer",
+          "ipa": "/ɪnˈfɜːr/",
+          "meaning": "推断；推理",
+          "collocation": "infer information",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "The model can infer missing information.",
+          "translation": "模型可以推断缺失信息。"
+        },
+        {
+          "id": "2026-08-18-04",
+          "word": "verify",
+          "ipa": "/ˈverɪfaɪ/",
+          "meaning": "验证；核实",
+          "collocation": "verify results",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "We need to verify the experimental results.",
+          "translation": "我们需要验证实验结果。"
+        },
+        {
+          "id": "2026-08-18-05",
+          "word": "assume",
+          "ipa": "/əˈsuːm/",
+          "meaning": "假设；认为",
+          "collocation": "assume that",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "We assume that the data is correct.",
+          "translation": "我们假设数据是正确的。"
+        },
+        {
+          "id": "2026-08-18-06",
+          "word": "estimate",
+          "ipa": "/ˈestɪmeɪt/",
+          "meaning": "估计；估算",
+          "collocation": "estimate cost",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "The system estimates the computational cost.",
+          "translation": "系统估算计算成本。"
+        },
+        {
+          "id": "2026-08-18-07",
+          "word": "enable",
+          "ipa": "/ɪˈneɪbəl/",
+          "meaning": "使能够；启用",
+          "collocation": "enable learning",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "This design enables efficient learning.",
+          "translation": "这种设计使高效学习成为可能。"
+        },
+        {
+          "id": "2026-08-18-08",
+          "word": "involve",
+          "ipa": "/ɪnˈvɑːlv/",
+          "meaning": "涉及；包含",
+          "collocation": "involve multiple steps",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "Training involves multiple steps.",
+          "translation": "训练涉及多个步骤。"
+        },
+        {
+          "id": "2026-08-18-09",
+          "word": "constraint",
+          "ipa": "/kənˈstreɪnt/",
+          "meaning": "约束；限制条件",
+          "collocation": "resource constraint",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "The robot operates under resource constraints.",
+          "translation": "机器人在资源受限条件下运行。"
+        },
+        {
+          "id": "2026-08-18-10",
+          "word": "achieve",
+          "ipa": "/əˈtʃiːv/",
+          "meaning": "达到；实现",
+          "collocation": "achieve high accuracy",
+          "scene": "算法实现、优化、验证与工程约束场景。",
+          "example": "The model achieves high accuracy.",
+          "translation": "模型达到了较高准确率。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "words": [
+        {
+          "id": "2026-08-19-01",
+          "word": "determine",
+          "ipa": "/dɪˈtɜːrmɪn/",
+          "meaning": "确定；决定",
+          "collocation": "determine the cause",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "We need to determine the cause of the error.",
+          "translation": "我们需要确定错误的原因。"
+        },
+        {
+          "id": "2026-08-19-02",
+          "word": "indicate",
+          "ipa": "/ˈɪndɪkeɪt/",
+          "meaning": "表明；指出",
+          "collocation": "indicate that",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "The results indicate that the method is effective.",
+          "translation": "结果表明该方法有效。"
+        },
+        {
+          "id": "2026-08-19-03",
+          "word": "observe",
+          "ipa": "/əbˈzɜːrv/",
+          "meaning": "观察到；观测",
+          "collocation": "observe a change",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "We observed a clear improvement.",
+          "translation": "我们观察到了明显提升。"
+        },
+        {
+          "id": "2026-08-19-04",
+          "word": "derive",
+          "ipa": "/dɪˈraɪv/",
+          "meaning": "推导；得到",
+          "collocation": "derive a formula",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "We derive the formula from basic assumptions.",
+          "translation": "我们从基本假设推导出该公式。"
+        },
+        {
+          "id": "2026-08-19-05",
+          "word": "establish",
+          "ipa": "/ɪˈstæblɪʃ/",
+          "meaning": "建立；确立",
+          "collocation": "establish a relationship",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "The experiment establishes a relationship between the two variables.",
+          "translation": "实验建立了两个变量之间的关系。"
+        },
+        {
+          "id": "2026-08-19-06",
+          "word": "iteration",
+          "ipa": "/ˌɪtəˈreɪʃən/",
+          "meaning": "迭代；一次循环",
+          "collocation": "training iteration",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "The loss decreases after each training iteration.",
+          "translation": "每次训练迭代后损失都会下降。"
+        },
+        {
+          "id": "2026-08-19-07",
+          "word": "converge",
+          "ipa": "/kənˈvɜːrdʒ/",
+          "meaning": "收敛",
+          "collocation": "converge quickly",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "The model converges after several epochs.",
+          "translation": "模型经过若干轮训练后收敛。"
+        },
+        {
+          "id": "2026-08-19-08",
+          "word": "architecture",
+          "ipa": "/ˈɑːrkɪtektʃər/",
+          "meaning": "架构；结构",
+          "collocation": "model architecture",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "Transformer is a widely used model architecture.",
+          "translation": "Transformer 是一种广泛使用的模型架构。"
+        },
+        {
+          "id": "2026-08-19-09",
+          "word": "benchmark",
+          "ipa": "/ˈbentʃmɑːrk/",
+          "meaning": "基准；基准测试",
+          "collocation": "benchmark dataset",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "We evaluate the model on a standard benchmark.",
+          "translation": "我们在标准基准测试上评估模型。"
+        },
+        {
+          "id": "2026-08-19-10",
+          "word": "distribute",
+          "ipa": "/dɪˈstrɪbjuːt/",
+          "meaning": "分配；分布",
+          "collocation": "distribute data",
+          "scene": "论文结果分析、公式推导与训练收敛场景。",
+          "example": "The data is distributed across several machines.",
+          "translation": "数据分布在多台机器上。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "words": [
+        {
+          "id": "2026-08-20-01",
+          "word": "identify",
+          "ipa": "/aɪˈdentɪfaɪ/",
+          "meaning": "识别；确定",
+          "collocation": "identify a problem",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "We need to identify the main problem.",
+          "translation": "我们需要确定主要问题。"
+        },
+        {
+          "id": "2026-08-20-02",
+          "word": "extract",
+          "ipa": "/ɪkˈstrækt/",
+          "meaning": "提取",
+          "collocation": "extract information",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "The system extracts information from documents.",
+          "translation": "系统从文档中提取信息。"
+        },
+        {
+          "id": "2026-08-20-03",
+          "word": "select",
+          "ipa": "/sɪˈlekt/",
+          "meaning": "选择；挑选",
+          "collocation": "select features",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "We select the most useful features.",
+          "translation": "我们选择最有用的特征。"
+        },
+        {
+          "id": "2026-08-20-04",
+          "word": "apply",
+          "ipa": "/əˈplaɪ/",
+          "meaning": "应用；使用",
+          "collocation": "apply a method",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "We apply this method to image recognition.",
+          "translation": "我们把这种方法应用于图像识别。"
+        },
+        {
+          "id": "2026-08-20-05",
+          "word": "depend",
+          "ipa": "/dɪˈpend/",
+          "meaning": "依赖；取决于",
+          "collocation": "depend on",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "Performance depends on data quality.",
+          "translation": "性能取决于数据质量。"
+        },
+        {
+          "id": "2026-08-20-06",
+          "word": "vary",
+          "ipa": "/ˈveri/",
+          "meaning": "变化；有所不同",
+          "collocation": "vary across tasks",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "Performance varies across different tasks.",
+          "translation": "不同任务上的性能有所不同。"
+        },
+        {
+          "id": "2026-08-20-07",
+          "word": "metric",
+          "ipa": "/ˈmetrɪk/",
+          "meaning": "指标；度量标准",
+          "collocation": "evaluation metric",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "Accuracy is a common evaluation metric.",
+          "translation": "准确率是一种常见的评估指标。"
+        },
+        {
+          "id": "2026-08-20-08",
+          "word": "sample",
+          "ipa": "/ˈsæmpəl/",
+          "meaning": "样本；采样",
+          "collocation": "training sample",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "Each training sample contains an image and a label.",
+          "translation": "每个训练样本包含一张图像和一个标签。"
+        },
+        {
+          "id": "2026-08-20-09",
+          "word": "align",
+          "ipa": "/əˈlaɪn/",
+          "meaning": "对齐；使一致",
+          "collocation": "align with",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "The model output should align with user instructions.",
+          "translation": "模型输出应与用户指令保持一致。"
+        },
+        {
+          "id": "2026-08-20-10",
+          "word": "facilitate",
+          "ipa": "/fəˈsɪləteɪt/",
+          "meaning": "促进；使更容易",
+          "collocation": "facilitate learning",
+          "scene": "信息提取、评价指标与模型对齐场景。",
+          "example": "This design facilitates efficient learning.",
+          "translation": "这种设计有助于高效学习。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "words": [
+        {
+          "id": "2026-08-21-01",
+          "word": "perform",
+          "ipa": "/pərˈfɔːrm/",
+          "meaning": "执行；表现",
+          "collocation": "perform a task",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "The robot can perform the task automatically.",
+          "translation": "机器人可以自动执行任务。"
+        },
+        {
+          "id": "2026-08-21-02",
+          "word": "detect",
+          "ipa": "/dɪˈtekt/",
+          "meaning": "检测；发现",
+          "collocation": "detect objects",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "The system detects objects in real time.",
+          "translation": "系统实时检测物体。"
+        },
+        {
+          "id": "2026-08-21-03",
+          "word": "classify",
+          "ipa": "/ˈklæsɪfaɪ/",
+          "meaning": "分类",
+          "collocation": "classify images",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "The model classifies images into different categories.",
+          "translation": "模型把图像分到不同类别。"
+        },
+        {
+          "id": "2026-08-21-04",
+          "word": "modify",
+          "ipa": "/ˈmɑːdɪfaɪ/",
+          "meaning": "修改；调整",
+          "collocation": "modify parameters",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "We modify the parameters before training.",
+          "translation": "我们在训练前调整参数。"
+        },
+        {
+          "id": "2026-08-21-05",
+          "word": "combine",
+          "ipa": "/kəmˈbaɪn/",
+          "meaning": "结合；组合",
+          "collocation": "combine methods",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "We combine two methods to improve performance.",
+          "translation": "我们结合两种方法来提升性能。"
+        },
+        {
+          "id": "2026-08-21-06",
+          "word": "separate",
+          "ipa": "/ˈsepəreɪt/",
+          "meaning": "分离；区分",
+          "collocation": "separate data",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "We separate the data into training and test sets.",
+          "translation": "我们把数据分成训练集和测试集。"
+        },
+        {
+          "id": "2026-08-21-07",
+          "word": "strategy",
+          "ipa": "/ˈstrætədʒi/",
+          "meaning": "策略；方案",
+          "collocation": "training strategy",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "We use a new training strategy.",
+          "translation": "我们采用一种新的训练策略。"
+        },
+        {
+          "id": "2026-08-21-08",
+          "word": "capacity",
+          "ipa": "/kəˈpæsəti/",
+          "meaning": "能力；容量",
+          "collocation": "model capacity",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "A larger model has greater capacity.",
+          "translation": "更大的模型通常具有更强的表示能力。"
+        },
+        {
+          "id": "2026-08-21-09",
+          "word": "interaction",
+          "ipa": "/ˌɪntərˈækʃən/",
+          "meaning": "交互；相互作用",
+          "collocation": "human-robot interaction",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "Human-robot interaction is important in embodied AI.",
+          "translation": "人机交互在具身智能中很重要。"
+        },
+        {
+          "id": "2026-08-21-10",
+          "word": "reasoning",
+          "ipa": "/ˈriːzənɪŋ/",
+          "meaning": "推理；推理能力",
+          "collocation": "reasoning ability",
+          "scene": "计算机视觉、具身智能与人机交互场景。",
+          "example": "The model shows strong reasoning ability.",
+          "translation": "该模型表现出较强的推理能力。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "words": [
+        {
+          "id": "2026-08-22-01",
+          "word": "interpret",
+          "ipa": "/ɪnˈtɜːrprɪt/",
+          "meaning": "解释；理解",
+          "collocation": "interpret results",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "We need to interpret the experimental results carefully.",
+          "translation": "我们需要谨慎解释实验结果。"
+        },
+        {
+          "id": "2026-08-22-02",
+          "word": "propose",
+          "ipa": "/prəˈpoʊz/",
+          "meaning": "提出；建议",
+          "collocation": "propose a method",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "We propose a new method for object detection.",
+          "translation": "我们提出一种新的目标检测方法。"
+        },
+        {
+          "id": "2026-08-22-03",
+          "word": "conduct",
+          "ipa": "/kənˈdʌkt/",
+          "meaning": "进行；实施",
+          "collocation": "conduct an experiment",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "We conducted several experiments.",
+          "translation": "我们进行了多组实验。"
+        },
+        {
+          "id": "2026-08-22-04",
+          "word": "investigate",
+          "ipa": "/ɪnˈvestɪɡeɪt/",
+          "meaning": "研究；调查",
+          "collocation": "investigate the effect",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "We investigate the effect of model size.",
+          "translation": "我们研究模型规模的影响。"
+        },
+        {
+          "id": "2026-08-22-05",
+          "word": "demonstrate",
+          "ipa": "/ˈdemənstreɪt/",
+          "meaning": "展示；证明",
+          "collocation": "demonstrate effectiveness",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "The experiments demonstrate the effectiveness of the method.",
+          "translation": "实验表明该方法有效。"
+        },
+        {
+          "id": "2026-08-22-06",
+          "word": "enhance",
+          "ipa": "/ɪnˈhæns/",
+          "meaning": "增强；提高",
+          "collocation": "enhance performance",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "This module enhances model performance.",
+          "translation": "该模块提高了模型性能。"
+        },
+        {
+          "id": "2026-08-22-07",
+          "word": "limitation",
+          "ipa": "/ˌlɪmɪˈteɪʃən/",
+          "meaning": "局限；限制",
+          "collocation": "major limitation",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "High computational cost is a major limitation.",
+          "translation": "高计算成本是一个主要局限。"
+        },
+        {
+          "id": "2026-08-22-08",
+          "word": "framework",
+          "ipa": "/ˈfreɪmwɜːrk/",
+          "meaning": "框架；体系",
+          "collocation": "learning framework",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "We build a unified learning framework.",
+          "translation": "我们构建了一个统一的学习框架。"
+        },
+        {
+          "id": "2026-08-22-09",
+          "word": "component",
+          "ipa": "/kəmˈpoʊnənt/",
+          "meaning": "组件；组成部分",
+          "collocation": "key component",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "Retrieval is a key component of RAG.",
+          "translation": "检索是 RAG 的关键组成部分。"
+        },
+        {
+          "id": "2026-08-22-10",
+          "word": "integrate",
+          "ipa": "/ˈɪntɪɡreɪt/",
+          "meaning": "集成；整合",
+          "collocation": "integrate modules",
+          "scene": "论文方法、实验验证与系统集成场景。",
+          "example": "We integrate multiple modules into one system.",
+          "translation": "我们把多个模块集成到一个系统中。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "words": [
+        {
+          "id": "2026-08-23-01",
+          "word": "distinguish",
+          "ipa": "/dɪˈstɪŋɡwɪʃ/",
+          "meaning": "区分；辨别",
+          "collocation": "distinguish between",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "The model can distinguish between similar objects.",
+          "translation": "模型能够区分相似物体。"
+        },
+        {
+          "id": "2026-08-23-02",
+          "word": "correlate",
+          "ipa": "/ˈkɔːrəleɪt/",
+          "meaning": "相关；使关联",
+          "collocation": "correlate with",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "Model size often correlates with performance.",
+          "translation": "模型规模通常与性能相关。"
+        },
+        {
+          "id": "2026-08-23-03",
+          "word": "hypothesis",
+          "ipa": "/haɪˈpɑːθəsɪs/",
+          "meaning": "假设；假说",
+          "collocation": "test a hypothesis",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "We conduct experiments to test the hypothesis.",
+          "translation": "我们通过实验检验假设。"
+        },
+        {
+          "id": "2026-08-23-04",
+          "word": "empirical",
+          "ipa": "/ɪmˈpɪrɪkəl/",
+          "meaning": "实证的；基于实验的",
+          "collocation": "empirical results",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "The empirical results support our conclusion.",
+          "translation": "实验结果支持我们的结论。"
+        },
+        {
+          "id": "2026-08-23-05",
+          "word": "reliable",
+          "ipa": "/rɪˈlaɪəbəl/",
+          "meaning": "可靠的",
+          "collocation": "reliable system",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "We need a reliable control system.",
+          "translation": "我们需要一个可靠的控制系统。"
+        },
+        {
+          "id": "2026-08-23-06",
+          "word": "consistent",
+          "ipa": "/kənˈsɪstənt/",
+          "meaning": "一致的；稳定的",
+          "collocation": "consistent results",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "The model produces consistent results.",
+          "translation": "模型产生一致的结果。"
+        },
+        {
+          "id": "2026-08-23-07",
+          "word": "scalable",
+          "ipa": "/ˈskeɪləbəl/",
+          "meaning": "可扩展的",
+          "collocation": "scalable framework",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "We design a scalable training framework.",
+          "translation": "我们设计了一个可扩展的训练框架。"
+        },
+        {
+          "id": "2026-08-23-08",
+          "word": "outperform",
+          "ipa": "/ˌaʊtpərˈfɔːrm/",
+          "meaning": "表现优于",
+          "collocation": "outperform baselines",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "Our method outperforms several baselines.",
+          "translation": "我们的方法优于多个基线方法。"
+        },
+        {
+          "id": "2026-08-23-09",
+          "word": "replicate",
+          "ipa": "/ˈreplɪkeɪt/",
+          "meaning": "复现；复制",
+          "collocation": "replicate results",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "Other researchers should be able to replicate the results.",
+          "translation": "其他研究者应该能够复现实验结果。"
+        },
+        {
+          "id": "2026-08-23-10",
+          "word": "allocate",
+          "ipa": "/ˈæləkeɪt/",
+          "meaning": "分配",
+          "collocation": "allocate resources",
+          "scene": "科研假设、实证结果与论文复现评价场景。",
+          "example": "The system allocates resources efficiently.",
+          "translation": "系统高效地分配资源。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "words": [
+        {
+          "id": "2026-08-24-01",
+          "word": "assess",
+          "ipa": "/əˈses/",
+          "meaning": "评估；判断",
+          "collocation": "assess performance",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "We assess the model performance on the test set.",
+          "translation": "我们在测试集上评估模型性能。"
+        },
+        {
+          "id": "2026-08-24-02",
+          "word": "address",
+          "ipa": "/əˈdres/",
+          "meaning": "处理；解决",
+          "collocation": "address a problem",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "This method addresses a common problem.",
+          "translation": "这种方法解决了一个常见问题。"
+        },
+        {
+          "id": "2026-08-24-03",
+          "word": "ensure",
+          "ipa": "/ɪnˈʃʊr/",
+          "meaning": "确保；保证",
+          "collocation": "ensure reliability",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "We need to ensure system reliability.",
+          "translation": "我们需要确保系统可靠性。"
+        },
+        {
+          "id": "2026-08-24-04",
+          "word": "preserve",
+          "ipa": "/prɪˈzɜːrv/",
+          "meaning": "保留；维持",
+          "collocation": "preserve information",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "The method preserves important information.",
+          "translation": "该方法保留了重要信息。"
+        },
+        {
+          "id": "2026-08-24-05",
+          "word": "approximate",
+          "ipa": "/əˈprɑːksɪmeɪt/",
+          "meaning": "近似；估算",
+          "collocation": "approximate a function",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "The network can approximate a complex function.",
+          "translation": "神经网络可以近似复杂函数。"
+        },
+        {
+          "id": "2026-08-24-06",
+          "word": "potential",
+          "ipa": "/pəˈtenʃəl/",
+          "meaning": "潜在的；潜力",
+          "collocation": "potential benefit",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "This approach has significant potential benefits.",
+          "translation": "这种方法具有显著的潜在优势。"
+        },
+        {
+          "id": "2026-08-24-07",
+          "word": "sufficient",
+          "ipa": "/səˈfɪʃənt/",
+          "meaning": "足够的；充分的",
+          "collocation": "sufficient data",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "We need sufficient data for training.",
+          "translation": "我们需要足够的数据进行训练。"
+        },
+        {
+          "id": "2026-08-24-08",
+          "word": "bias",
+          "ipa": "/ˈbaɪəs/",
+          "meaning": "偏差；偏见",
+          "collocation": "model bias",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "The dataset may introduce model bias.",
+          "translation": "数据集可能引入模型偏差。"
+        },
+        {
+          "id": "2026-08-24-09",
+          "word": "variance",
+          "ipa": "/ˈveriəns/",
+          "meaning": "方差；变化程度",
+          "collocation": "high variance",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "High variance may lead to overfitting.",
+          "translation": "高方差可能导致过拟合。"
+        },
+        {
+          "id": "2026-08-24-10",
+          "word": "transfer",
+          "ipa": "/trænsˈfɜːr/",
+          "meaning": "转移；迁移",
+          "collocation": "transfer knowledge",
+          "scene": "模型评估、偏差方差与迁移学习场景。",
+          "example": "The model transfers knowledge to a new task.",
+          "translation": "模型把知识迁移到新任务中。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "words": [
+        {
+          "id": "2026-08-25-01",
+          "word": "formulate",
+          "ipa": "/ˈfɔːrmjəleɪt/",
+          "meaning": "制定；构建；表述",
+          "collocation": "formulate a problem",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "We formulate the task as a classification problem.",
+          "translation": "我们将该任务表述为一个分类问题。"
+        },
+        {
+          "id": "2026-08-25-02",
+          "word": "quantify",
+          "ipa": "/ˈkwɑːntɪfaɪ/",
+          "meaning": "量化",
+          "collocation": "quantify the effect",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "We quantify the effect of model size.",
+          "translation": "我们量化模型规模带来的影响。"
+        },
+        {
+          "id": "2026-08-25-03",
+          "word": "validate",
+          "ipa": "/ˈvælɪdeɪt/",
+          "meaning": "验证；确认有效性",
+          "collocation": "validate a model",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "We validate the model on unseen data.",
+          "translation": "我们在未见数据上验证模型。"
+        },
+        {
+          "id": "2026-08-25-04",
+          "word": "mitigate",
+          "ipa": "/ˈmɪtɪɡeɪt/",
+          "meaning": "缓解；减轻",
+          "collocation": "mitigate the risk",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "This strategy helps mitigate the risk of overfitting.",
+          "translation": "该策略有助于降低过拟合风险。"
+        },
+        {
+          "id": "2026-08-25-05",
+          "word": "incorporate",
+          "ipa": "/ɪnˈkɔːrpəreɪt/",
+          "meaning": "纳入；结合",
+          "collocation": "incorporate knowledge",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "The model incorporates prior knowledge.",
+          "translation": "模型纳入了先验知识。"
+        },
+        {
+          "id": "2026-08-25-06",
+          "word": "capture",
+          "ipa": "/ˈkæptʃər/",
+          "meaning": "捕获；刻画",
+          "collocation": "capture patterns",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "The network captures complex patterns in the data.",
+          "translation": "网络能够捕获数据中的复杂模式。"
+        },
+        {
+          "id": "2026-08-25-07",
+          "word": "acquire",
+          "ipa": "/əˈkwaɪər/",
+          "meaning": "获得；获取",
+          "collocation": "acquire data",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "The robot acquires data from its sensors.",
+          "translation": "机器人从传感器获取数据。"
+        },
+        {
+          "id": "2026-08-25-08",
+          "word": "mechanism",
+          "ipa": "/ˈmekənɪzəm/",
+          "meaning": "机制；工作原理",
+          "collocation": "attention mechanism",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "The attention mechanism helps the model focus on relevant information.",
+          "translation": "注意力机制帮助模型关注相关信息。"
+        },
+        {
+          "id": "2026-08-25-09",
+          "word": "criterion",
+          "ipa": "/kraɪˈtɪriən/",
+          "meaning": "标准；准则",
+          "collocation": "selection criterion",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "Accuracy is one criterion for model selection.",
+          "translation": "准确率是模型选择的一个标准。"
+        },
+        {
+          "id": "2026-08-25-10",
+          "word": "feasible",
+          "ipa": "/ˈfiːzəbəl/",
+          "meaning": "可行的",
+          "collocation": "feasible solution",
+          "scene": "问题形式化、模型验证与机制分析场景。",
+          "example": "We need a feasible solution for real-time deployment.",
+          "translation": "我们需要一个适合实时部署的可行方案。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "words": [
+        {
+          "id": "2026-08-26-01",
+          "word": "resolve",
+          "ipa": "/rɪˈzɑːlv/",
+          "meaning": "解决；处理",
+          "collocation": "resolve an issue",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "We need to resolve this issue before deployment.",
+          "translation": "我们需要在部署前解决这个问题。"
+        },
+        {
+          "id": "2026-08-26-02",
+          "word": "reveal",
+          "ipa": "/rɪˈviːl/",
+          "meaning": "揭示；显示",
+          "collocation": "reveal a pattern",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "The results reveal a clear pattern.",
+          "translation": "结果揭示了一个清晰的规律。"
+        },
+        {
+          "id": "2026-08-26-03",
+          "word": "retain",
+          "ipa": "/rɪˈteɪn/",
+          "meaning": "保留；保持",
+          "collocation": "retain information",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "The model retains important information.",
+          "translation": "模型保留了重要信息。"
+        },
+        {
+          "id": "2026-08-26-04",
+          "word": "account",
+          "ipa": "/əˈkaʊnt/",
+          "meaning": "解释；占据",
+          "collocation": "account for",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "Data loading accounts for most of the delay.",
+          "translation": "数据加载占据了大部分延迟。"
+        },
+        {
+          "id": "2026-08-26-05",
+          "word": "emerge",
+          "ipa": "/ɪˈmɜːrdʒ/",
+          "meaning": "出现；显现",
+          "collocation": "emerge from",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "A clear trend emerges from the data.",
+          "translation": "数据中显现出一个明显趋势。"
+        },
+        {
+          "id": "2026-08-26-06",
+          "word": "aggregate",
+          "ipa": "/ˈæɡrɪɡeɪt/",
+          "meaning": "聚合；汇总",
+          "collocation": "aggregate data",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "The server aggregates data from multiple devices.",
+          "translation": "服务器汇总来自多个设备的数据。"
+        },
+        {
+          "id": "2026-08-26-07",
+          "word": "normalize",
+          "ipa": "/ˈnɔːrməlaɪz/",
+          "meaning": "归一化；规范化",
+          "collocation": "normalize data",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "We normalize the input data before training.",
+          "translation": "训练前我们对输入数据进行归一化。"
+        },
+        {
+          "id": "2026-08-26-08",
+          "word": "latent",
+          "ipa": "/ˈleɪtənt/",
+          "meaning": "潜在的；隐含的",
+          "collocation": "latent representation",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "The model learns a latent representation of the data.",
+          "translation": "模型学习数据的潜在表示。"
+        },
+        {
+          "id": "2026-08-26-09",
+          "word": "sparse",
+          "ipa": "/spɑːrs/",
+          "meaning": "稀疏的",
+          "collocation": "sparse representation",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "The model produces a sparse representation.",
+          "translation": "模型产生稀疏表示。"
+        },
+        {
+          "id": "2026-08-26-10",
+          "word": "overhead",
+          "ipa": "/ˈoʊvərhed/",
+          "meaning": "额外开销",
+          "collocation": "computational overhead",
+          "scene": "系统性能、数据预处理与表示学习场景。",
+          "example": "This method introduces little computational overhead.",
+          "translation": "这种方法只引入很少的计算开销。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "words": [
+        {
+          "id": "2026-08-27-01",
+          "word": "emphasize",
+          "ipa": "/ˈemfəsaɪz/",
+          "meaning": "强调",
+          "collocation": "emphasize the importance",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "The paper emphasizes the importance of data quality.",
+          "translation": "论文强调了数据质量的重要性。"
+        },
+        {
+          "id": "2026-08-27-02",
+          "word": "illustrate",
+          "ipa": "/ˈɪləstreɪt/",
+          "meaning": "说明；阐明",
+          "collocation": "illustrate an idea",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "This example illustrates the main idea.",
+          "translation": "这个例子说明了核心思想。"
+        },
+        {
+          "id": "2026-08-27-03",
+          "word": "yield",
+          "ipa": "/jiːld/",
+          "meaning": "产生；得到",
+          "collocation": "yield better results",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "The new method yields better results.",
+          "translation": "新方法得到了更好的结果。"
+        },
+        {
+          "id": "2026-08-27-04",
+          "word": "exceed",
+          "ipa": "/ɪkˈsiːd/",
+          "meaning": "超过；超出",
+          "collocation": "exceed a limit",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "The memory usage exceeds the limit.",
+          "translation": "内存使用量超过了限制。"
+        },
+        {
+          "id": "2026-08-27-05",
+          "word": "eliminate",
+          "ipa": "/ɪˈlɪməneɪt/",
+          "meaning": "消除；排除",
+          "collocation": "eliminate errors",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "This step eliminates unnecessary errors.",
+          "translation": "这一步消除了不必要的错误。"
+        },
+        {
+          "id": "2026-08-27-06",
+          "word": "robustness",
+          "ipa": "/roʊˈbʌstnəs/",
+          "meaning": "鲁棒性；稳健性",
+          "collocation": "improve robustness",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "More diverse data can improve model robustness.",
+          "translation": "更多样的数据可以提高模型鲁棒性。"
+        },
+        {
+          "id": "2026-08-27-07",
+          "word": "dependency",
+          "ipa": "/dɪˈpendənsi/",
+          "meaning": "依赖；依赖关系",
+          "collocation": "software dependency",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "We need to install the required dependencies.",
+          "translation": "我们需要安装所需依赖。"
+        },
+        {
+          "id": "2026-08-27-08",
+          "word": "pipeline",
+          "ipa": "/ˈpaɪplaɪn/",
+          "meaning": "流程；处理流水线",
+          "collocation": "training pipeline",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "The training pipeline contains several stages.",
+          "translation": "训练流程包含多个阶段。"
+        },
+        {
+          "id": "2026-08-27-09",
+          "word": "semantic",
+          "ipa": "/sɪˈmæntɪk/",
+          "meaning": "语义的",
+          "collocation": "semantic similarity",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "The system measures semantic similarity between texts.",
+          "translation": "系统衡量文本之间的语义相似度。"
+        },
+        {
+          "id": "2026-08-27-10",
+          "word": "embedding",
+          "ipa": "/ɪmˈbedɪŋ/",
+          "meaning": "嵌入；向量表示",
+          "collocation": "text embedding",
+          "scene": "论文表达、软件依赖与 RAG 语义表示场景。",
+          "example": "Each sentence is converted into a text embedding.",
+          "translation": "每个句子都会被转换为文本嵌入向量。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "words": [
+        {
+          "id": "2026-08-28-01",
+          "word": "contribute",
+          "ipa": "/kənˈtrɪbjuːt/",
+          "meaning": "贡献；促成",
+          "collocation": "contribute to",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "Better data can contribute to higher accuracy.",
+          "translation": "更好的数据有助于提高准确率。"
+        },
+        {
+          "id": "2026-08-28-02",
+          "word": "imply",
+          "ipa": "/ɪmˈplaɪ/",
+          "meaning": "暗示；意味着",
+          "collocation": "imply that",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "The results imply that more data is needed.",
+          "translation": "结果表明可能需要更多数据。"
+        },
+        {
+          "id": "2026-08-28-03",
+          "word": "correspond",
+          "ipa": "/ˌkɔːrəˈspɑːnd/",
+          "meaning": "对应；相符",
+          "collocation": "correspond to",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "Each label corresponds to one category.",
+          "translation": "每个标签对应一个类别。"
+        },
+        {
+          "id": "2026-08-28-04",
+          "word": "underlying",
+          "ipa": "/ˌʌndərˈlaɪɪŋ/",
+          "meaning": "潜在的；底层的",
+          "collocation": "underlying mechanism",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "We study the underlying mechanism of the model.",
+          "translation": "我们研究模型的底层机制。"
+        },
+        {
+          "id": "2026-08-28-05",
+          "word": "explicit",
+          "ipa": "/ɪkˈsplɪsɪt/",
+          "meaning": "明确的；显式的",
+          "collocation": "explicit instruction",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "The model follows explicit instructions.",
+          "translation": "模型遵循明确的指令。"
+        },
+        {
+          "id": "2026-08-28-06",
+          "word": "threshold",
+          "ipa": "/ˈθreʃhoʊld/",
+          "meaning": "阈值；临界值",
+          "collocation": "confidence threshold",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "We set a confidence threshold of 0.8.",
+          "translation": "我们将置信度阈值设为 0.8。"
+        },
+        {
+          "id": "2026-08-28-07",
+          "word": "distribution",
+          "ipa": "/ˌdɪstrɪˈbjuːʃən/",
+          "meaning": "分布；分配",
+          "collocation": "data distribution",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "The test data has a different distribution.",
+          "translation": "测试数据具有不同的数据分布。"
+        },
+        {
+          "id": "2026-08-28-08",
+          "word": "gradient",
+          "ipa": "/ˈɡreɪdiənt/",
+          "meaning": "梯度",
+          "collocation": "compute gradients",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "The network computes gradients during training.",
+          "translation": "网络在训练过程中计算梯度。"
+        },
+        {
+          "id": "2026-08-28-09",
+          "word": "token",
+          "ipa": "/ˈtoʊkən/",
+          "meaning": "词元；文本基本单位",
+          "collocation": "input token",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "The model processes input tokens one by one.",
+          "translation": "模型处理输入词元。"
+        },
+        {
+          "id": "2026-08-28-10",
+          "word": "prompt",
+          "ipa": "/prɑːmpt/",
+          "meaning": "提示词；指令",
+          "collocation": "system prompt",
+          "scene": "大模型训练、提示词与论文底层机制场景。",
+          "example": "A clear prompt can improve the model response.",
+          "translation": "清晰的提示词可以改善模型回答。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "words": [
+        {
+          "id": "2026-08-29-01",
+          "word": "monitor",
+          "ipa": "/ˈmɑːnɪtər/",
+          "meaning": "监控；监测",
+          "collocation": "monitor performance",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "We monitor model performance during training.",
+          "translation": "我们在训练过程中监测模型性能。"
+        },
+        {
+          "id": "2026-08-29-02",
+          "word": "utilize",
+          "ipa": "/ˈjuːtəlaɪz/",
+          "meaning": "利用；使用",
+          "collocation": "utilize resources",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "The system utilizes available resources efficiently.",
+          "translation": "系统高效利用可用资源。"
+        },
+        {
+          "id": "2026-08-29-03",
+          "word": "execute",
+          "ipa": "/ˈeksɪkjuːt/",
+          "meaning": "执行",
+          "collocation": "execute a command",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "The program executes the command automatically.",
+          "translation": "程序自动执行该命令。"
+        },
+        {
+          "id": "2026-08-29-04",
+          "word": "compute",
+          "ipa": "/kəmˈpjuːt/",
+          "meaning": "计算",
+          "collocation": "compute the loss",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "The model computes the loss after each batch.",
+          "translation": "模型在每批数据后计算损失。"
+        },
+        {
+          "id": "2026-08-29-05",
+          "word": "encode",
+          "ipa": "/ɪnˈkoʊd/",
+          "meaning": "编码；转换为表示",
+          "collocation": "encode information",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "The encoder encodes text into vectors.",
+          "translation": "编码器把文本编码成向量。"
+        },
+        {
+          "id": "2026-08-29-06",
+          "word": "decode",
+          "ipa": "/diːˈkoʊd/",
+          "meaning": "解码；还原",
+          "collocation": "decode output",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "The decoder decodes the hidden representation.",
+          "translation": "解码器对隐藏表示进行解码。"
+        },
+        {
+          "id": "2026-08-29-07",
+          "word": "augment",
+          "ipa": "/ɔːɡˈment/",
+          "meaning": "增强；扩充",
+          "collocation": "augment data",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "We augment the training data with new samples.",
+          "translation": "我们用新样本扩充训练数据。"
+        },
+        {
+          "id": "2026-08-29-08",
+          "word": "initialize",
+          "ipa": "/ɪˈnɪʃəlaɪz/",
+          "meaning": "初始化",
+          "collocation": "initialize parameters",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "We randomly initialize the model parameters.",
+          "translation": "我们随机初始化模型参数。"
+        },
+        {
+          "id": "2026-08-29-09",
+          "word": "access",
+          "ipa": "/ˈækses/",
+          "meaning": "访问；获取",
+          "collocation": "access data",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "The agent can access external data.",
+          "translation": "Agent 可以访问外部数据。"
+        },
+        {
+          "id": "2026-08-29-10",
+          "word": "update",
+          "ipa": "/ʌpˈdeɪt/",
+          "meaning": "更新",
+          "collocation": "update parameters",
+          "scene": "模型训练代码、编码解码与参数更新场景。",
+          "example": "Gradient descent updates the model parameters.",
+          "translation": "梯度下降会更新模型参数。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "words": [
+        {
+          "id": "2026-08-30-01",
+          "word": "define",
+          "ipa": "/dɪˈfaɪn/",
+          "meaning": "定义；界定",
+          "collocation": "define a problem",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "We first define the problem clearly.",
+          "translation": "我们首先清楚地定义问题。"
+        },
+        {
+          "id": "2026-08-30-02",
+          "word": "support",
+          "ipa": "/səˈpɔːrt/",
+          "meaning": "支持；支撑",
+          "collocation": "support a claim",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "The results support our claim.",
+          "translation": "实验结果支持我们的观点。"
+        },
+        {
+          "id": "2026-08-30-03",
+          "word": "impact",
+          "ipa": "/ˈɪmpækt/",
+          "meaning": "影响；作用",
+          "collocation": "have an impact on",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "Data quality has a large impact on performance.",
+          "translation": "数据质量对性能影响很大。"
+        },
+        {
+          "id": "2026-08-30-04",
+          "word": "factor",
+          "ipa": "/ˈfæktər/",
+          "meaning": "因素；要素",
+          "collocation": "key factor",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "Model size is a key factor.",
+          "translation": "模型规模是一个关键因素。"
+        },
+        {
+          "id": "2026-08-30-05",
+          "word": "challenge",
+          "ipa": "/ˈtʃælɪndʒ/",
+          "meaning": "挑战；难题",
+          "collocation": "major challenge",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "Limited data is a major challenge.",
+          "translation": "数据有限是一个主要挑战。"
+        },
+        {
+          "id": "2026-08-30-06",
+          "word": "novel",
+          "ipa": "/ˈnɑːvəl/",
+          "meaning": "新颖的；新的",
+          "collocation": "novel approach",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "We propose a novel approach.",
+          "translation": "我们提出了一种新颖的方法。"
+        },
+        {
+          "id": "2026-08-30-07",
+          "word": "baseline",
+          "ipa": "/ˈbeɪslaɪn/",
+          "meaning": "基线；对比方法",
+          "collocation": "strong baseline",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "We compare our model with a strong baseline.",
+          "translation": "我们将模型与一个强基线方法进行比较。"
+        },
+        {
+          "id": "2026-08-30-08",
+          "word": "ablation",
+          "ipa": "/əˈbleɪʃən/",
+          "meaning": "消融；消融实验",
+          "collocation": "ablation study",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "We conduct an ablation study on each module.",
+          "translation": "我们对每个模块进行消融实验。"
+        },
+        {
+          "id": "2026-08-30-09",
+          "word": "protocol",
+          "ipa": "/ˈproʊtəkɔːl/",
+          "meaning": "协议；实验规范",
+          "collocation": "evaluation protocol",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "We follow the same evaluation protocol.",
+          "translation": "我们遵循相同的评估规范。"
+        },
+        {
+          "id": "2026-08-30-10",
+          "word": "trade-off",
+          "ipa": "/ˈtreɪd ɔːf/",
+          "meaning": "权衡；取舍",
+          "collocation": "trade-off between A and B",
+          "scene": "论文问题定义、基线比较与消融实验场景。",
+          "example": "There is a trade-off between speed and accuracy.",
+          "translation": "速度和准确率之间存在权衡。"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "words": [
+        {
+          "id": "2026-08-31-01",
+          "word": "require",
+          "ipa": "/rɪˈkwaɪər/",
+          "meaning": "需要；要求",
+          "collocation": "require data",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "Large models require a lot of training data.",
+          "translation": "大模型需要大量训练数据。"
+        },
+        {
+          "id": "2026-08-31-02",
+          "word": "occur",
+          "ipa": "/əˈkɜːr/",
+          "meaning": "发生；出现",
+          "collocation": "occur during",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "Errors may occur during training.",
+          "translation": "训练过程中可能出现错误。"
+        },
+        {
+          "id": "2026-08-31-03",
+          "word": "approach",
+          "ipa": "/əˈproʊtʃ/",
+          "meaning": "方法；途径",
+          "collocation": "proposed approach",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "Our proposed approach is simple and effective.",
+          "translation": "我们提出的方法简单有效。"
+        },
+        {
+          "id": "2026-08-31-04",
+          "word": "claim",
+          "ipa": "/kleɪm/",
+          "meaning": "声称；论点",
+          "collocation": "support a claim",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "The experiments support the authors’ claim.",
+          "translation": "实验支持作者的论点。"
+        },
+        {
+          "id": "2026-08-31-05",
+          "word": "trend",
+          "ipa": "/trend/",
+          "meaning": "趋势；走势",
+          "collocation": "clear trend",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "The results show a clear trend.",
+          "translation": "结果显示出明显趋势。"
+        },
+        {
+          "id": "2026-08-31-06",
+          "word": "sequence",
+          "ipa": "/ˈsiːkwəns/",
+          "meaning": "序列；顺序",
+          "collocation": "input sequence",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "The Transformer processes an input sequence.",
+          "translation": "Transformer 处理输入序列。"
+        },
+        {
+          "id": "2026-08-31-07",
+          "word": "layer",
+          "ipa": "/ˈleɪər/",
+          "meaning": "层；层级",
+          "collocation": "attention layer",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "The model contains multiple attention layers.",
+          "translation": "模型包含多个注意力层。"
+        },
+        {
+          "id": "2026-08-31-08",
+          "word": "loss",
+          "ipa": "/lɔːs/",
+          "meaning": "损失；损失值",
+          "collocation": "training loss",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "The training loss decreases gradually.",
+          "translation": "训练损失逐渐下降。"
+        },
+        {
+          "id": "2026-08-31-09",
+          "word": "pretrain",
+          "ipa": "/ˌpriːˈtreɪn/",
+          "meaning": "预训练",
+          "collocation": "pretrain a model",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "We pretrain the model on a large dataset.",
+          "translation": "我们在大型数据集上预训练模型。"
+        },
+        {
+          "id": "2026-08-31-10",
+          "word": "fine-tune",
+          "ipa": "/ˌfaɪn ˈtuːn/",
+          "meaning": "微调",
+          "collocation": "fine-tune a model",
+          "scene": "Transformer、大模型训练与论文论证场景。",
+          "example": "We fine-tune the model for a specific task.",
+          "translation": "我们针对特定任务微调模型。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "words": [
+        {
+          "id": "2026-09-01-01",
+          "word": "maintain",
+          "ipa": "/meɪnˈteɪn/",
+          "meaning": "保持；维护",
+          "collocation": "maintain performance",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "The model maintains good performance on new data.",
+          "translation": "模型在新数据上保持良好性能。"
+        },
+        {
+          "id": "2026-09-01-02",
+          "word": "compare",
+          "ipa": "/kəmˈper/",
+          "meaning": "比较；对比",
+          "collocation": "compare with",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "We compare our method with several baselines.",
+          "translation": "我们将方法与多个基线进行比较。"
+        },
+        {
+          "id": "2026-09-01-03",
+          "word": "predict",
+          "ipa": "/prɪˈdɪkt/",
+          "meaning": "预测",
+          "collocation": "predict outcomes",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "The model predicts future outcomes.",
+          "translation": "模型预测未来结果。"
+        },
+        {
+          "id": "2026-09-01-04",
+          "word": "process",
+          "ipa": "/ˈprɑːses/",
+          "meaning": "处理；过程",
+          "collocation": "process data",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "The system processes data in real time.",
+          "translation": "系统实时处理数据。"
+        },
+        {
+          "id": "2026-09-01-05",
+          "word": "variable",
+          "ipa": "/ˈveriəbəl/",
+          "meaning": "变量；可变的",
+          "collocation": "input variable",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "Each input variable affects the result.",
+          "translation": "每个输入变量都会影响结果。"
+        },
+        {
+          "id": "2026-09-01-06",
+          "word": "function",
+          "ipa": "/ˈfʌŋkʃən/",
+          "meaning": "函数；功能",
+          "collocation": "loss function",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "We use a new loss function for training.",
+          "translation": "我们使用新的损失函数训练模型。"
+        },
+        {
+          "id": "2026-09-01-07",
+          "word": "source",
+          "ipa": "/sɔːrs/",
+          "meaning": "来源；源",
+          "collocation": "data source",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "The system uses multiple data sources.",
+          "translation": "系统使用多个数据来源。"
+        },
+        {
+          "id": "2026-09-01-08",
+          "word": "target",
+          "ipa": "/ˈtɑːrɡɪt/",
+          "meaning": "目标；目标对象",
+          "collocation": "target task",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "We adapt the model to a new target task.",
+          "translation": "我们让模型适应新的目标任务。"
+        },
+        {
+          "id": "2026-09-01-09",
+          "word": "module",
+          "ipa": "/ˈmɑːdʒuːl/",
+          "meaning": "模块",
+          "collocation": "key module",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "The attention module improves performance.",
+          "translation": "注意力模块提升了性能。"
+        },
+        {
+          "id": "2026-09-01-10",
+          "word": "configuration",
+          "ipa": "/kənˌfɪɡjəˈreɪʃən/",
+          "meaning": "配置；配置方式",
+          "collocation": "model configuration",
+          "scene": "模型配置、函数与实时数据处理场景。",
+          "example": "We use the same model configuration for all experiments.",
+          "translation": "所有实验采用相同的模型配置。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "words": [
+        {
+          "id": "2026-09-02-01",
+          "word": "provide",
+          "ipa": "/prəˈvaɪd/",
+          "meaning": "提供",
+          "collocation": "provide information",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "The system provides useful information.",
+          "translation": "系统提供有用的信息。"
+        },
+        {
+          "id": "2026-09-02-02",
+          "word": "obtain",
+          "ipa": "/əbˈteɪn/",
+          "meaning": "获得；得到",
+          "collocation": "obtain results",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "We obtain better results with more data.",
+          "translation": "我们用更多数据获得了更好的结果。"
+        },
+        {
+          "id": "2026-09-02-03",
+          "word": "available",
+          "ipa": "/əˈveɪləbəl/",
+          "meaning": "可用的；可获得的",
+          "collocation": "available data",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "We use all available data for training.",
+          "translation": "我们使用所有可用数据进行训练。"
+        },
+        {
+          "id": "2026-09-02-04",
+          "word": "specific",
+          "ipa": "/spəˈsɪfɪk/",
+          "meaning": "特定的；具体的",
+          "collocation": "specific task",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "The model is designed for a specific task.",
+          "translation": "该模型针对特定任务设计。"
+        },
+        {
+          "id": "2026-09-02-05",
+          "word": "objective",
+          "ipa": "/əbˈdʒektɪv/",
+          "meaning": "目标；目标函数",
+          "collocation": "training objective",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "The training objective is to minimize the loss.",
+          "translation": "训练目标是最小化损失。"
+        },
+        {
+          "id": "2026-09-02-06",
+          "word": "dimension",
+          "ipa": "/dɪˈmenʃən/",
+          "meaning": "维度",
+          "collocation": "embedding dimension",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "We use an embedding dimension of 768.",
+          "translation": "我们使用 768 维的嵌入表示。"
+        },
+        {
+          "id": "2026-09-02-07",
+          "word": "inference",
+          "ipa": "/ˈɪnfərəns/",
+          "meaning": "推理；推断",
+          "collocation": "model inference",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "Model inference should be fast.",
+          "translation": "模型推理应该足够快。"
+        },
+        {
+          "id": "2026-09-02-08",
+          "word": "optimizer",
+          "ipa": "/ˈɑːptɪmaɪzər/",
+          "meaning": "优化器",
+          "collocation": "Adam optimizer",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "We train the network with the Adam optimizer.",
+          "translation": "我们使用 Adam 优化器训练网络。"
+        },
+        {
+          "id": "2026-09-02-09",
+          "word": "latency",
+          "ipa": "/ˈleɪtənsi/",
+          "meaning": "延迟",
+          "collocation": "inference latency",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "The new model reduces inference latency.",
+          "translation": "新模型降低了推理延迟。"
+        },
+        {
+          "id": "2026-09-02-10",
+          "word": "throughput",
+          "ipa": "/ˈθruːpʊt/",
+          "meaning": "吞吐量",
+          "collocation": "system throughput",
+          "scene": "模型推理、优化器与系统性能指标场景。",
+          "example": "Batch processing improves system throughput.",
+          "translation": "批处理提高了系统吞吐量。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "words": [
+        {
+          "id": "2026-09-03-01",
+          "word": "achieve",
+          "ipa": "/əˈtʃiːv/",
+          "meaning": "达到；实现",
+          "collocation": "achieve a goal",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "The model achieves high accuracy.",
+          "translation": "模型达到了较高准确率。"
+        },
+        {
+          "id": "2026-09-03-02",
+          "word": "improve",
+          "ipa": "/ɪmˈpruːv/",
+          "meaning": "改善；提高",
+          "collocation": "improve performance",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "More data can improve performance.",
+          "translation": "更多数据可以提高性能。"
+        },
+        {
+          "id": "2026-09-03-03",
+          "word": "reduce",
+          "ipa": "/rɪˈduːs/",
+          "meaning": "减少；降低",
+          "collocation": "reduce cost",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "This method reduces computational cost.",
+          "translation": "这种方法降低了计算成本。"
+        },
+        {
+          "id": "2026-09-03-04",
+          "word": "include",
+          "ipa": "/ɪnˈkluːd/",
+          "meaning": "包含；包括",
+          "collocation": "include information",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "The dataset includes additional information.",
+          "translation": "数据集包含额外信息。"
+        },
+        {
+          "id": "2026-09-03-05",
+          "word": "represent",
+          "ipa": "/ˌreprɪˈzent/",
+          "meaning": "表示；代表",
+          "collocation": "represent data",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "Vectors can represent complex data.",
+          "translation": "向量可以表示复杂数据。"
+        },
+        {
+          "id": "2026-09-03-06",
+          "word": "parameter",
+          "ipa": "/pəˈræmɪtər/",
+          "meaning": "参数",
+          "collocation": "model parameter",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "The model has billions of parameters.",
+          "translation": "模型拥有数十亿个参数。"
+        },
+        {
+          "id": "2026-09-03-07",
+          "word": "feature",
+          "ipa": "/ˈfiːtʃər/",
+          "meaning": "特征",
+          "collocation": "extract features",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "The network extracts useful features from images.",
+          "translation": "网络从图像中提取有用特征。"
+        },
+        {
+          "id": "2026-09-03-08",
+          "word": "dataset",
+          "ipa": "/ˈdeɪtəset/",
+          "meaning": "数据集",
+          "collocation": "training dataset",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "We use a large training dataset.",
+          "translation": "我们使用一个大型训练数据集。"
+        },
+        {
+          "id": "2026-09-03-09",
+          "word": "accuracy",
+          "ipa": "/ˈækjərəsi/",
+          "meaning": "准确率；准确性",
+          "collocation": "improve accuracy",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "The new model improves classification accuracy.",
+          "translation": "新模型提高了分类准确率。"
+        },
+        {
+          "id": "2026-09-03-10",
+          "word": "retrieve",
+          "ipa": "/rɪˈtriːv/",
+          "meaning": "检索；取回",
+          "collocation": "retrieve documents",
+          "scene": "机器学习模型、特征、参数与 RAG 检索场景。",
+          "example": "The system retrieves relevant documents.",
+          "translation": "系统检索相关文档。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "words": [
+        {
+          "id": "2026-09-04-01",
+          "word": "analyze",
+          "ipa": "/ˈænəlaɪz/",
+          "meaning": "分析",
+          "collocation": "analyze data",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "We analyze the experimental data carefully.",
+          "translation": "我们仔细分析实验数据。"
+        },
+        {
+          "id": "2026-09-04-02",
+          "word": "observe",
+          "ipa": "/əbˈzɜːrv/",
+          "meaning": "观察；发现",
+          "collocation": "observe a change",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "We observed a clear improvement.",
+          "translation": "我们观察到了明显提升。"
+        },
+        {
+          "id": "2026-09-04-03",
+          "word": "estimate",
+          "ipa": "/ˈestɪmeɪt/",
+          "meaning": "估计；估算",
+          "collocation": "estimate the cost",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "We estimate the computational cost.",
+          "translation": "我们估算计算成本。"
+        },
+        {
+          "id": "2026-09-04-04",
+          "word": "evidence",
+          "ipa": "/ˈevɪdəns/",
+          "meaning": "证据；依据",
+          "collocation": "provide evidence",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "The results provide strong evidence.",
+          "translation": "结果提供了有力证据。"
+        },
+        {
+          "id": "2026-09-04-05",
+          "word": "assumption",
+          "ipa": "/əˈsʌmpʃən/",
+          "meaning": "假设；前提",
+          "collocation": "make an assumption",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "The method makes a simple assumption.",
+          "translation": "该方法做了一个简单假设。"
+        },
+        {
+          "id": "2026-09-04-06",
+          "word": "deploy",
+          "ipa": "/dɪˈplɔɪ/",
+          "meaning": "部署；投入使用",
+          "collocation": "deploy a model",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "We deploy the model on a robot.",
+          "translation": "我们把模型部署到机器人上。"
+        },
+        {
+          "id": "2026-09-04-07",
+          "word": "compile",
+          "ipa": "/kəmˈpaɪl/",
+          "meaning": "编译；汇编",
+          "collocation": "compile the code",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "The code compiles without errors.",
+          "translation": "代码可以无错误地编译。"
+        },
+        {
+          "id": "2026-09-04-08",
+          "word": "query",
+          "ipa": "/ˈkwɪri/",
+          "meaning": "查询；查询请求",
+          "collocation": "user query",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "The system retrieves documents for each user query.",
+          "translation": "系统针对每个用户查询检索文档。"
+        },
+        {
+          "id": "2026-09-04-09",
+          "word": "instance",
+          "ipa": "/ˈɪnstəns/",
+          "meaning": "实例；个体样本",
+          "collocation": "model instance",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "Each instance contains one input and one label.",
+          "translation": "每个实例包含一个输入和一个标签。"
+        },
+        {
+          "id": "2026-09-04-10",
+          "word": "conventional",
+          "ipa": "/kənˈvenʃənəl/",
+          "meaning": "传统的；常规的",
+          "collocation": "conventional method",
+          "scene": "论文实验分析、工程编译与 RAG 查询场景。",
+          "example": "Our model performs better than conventional methods.",
+          "translation": "我们的模型优于传统方法。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "words": [
+        {
+          "id": "2026-09-05-01",
+          "word": "establish",
+          "ipa": "/ɪˈstæblɪʃ/",
+          "meaning": "建立；确立",
+          "collocation": "establish a relationship",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "We establish a relationship between input and output.",
+          "translation": "我们建立输入和输出之间的关系。"
+        },
+        {
+          "id": "2026-09-05-02",
+          "word": "involve",
+          "ipa": "/ɪnˈvɑːlv/",
+          "meaning": "涉及；包含",
+          "collocation": "involve multiple steps",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "The task involves multiple steps.",
+          "translation": "这个任务涉及多个步骤。"
+        },
+        {
+          "id": "2026-09-05-03",
+          "word": "depend",
+          "ipa": "/dɪˈpend/",
+          "meaning": "依赖；取决于",
+          "collocation": "depend on",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "Performance depends on data quality.",
+          "translation": "性能取决于数据质量。"
+        },
+        {
+          "id": "2026-09-05-04",
+          "word": "vary",
+          "ipa": "/ˈveri/",
+          "meaning": "变化；不同",
+          "collocation": "vary across",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "Results vary across different datasets.",
+          "translation": "结果在不同数据集上有所不同。"
+        },
+        {
+          "id": "2026-09-05-05",
+          "word": "enable",
+          "ipa": "/ɪˈneɪbəl/",
+          "meaning": "使能够；实现",
+          "collocation": "enable the model to",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "This module enables the model to process images.",
+          "translation": "该模块使模型能够处理图像。"
+        },
+        {
+          "id": "2026-09-05-06",
+          "word": "benchmark",
+          "ipa": "/ˈbentʃmɑːrk/",
+          "meaning": "基准；基准测试",
+          "collocation": "benchmark dataset",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "We evaluate the model on a standard benchmark.",
+          "translation": "我们在标准基准上评估模型。"
+        },
+        {
+          "id": "2026-09-05-07",
+          "word": "annotation",
+          "ipa": "/ˌænəˈteɪʃən/",
+          "meaning": "标注；注释",
+          "collocation": "data annotation",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "Data annotation requires significant effort.",
+          "translation": "数据标注需要大量工作。"
+        },
+        {
+          "id": "2026-09-05-08",
+          "word": "modality",
+          "ipa": "/moʊˈdæləti/",
+          "meaning": "模态",
+          "collocation": "visual modality",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "The model combines language and visual modalities.",
+          "translation": "模型结合语言和视觉模态。"
+        },
+        {
+          "id": "2026-09-05-09",
+          "word": "sampling",
+          "ipa": "/ˈsæmplɪŋ/",
+          "meaning": "采样",
+          "collocation": "sampling strategy",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "We use a different sampling strategy.",
+          "translation": "我们使用不同的采样策略。"
+        },
+        {
+          "id": "2026-09-05-10",
+          "word": "iteration",
+          "ipa": "/ˌɪtəˈreɪʃən/",
+          "meaning": "迭代；一次循环",
+          "collocation": "training iteration",
+          "scene": "多模态、数据标注、采样与训练迭代场景。",
+          "example": "The loss decreases after each iteration.",
+          "translation": "每次迭代后损失都会下降。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "words": [
+        {
+          "id": "2026-09-06-01",
+          "word": "examine",
+          "ipa": "/ɪɡˈzæmɪn/",
+          "meaning": "检查；研究",
+          "collocation": "examine the results",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We examine the results carefully.",
+          "translation": "我们仔细分析这些结果。"
+        },
+        {
+          "id": "2026-09-06-02",
+          "word": "select",
+          "ipa": "/sɪˈlekt/",
+          "meaning": "选择；挑选",
+          "collocation": "select a model",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We select the best model for deployment.",
+          "translation": "我们选择最适合部署的模型。"
+        },
+        {
+          "id": "2026-09-06-03",
+          "word": "handle",
+          "ipa": "/ˈhændəl/",
+          "meaning": "处理；应对",
+          "collocation": "handle errors",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system can handle unexpected errors.",
+          "translation": "系统可以处理意外错误。"
+        },
+        {
+          "id": "2026-09-06-04",
+          "word": "transform",
+          "ipa": "/trænsˈfɔːrm/",
+          "meaning": "转换；改变",
+          "collocation": "transform data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model transforms text into vectors.",
+          "translation": "模型把文本转换为向量。"
+        },
+        {
+          "id": "2026-09-06-05",
+          "word": "significant",
+          "ipa": "/sɪɡˈnɪfɪkənt/",
+          "meaning": "显著的；重要的",
+          "collocation": "significant improvement",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model shows a significant improvement.",
+          "translation": "模型表现出显著提升。"
+        },
+        {
+          "id": "2026-09-06-06",
+          "word": "batch",
+          "ipa": "/bætʃ/",
+          "meaning": "批次；一批数据",
+          "collocation": "batch size",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We use a batch size of 32.",
+          "translation": "我们使用大小为 32 的批次。"
+        },
+        {
+          "id": "2026-09-06-07",
+          "word": "checkpoint",
+          "ipa": "/ˈtʃekpɔɪnt/",
+          "meaning": "检查点；模型存档",
+          "collocation": "save a checkpoint",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We save a checkpoint after training.",
+          "translation": "训练后我们保存一个模型检查点。"
+        },
+        {
+          "id": "2026-09-06-08",
+          "word": "cache",
+          "ipa": "/kæʃ/",
+          "meaning": "缓存",
+          "collocation": "cache data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system caches frequently used data.",
+          "translation": "系统缓存经常使用的数据。"
+        },
+        {
+          "id": "2026-09-06-09",
+          "word": "parallel",
+          "ipa": "/ˈpærəlel/",
+          "meaning": "并行的",
+          "collocation": "parallel processing",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Parallel processing speeds up training.",
+          "translation": "并行处理可以加速训练。"
+        },
+        {
+          "id": "2026-09-06-10",
+          "word": "complexity",
+          "ipa": "/kəmˈpleksəti/",
+          "meaning": "复杂度；复杂性",
+          "collocation": "computational complexity",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We analyze the computational complexity.",
+          "translation": "我们分析计算复杂度。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "words": [
+        {
+          "id": "2026-09-07-01",
+          "word": "determine",
+          "ipa": "/dɪˈtɜːrmɪn/",
+          "meaning": "确定；决定",
+          "collocation": "determine the cause",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We need to determine the cause of the error.",
+          "translation": "我们需要确定错误原因。"
+        },
+        {
+          "id": "2026-09-07-02",
+          "word": "indicate",
+          "ipa": "/ˈɪndɪkeɪt/",
+          "meaning": "表明；指出",
+          "collocation": "indicate that",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The results indicate that the method is effective.",
+          "translation": "结果表明该方法有效。"
+        },
+        {
+          "id": "2026-09-07-03",
+          "word": "relevant",
+          "ipa": "/ˈreləvənt/",
+          "meaning": "相关的",
+          "collocation": "relevant information",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system retrieves relevant information.",
+          "translation": "系统检索相关信息。"
+        },
+        {
+          "id": "2026-09-07-04",
+          "word": "context",
+          "ipa": "/ˈkɑːntekst/",
+          "meaning": "上下文；背景",
+          "collocation": "use context",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model uses context to understand the sentence.",
+          "translation": "模型利用上下文理解句子。"
+        },
+        {
+          "id": "2026-09-07-05",
+          "word": "generate",
+          "ipa": "/ˈdʒenəreɪt/",
+          "meaning": "生成；产生",
+          "collocation": "generate text",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model can generate natural language.",
+          "translation": "模型可以生成自然语言。"
+        },
+        {
+          "id": "2026-09-07-06",
+          "word": "constraint",
+          "ipa": "/kənˈstreɪnt/",
+          "meaning": "限制；约束条件",
+          "collocation": "computational constraint",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Memory is an important computational constraint.",
+          "translation": "内存是一个重要的计算约束。"
+        },
+        {
+          "id": "2026-09-07-07",
+          "word": "metric",
+          "ipa": "/ˈmetrɪk/",
+          "meaning": "指标；度量",
+          "collocation": "evaluation metric",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Accuracy is a common evaluation metric.",
+          "translation": "准确率是一种常见评价指标。"
+        },
+        {
+          "id": "2026-09-07-08",
+          "word": "converge",
+          "ipa": "/kənˈvɜːrdʒ/",
+          "meaning": "收敛；趋于稳定",
+          "collocation": "converge quickly",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model converges after several epochs.",
+          "translation": "模型经过若干轮训练后收敛。"
+        },
+        {
+          "id": "2026-09-07-09",
+          "word": "allocate",
+          "ipa": "/ˈæləkeɪt/",
+          "meaning": "分配",
+          "collocation": "allocate resources",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system allocates resources dynamically.",
+          "translation": "系统动态分配资源。"
+        },
+        {
+          "id": "2026-09-07-10",
+          "word": "framework",
+          "ipa": "/ˈfreɪmwɜːrk/",
+          "meaning": "框架；体系",
+          "collocation": "software framework",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "PyTorch is a deep learning framework.",
+          "translation": "PyTorch 是一个深度学习框架。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "words": [
+        {
+          "id": "2026-09-08-01",
+          "word": "enhance",
+          "ipa": "/ɪnˈhæns/",
+          "meaning": "增强；提高",
+          "collocation": "enhance performance",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "More data can enhance model performance.",
+          "translation": "更多数据可以提高模型性能。"
+        },
+        {
+          "id": "2026-09-08-02",
+          "word": "derive",
+          "ipa": "/dɪˈraɪv/",
+          "meaning": "推导；得到",
+          "collocation": "derive a formula",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We derive a simple formula from the equation.",
+          "translation": "我们从这个方程推导出一个简单公式。"
+        },
+        {
+          "id": "2026-09-08-03",
+          "word": "evaluate",
+          "ipa": "/ɪˈvæljueɪt/",
+          "meaning": "评估；评价",
+          "collocation": "evaluate a model",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We evaluate the model on three datasets.",
+          "translation": "我们在三个数据集上评估模型。"
+        },
+        {
+          "id": "2026-09-08-04",
+          "word": "interpret",
+          "ipa": "/ɪnˈtɜːrprɪt/",
+          "meaning": "解释；理解",
+          "collocation": "interpret the results",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We need to interpret the results carefully.",
+          "translation": "我们需要谨慎解释实验结果。"
+        },
+        {
+          "id": "2026-09-08-05",
+          "word": "efficient",
+          "ipa": "/ɪˈfɪʃənt/",
+          "meaning": "高效的",
+          "collocation": "computationally efficient",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The method is computationally efficient.",
+          "translation": "这种方法计算效率很高。"
+        },
+        {
+          "id": "2026-09-08-06",
+          "word": "reliable",
+          "ipa": "/rɪˈlaɪəbəl/",
+          "meaning": "可靠的",
+          "collocation": "reliable system",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We need a reliable control system.",
+          "translation": "我们需要一个可靠的控制系统。"
+        },
+        {
+          "id": "2026-09-08-07",
+          "word": "architecture",
+          "ipa": "/ˈɑːrkɪtektʃər/",
+          "meaning": "架构；体系结构",
+          "collocation": "model architecture",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The paper introduces a new model architecture.",
+          "translation": "论文提出了一种新的模型架构。"
+        },
+        {
+          "id": "2026-09-08-08",
+          "word": "algorithm",
+          "ipa": "/ˈælɡərɪðəm/",
+          "meaning": "算法",
+          "collocation": "learning algorithm",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The algorithm learns from experience.",
+          "translation": "该算法从经验中学习。"
+        },
+        {
+          "id": "2026-09-08-09",
+          "word": "generalize",
+          "ipa": "/ˈdʒenərəlaɪz/",
+          "meaning": "泛化；推广",
+          "collocation": "generalize to new data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model generalizes well to new data.",
+          "translation": "模型能够很好地泛化到新数据。"
+        },
+        {
+          "id": "2026-09-08-10",
+          "word": "trajectory",
+          "ipa": "/trəˈdʒektəri/",
+          "meaning": "轨迹；运动路径",
+          "collocation": "flight trajectory",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The drone follows the planned trajectory.",
+          "translation": "无人机沿规划轨迹飞行。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "words": [
+        {
+          "id": "2026-09-09-01",
+          "word": "identify",
+          "ipa": "/aɪˈdentɪfaɪ/",
+          "meaning": "识别；确定",
+          "collocation": "identify a problem",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We first identify the main problem.",
+          "translation": "我们先确定主要问题。"
+        },
+        {
+          "id": "2026-09-09-02",
+          "word": "require",
+          "ipa": "/rɪˈkwaɪər/",
+          "meaning": "需要；要求",
+          "collocation": "require more data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "This method requires more data.",
+          "translation": "这种方法需要更多数据。"
+        },
+        {
+          "id": "2026-09-09-03",
+          "word": "apply",
+          "ipa": "/əˈplaɪ/",
+          "meaning": "应用；使用",
+          "collocation": "apply a method",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We apply this method to image data.",
+          "translation": "我们把这种方法应用到图像数据上。"
+        },
+        {
+          "id": "2026-09-09-04",
+          "word": "compare",
+          "ipa": "/kəmˈper/",
+          "meaning": "比较",
+          "collocation": "compare with",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We compare our model with the baseline.",
+          "translation": "我们将模型与基线进行比较。"
+        },
+        {
+          "id": "2026-09-09-05",
+          "word": "conduct",
+          "ipa": "/kənˈdʌkt/",
+          "meaning": "进行；实施",
+          "collocation": "conduct an experiment",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We conduct several experiments.",
+          "translation": "我们进行了多个实验。"
+        },
+        {
+          "id": "2026-09-09-06",
+          "word": "propose",
+          "ipa": "/prəˈpoʊz/",
+          "meaning": "提出；建议",
+          "collocation": "propose a method",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The paper proposes a new method.",
+          "translation": "论文提出了一种新方法。"
+        },
+        {
+          "id": "2026-09-09-07",
+          "word": "robust",
+          "ipa": "/roʊˈbʌst/",
+          "meaning": "鲁棒的；稳定可靠的",
+          "collocation": "robust performance",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system shows robust performance.",
+          "translation": "系统表现出较强的稳定性。"
+        },
+        {
+          "id": "2026-09-09-08",
+          "word": "optimize",
+          "ipa": "/ˈɑːptɪmaɪz/",
+          "meaning": "优化",
+          "collocation": "optimize performance",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We optimize the model for speed.",
+          "translation": "我们针对速度优化模型。"
+        },
+        {
+          "id": "2026-09-09-09",
+          "word": "pipeline",
+          "ipa": "/ˈpaɪplaɪn/",
+          "meaning": "流程；处理流水线",
+          "collocation": "training pipeline",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The training pipeline has three stages.",
+          "translation": "训练流程有三个阶段。"
+        },
+        {
+          "id": "2026-09-09-10",
+          "word": "bias",
+          "ipa": "/ˈbaɪəs/",
+          "meaning": "偏差；偏见",
+          "collocation": "data bias",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Data bias can affect the results.",
+          "translation": "数据偏差会影响结果。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "words": [
+        {
+          "id": "2026-09-10-01",
+          "word": "improve",
+          "ipa": "/ɪmˈpruːv/",
+          "meaning": "改进；提高",
+          "collocation": "improve performance",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We want to improve model performance.",
+          "translation": "我们希望提升模型性能。"
+        },
+        {
+          "id": "2026-09-10-02",
+          "word": "ensure",
+          "ipa": "/ɪnˈʃʊr/",
+          "meaning": "确保",
+          "collocation": "ensure safety",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We must ensure system safety.",
+          "translation": "我们必须确保系统安全。"
+        },
+        {
+          "id": "2026-09-10-03",
+          "word": "reduce",
+          "ipa": "/rɪˈduːs/",
+          "meaning": "减少；降低",
+          "collocation": "reduce errors",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "This method reduces prediction errors.",
+          "translation": "该方法减少了预测误差。"
+        },
+        {
+          "id": "2026-09-10-04",
+          "word": "perform",
+          "ipa": "/pərˈfɔːrm/",
+          "meaning": "执行；表现",
+          "collocation": "perform well",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model performs well on new data.",
+          "translation": "模型在新数据上表现良好。"
+        },
+        {
+          "id": "2026-09-10-05",
+          "word": "adapt",
+          "ipa": "/əˈdæpt/",
+          "meaning": "适应；调整",
+          "collocation": "adapt to",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system can adapt to new environments.",
+          "translation": "系统可以适应新环境。"
+        },
+        {
+          "id": "2026-09-10-06",
+          "word": "implement",
+          "ipa": "/ˈɪmplɪment/",
+          "meaning": "实现；实施",
+          "collocation": "implement an algorithm",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We implement the algorithm in Python.",
+          "translation": "我们用 Python 实现这个算法。"
+        },
+        {
+          "id": "2026-09-10-07",
+          "word": "validate",
+          "ipa": "/ˈvælɪdeɪt/",
+          "meaning": "验证；确认有效性",
+          "collocation": "validate a model",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We validate the model on unseen data.",
+          "translation": "我们在未见数据上验证模型。"
+        },
+        {
+          "id": "2026-09-10-08",
+          "word": "infer",
+          "ipa": "/ɪnˈfɜːr/",
+          "meaning": "推断；推理得出",
+          "collocation": "infer from data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We infer the user’s intent from the input.",
+          "translation": "我们从输入中推断用户意图。"
+        },
+        {
+          "id": "2026-09-10-09",
+          "word": "scalable",
+          "ipa": "/ˈskeɪləbəl/",
+          "meaning": "可扩展的",
+          "collocation": "scalable system",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We need a scalable AI system.",
+          "translation": "我们需要一个可扩展的 AI 系统。"
+        },
+        {
+          "id": "2026-09-10-10",
+          "word": "embedding",
+          "ipa": "/ɪmˈbedɪŋ/",
+          "meaning": "嵌入；向量表示",
+          "collocation": "text embedding",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model converts text into embeddings.",
+          "translation": "模型把文本转换为向量表示。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "words": [
+        {
+          "id": "2026-09-11-01",
+          "word": "achieve",
+          "ipa": "/əˈtʃiːv/",
+          "meaning": "实现；达到",
+          "collocation": "achieve a goal",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We achieved better performance.",
+          "translation": "我们取得了更好的性能。"
+        },
+        {
+          "id": "2026-09-11-02",
+          "word": "observe",
+          "ipa": "/əbˈzɜːrv/",
+          "meaning": "观察；注意到",
+          "collocation": "observe a change",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We observed a clear change in the results.",
+          "translation": "我们观察到结果发生了明显变化。"
+        },
+        {
+          "id": "2026-09-11-03",
+          "word": "represent",
+          "ipa": "/ˌreprɪˈzent/",
+          "meaning": "表示；代表",
+          "collocation": "represent data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Vectors can represent text.",
+          "translation": "向量可以表示文本。"
+        },
+        {
+          "id": "2026-09-11-04",
+          "word": "estimate",
+          "ipa": "/ˈestɪmeɪt/",
+          "meaning": "估计；估算",
+          "collocation": "estimate the cost",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We estimate the training cost.",
+          "translation": "我们估算训练成本。"
+        },
+        {
+          "id": "2026-09-11-05",
+          "word": "access",
+          "ipa": "/ˈækses/",
+          "meaning": "访问；获取",
+          "collocation": "access data",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The program can access the database.",
+          "translation": "程序可以访问数据库。"
+        },
+        {
+          "id": "2026-09-11-06",
+          "word": "retrieve",
+          "ipa": "/rɪˈtriːv/",
+          "meaning": "检索；取回",
+          "collocation": "retrieve documents",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system retrieves relevant documents.",
+          "translation": "系统检索相关文档。"
+        },
+        {
+          "id": "2026-09-11-07",
+          "word": "parameter",
+          "ipa": "/pəˈræmɪtər/",
+          "meaning": "参数",
+          "collocation": "model parameter",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model contains billions of parameters.",
+          "translation": "该模型包含数十亿个参数。"
+        },
+        {
+          "id": "2026-09-11-08",
+          "word": "feature",
+          "ipa": "/ˈfiːtʃər/",
+          "meaning": "特征；功能",
+          "collocation": "extract features",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The network extracts visual features.",
+          "translation": "网络提取视觉特征。"
+        },
+        {
+          "id": "2026-09-11-09",
+          "word": "integrate",
+          "ipa": "/ˈɪntɪɡreɪt/",
+          "meaning": "集成；整合",
+          "collocation": "integrate a module",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We integrate the module into the system.",
+          "translation": "我们把该模块集成到系统中。"
+        },
+        {
+          "id": "2026-09-11-10",
+          "word": "retain",
+          "ipa": "/rɪˈteɪn/",
+          "meaning": "保留；记住",
+          "collocation": "retain information",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The model retains useful information.",
+          "translation": "模型保留了有用信息。"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "words": [
+        {
+          "id": "2026-09-12-01",
+          "word": "maintain",
+          "ipa": "/meɪnˈteɪn/",
+          "meaning": "保持；维护",
+          "collocation": "maintain performance",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The system maintains stable performance.",
+          "translation": "系统保持稳定性能。"
+        },
+        {
+          "id": "2026-09-12-02",
+          "word": "detect",
+          "ipa": "/dɪˈtekt/",
+          "meaning": "检测；发现",
+          "collocation": "detect an error",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The program detects the error automatically.",
+          "translation": "程序会自动检测错误。"
+        },
+        {
+          "id": "2026-09-12-03",
+          "word": "assess",
+          "ipa": "/əˈses/",
+          "meaning": "评估；判断",
+          "collocation": "assess performance",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We assess the model on new data.",
+          "translation": "我们在新数据上评估模型。"
+        },
+        {
+          "id": "2026-09-12-04",
+          "word": "assume",
+          "ipa": "/əˈsuːm/",
+          "meaning": "假设；认为",
+          "collocation": "assume that",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We assume that the data is independent.",
+          "translation": "我们假设数据是相互独立的。"
+        },
+        {
+          "id": "2026-09-12-05",
+          "word": "approach",
+          "ipa": "/əˈproʊtʃ/",
+          "meaning": "方法；途径",
+          "collocation": "proposed approach",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Our approach improves accuracy.",
+          "translation": "我们的方法提高了准确率。"
+        },
+        {
+          "id": "2026-09-12-06",
+          "word": "distribution",
+          "ipa": "/ˌdɪstrɪˈbjuːʃən/",
+          "meaning": "分布",
+          "collocation": "data distribution",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "The data distribution changes over time.",
+          "translation": "数据分布会随时间变化。"
+        },
+        {
+          "id": "2026-09-12-07",
+          "word": "sample",
+          "ipa": "/ˈsæmpəl/",
+          "meaning": "样本；采样",
+          "collocation": "training sample",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "Each training sample contains an image.",
+          "translation": "每个训练样本包含一张图片。"
+        },
+        {
+          "id": "2026-09-12-08",
+          "word": "objective",
+          "ipa": "/əbˈdʒektɪv/",
+          "meaning": "目标；目标函数",
+          "collocation": "objective function",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We minimize the objective function.",
+          "translation": "我们最小化目标函数。"
+        },
+        {
+          "id": "2026-09-12-09",
+          "word": "baseline",
+          "ipa": "/ˈbeɪslaɪn/",
+          "meaning": "基线；基准方法",
+          "collocation": "strong baseline",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We compare our model with a strong baseline.",
+          "translation": "我们将模型与一个强基线方法比较。"
+        },
+        {
+          "id": "2026-09-12-10",
+          "word": "ablation",
+          "ipa": "/əˈbleɪʃən/",
+          "meaning": "消融；移除部分模块进行验证",
+          "collocation": "ablation study",
+          "scene": "AI / 论文 / 工程学习场景",
+          "example": "We conduct an ablation study on each module.",
+          "translation": "我们对每个模块进行消融实验。"
+        }
+      ]
+    }
+  ]
+}
