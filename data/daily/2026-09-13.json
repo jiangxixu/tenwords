@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-13",
+  "words": [
+    {
+      "id": "2026-09-13-01",
+      "word": "consider",
+      "ipa": "/kənˈsɪdər/",
+      "meaning": "考虑；认为",
+      "collocation": "consider an option",
+      "scene": "讨论方案选择、论文方法设计或工程决策时使用。",
+      "example": "We should consider another solution.",
+      "translation": "我们应该考虑另一种方案。"
+    },
+    {
+      "id": "2026-09-13-02",
+      "word": "extend",
+      "ipa": "/ɪkˈstend/",
+      "meaning": "扩展；延伸",
+      "collocation": "extend a model",
+      "scene": "将已有模型或方法扩展到新任务、新数据或新场景。",
+      "example": "We extend the model to new tasks.",
+      "translation": "我们将模型扩展到新任务。"
+    },
+    {
+      "id": "2026-09-13-03",
+      "word": "interact",
+      "ipa": "/ˌɪntərˈækt/",
+      "meaning": "交互；相互作用",
+      "collocation": "interact with",
+      "scene": "Agent、机器人或具身智能系统与环境进行交互。",
+      "example": "The agent interacts with the environment.",
+      "translation": "Agent 与环境进行交互。"
+    },
+    {
+      "id": "2026-09-13-04",
+      "word": "stable",
+      "ipa": "/ˈsteɪbəl/",
+      "meaning": "稳定的",
+      "collocation": "stable performance",
+      "scene": "描述模型、控制系统或实验结果长期保持稳定。",
+      "example": "The system shows stable performance.",
+      "translation": "系统表现稳定。"
+    },
+    {
+      "id": "2026-09-13-05",
+      "word": "whereas",
+      "ipa": "/werˈæz/",
+      "meaning": "而；然而",
+      "collocation": "A, whereas B",
+      "scene": "论文中对比两个方法、实验条件或结果时常用。",
+      "example": "Method A is fast, whereas Method B is more accurate.",
+      "translation": "方法 A 更快，而方法 B 更准确。"
+    },
+    {
+      "id": "2026-09-13-06",
+      "word": "respectively",
+      "ipa": "/rɪˈspektɪvli/",
+      "meaning": "分别地",
+      "collocation": "A and B, respectively",
+      "scene": "论文中多个对象与多个数值按顺序一一对应。",
+      "example": "The scores are 90 and 92, respectively.",
+      "translation": "两个分数分别是 90 和 92。"
+    },
+    {
+      "id": "2026-09-13-07",
+      "word": "despite",
+      "ipa": "/dɪˈspaɪt/",
+      "meaning": "尽管",
+      "collocation": "despite limitations",
+      "scene": "论文中表达存在限制或不利条件，但结果仍然成立。",
+      "example": "Despite limited data, the model performs well.",
+      "translation": "尽管数据有限，模型表现仍很好。"
+    },
+    {
+      "id": "2026-09-13-08",
+      "word": "overall",
+      "ipa": "/ˌoʊvərˈɔːl/",
+      "meaning": "总体的；总体上",
+      "collocation": "overall performance",
+      "scene": "总结模型或系统的整体表现时使用。",
+      "example": "Overall performance improved.",
+      "translation": "总体性能提高了。"
+    },
+    {
+      "id": "2026-09-13-09",
+      "word": "primarily",
+      "ipa": "/praɪˈmerəli/",
+      "meaning": "主要地",
+      "collocation": "primarily used for",
+      "scene": "说明模块、方法或工具的主要用途。",
+      "example": "This module is primarily used for retrieval.",
+      "translation": "该模块主要用于检索。"
+    },
+    {
+      "id": "2026-09-13-10",
+      "word": "sequential",
+      "ipa": "/sɪˈkwenʃəl/",
+      "meaning": "顺序的；序列式的",
+      "collocation": "sequential processing",
+      "scene": "描述按顺序逐步执行的数据处理或模型计算流程。",
+      "example": "The system uses sequential processing.",
+      "translation": "系统采用顺序处理。"
+    }
+  ]
+}
