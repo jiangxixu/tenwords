@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-15",
+  "words": [
+    {
+      "id": "2026-09-15-01",
+      "word": "allow",
+      "ipa": "/əˈlaʊ/",
+      "meaning": "允许；使能够",
+      "collocation": "allow access",
+      "scene": "描述系统、权限或功能允许用户执行某个操作。",
+      "example": "The system allows users to access the data.",
+      "translation": "系统允许用户访问数据。"
+    },
+    {
+      "id": "2026-09-15-02",
+      "word": "suggest",
+      "ipa": "/səˈdʒest/",
+      "meaning": "建议；表明",
+      "collocation": "suggest a method",
+      "scene": "论文中提出方法，或说明证据所暗示的结论。",
+      "example": "The paper suggests a simpler method.",
+      "translation": "论文提出了一种更简单的方法。"
+    },
+    {
+      "id": "2026-09-15-03",
+      "word": "solve",
+      "ipa": "/sɑːlv/",
+      "meaning": "解决",
+      "collocation": "solve a problem",
+      "scene": "通用英语和算法、工程问题处理中都很常见。",
+      "example": "We need to solve this problem efficiently.",
+      "translation": "我们需要高效解决这个问题。"
+    },
+    {
+      "id": "2026-09-15-04",
+      "word": "prevent",
+      "ipa": "/prɪˈvent/",
+      "meaning": "防止；阻止",
+      "collocation": "prevent errors",
+      "scene": "描述检查、规则或机制避免故障和错误。",
+      "example": "This check prevents common errors.",
+      "translation": "这项检查可防止常见错误。"
+    },
+    {
+      "id": "2026-09-15-05",
+      "word": "replace",
+      "ipa": "/rɪˈpleɪs/",
+      "meaning": "替换；取代",
+      "collocation": "replace a module",
+      "scene": "工程中替换组件、算法、模型或软件模块。",
+      "example": "We replace the old module with a faster one.",
+      "translation": "我们用更快的模块替换旧模块。"
+    },
+    {
+      "id": "2026-09-15-06",
+      "word": "focus",
+      "ipa": "/ˈfoʊkəs/",
+      "meaning": "关注；聚焦",
+      "collocation": "focus on",
+      "scene": "论文中说明研究重点或当前主要关注的问题。",
+      "example": "This study focuses on model efficiency.",
+      "translation": "本研究关注模型效率。"
+    },
+    {
+      "id": "2026-09-15-07",
+      "word": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "meaning": "描述；说明",
+      "collocation": "describe a process",
+      "scene": "论文、文档和日常表达中说明过程或现象。",
+      "example": "The paper describes the training process.",
+      "translation": "论文描述了训练过程。"
+    },
+    {
+      "id": "2026-09-15-08",
+      "word": "develop",
+      "ipa": "/dɪˈveləp/",
+      "meaning": "开发；发展",
+      "collocation": "develop a system",
+      "scene": "描述开发模型、系统、算法或新的研究方法。",
+      "example": "We developed a system for real-time inference.",
+      "translation": "我们开发了一个实时推理系统。"
+    },
+    {
+      "id": "2026-09-15-09",
+      "word": "index",
+      "ipa": "/ˈɪndeks/",
+      "meaning": "索引",
+      "collocation": "build an index",
+      "scene": "数据库、搜索和 RAG 中用于加快数据检索。",
+      "example": "We build an index for fast retrieval.",
+      "translation": "我们建立索引以实现快速检索。"
+    },
+    {
+      "id": "2026-09-15-10",
+      "word": "vector",
+      "ipa": "/ˈvektər/",
+      "meaning": "向量",
+      "collocation": "feature vector",
+      "scene": "机器学习、Embedding 和数学表示中的高频词。",
+      "example": "Each image is represented by a feature vector.",
+      "translation": "每张图像都由一个特征向量表示。"
+    }
+  ]
+}
