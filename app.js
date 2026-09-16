@@ -15,10 +15,39 @@ const fmtShortDate=d=>new Intl.DateTimeFormat('zh-CN',{month:'numeric',day:'nume
 const todayISO=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const daysBetween=(a,b)=>Math.round((new Date(b+'T12:00:00')-new Date(a+'T12:00:00'))/86400000);
 
+async function fetchJSON(path){
+  const sep=path.includes('?')?'&':'?';
+  const r=await fetch(`${path}${sep}v=${Date.now()}`,{cache:'no-store'});
+  if(!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+  return r.json();
+}
+
+async function loadDatabase(){
+  const base=await fetchJSON('data/words.json');
+  const packMap=new Map((base.packs||[]).map(pack=>[pack.date,pack]));
+  try{
+    const index=await fetchJSON('data/daily/index.json');
+    const dates=[...new Set(index.dates||[])].sort();
+    const results=await Promise.allSettled(dates.map(date=>fetchJSON(`data/daily/${date}.json`)));
+    results.forEach(result=>{
+      if(result.status==='fulfilled'){
+        const pack=result.value;
+        if(pack && pack.date && Array.isArray(pack.words)) packMap.set(pack.date,pack);
+      }
+    });
+  }catch(e){
+    console.warn('每日词包暂时加载失败，已回退到历史总词库。',e);
+  }
+  return {
+    reviewIntervals:base.reviewIntervals||REVIEW_INTERVALS,
+    packs:[...packMap.values()].sort((a,b)=>a.date.localeCompare(b.date))
+  };
+}
+
 function allWords(){return db.packs.flatMap(p=>p.words.map(w=>({...w,date:p.date}))) }
 function currentPack(){
   const t=todayISO();
-  return db.packs.find(p=>p.date===t) || db.packs.at(-1);
+  return db.packs.find(p=>p.date===t) || [...db.packs].filter(p=>p.date<=t).at(-1) || db.packs.at(-1);
 }
 function stopSpeech(){
   speechRunId++;
@@ -69,6 +98,8 @@ function renderToday(){
   const words=pack.words.map(w=>({...w,date:pack.date}));
   $('#heroDate').textContent=fmtDate(pack.date);
   $('#heroTitle').textContent=pack.date===todayISO()?'今天，记住 10 个真正有用的词':'最新词包 · 10 个词';
+  const newest=db.packs.at(-1);
+  $('#heroSubtitle').textContent=`词库已更新至 ${fmtShortDate(newest.date)} · ${db.packs.length} 组学习记录 · 复习间隔 1/3/7/14/30 天`;
   renderList($('#todayList'),words);
   const mastered=words.filter(w=>wordStatus(w.id)==='mastered').length;
   const pct=words.length?Math.round(mastered/words.length*100):0;
@@ -77,23 +108,14 @@ function renderToday(){
 }
 function buildReviewGroups(){
   const t=todayISO();
-  return db.packs
-    .map(pack=>{
-      const interval=daysBetween(pack.date,t);
-      const idx=REVIEW_INTERVALS.indexOf(interval);
-      if(idx<0) return null;
-      return {
-        sourceDate:pack.date,
-        interval,
-        reviewNumber:idx+1,
-        words:pack.words.map(w=>({...w,date:pack.date}))
-      };
-    })
-    .filter(Boolean)
-    .sort((a,b)=>a.interval-b.interval);
+  return db.packs.map(pack=>{
+    const interval=daysBetween(pack.date,t);
+    const idx=REVIEW_INTERVALS.indexOf(interval);
+    if(idx<0) return null;
+    return {sourceDate:pack.date,interval,reviewNumber:idx+1,words:pack.words.map(w=>({...w,date:pack.date}))};
+  }).filter(Boolean).sort((a,b)=>a.interval-b.interval);
 }
-function makeReview(){
-  reviewGroups=buildReviewGroups();
+function renderReviewGroups(){
   const box=$('#reviewList');box.innerHTML='';
   if(!reviewGroups.length){
     box.innerHTML='<div class="empty">今天没有正好到期的复习组。间隔计划为 1 / 3 / 7 / 14 / 30 天。</div>';
@@ -102,25 +124,20 @@ function makeReview(){
   reviewGroups.forEach(group=>{
     const sec=document.createElement('section');sec.className='review-group';
     const mastered=group.words.filter(w=>wordStatus(w.id)==='mastered').length;
-    sec.innerHTML=`<div class="review-group-head">
-      <div>
-        <div class="review-kicker">${fmtShortDate(group.sourceDate)} 学习的词</div>
-        <h4>第 ${group.reviewNumber} 次复习</h4>
-        <p>原学习日：${fmtDate(group.sourceDate)} · 学习后 <strong>${group.interval}</strong> 天 · 本组 ${group.words.length} 词</p>
-      </div>
-      <div class="review-progress">${mastered}/${group.words.length} 已掌握</div>
-    </div>`;
+    sec.innerHTML=`<div class="review-group-head"><div><div class="review-kicker">${fmtShortDate(group.sourceDate)} 学习的词</div><h4>第 ${group.reviewNumber} 次复习</h4><p>原学习日：${fmtDate(group.sourceDate)} · 学习后 <strong>${group.interval}</strong> 天 · 本组 ${group.words.length} 词</p></div><div class="review-progress">${mastered}/${group.words.length} 已掌握</div></div>`;
     const list=document.createElement('div');list.className='word-list';
     group.words.forEach(w=>list.appendChild(createWordCard(w,group)));
     sec.appendChild(list);box.appendChild(sec);
   });
 }
+function makeReview(){reviewGroups=buildReviewGroups();renderReviewGroups()}
 function renderHistory(){
   const box=$('#historyList');box.innerHTML='';
+  const wordsCache=allWords();
   [...db.packs].reverse().forEach(pack=>{
     const div=document.createElement('div');div.className='history-card';
     const mastered=pack.words.filter(w=>wordStatus(w.id)==='mastered').length;
-    const repeatCount=pack.words.filter(w=>allWords().some(x=>x.word.toLowerCase()===w.word.toLowerCase() && x.date<pack.date)).length;
+    const repeatCount=pack.words.filter(w=>wordsCache.some(x=>x.word.toLowerCase()===w.word.toLowerCase() && x.date<pack.date)).length;
     div.innerHTML=`<h4>${fmtDate(pack.date)}</h4><p>${pack.words.length} 个词 · 已掌握 ${mastered}${repeatCount?` · ${repeatCount} 个再次出现`:''}</p><button>查看这一天</button>`;
     div.querySelector('button').onclick=()=>{switchView('library');$('#searchInput').value='';$('#statusFilter').value='all';renderLibrary(pack.date)};
     box.appendChild(div);
@@ -156,8 +173,7 @@ function utter(text,runId){
 async function speakAll(){
   if(!('speechSynthesis' in window)) return alert('当前浏览器不支持语音朗读。');
   if(isSpeakingAll){stopSpeech();return}
-  stopSpeech();
-  isSpeakingAll=true;
+  stopSpeech();isSpeakingAll=true;
   const runId=++speechRunId;
   const btn=$('#speakAllBtn');btn.textContent='■ 停止朗读';btn.classList.add('speaking');btn.setAttribute('aria-pressed','true');
   const pack=currentPack();
@@ -167,33 +183,39 @@ async function speakAll(){
       const keepGoing=await utter(`${w.word}. ${w.example}`,runId);
       if(!keepGoing) break;
     }
-  }finally{
-    if(runId===speechRunId) stopSpeech();
-  }
+  }finally{if(runId===speechRunId) stopSpeech()}
+}
+async function refreshData(showNotice=true){
+  const btn=$('#refreshBtn');
+  if(btn){btn.disabled=true;btn.textContent='…'}
+  try{
+    db=await loadDatabase();renderAll();
+    if(showNotice){
+      const newest=db.packs.at(-1);
+      alert(`词库已刷新，最新词包：${newest.date}`);
+    }
+  }catch(e){console.error(e);if(showNotice) alert('刷新失败，请检查网络后重试。')}
+  finally{if(btn){btn.disabled=false;btn.textContent='↻'}}
+}
+async function registerServiceWorker(){
+  if(!('serviceWorker' in navigator)) return;
+  try{const reg=await navigator.serviceWorker.register('./sw.js?v=5');await reg.update()}catch(e){console.warn('Service Worker 更新失败',e)}
 }
 async function init(){
-  try{db=await fetch('data/words.json',{cache:'no-store'}).then(r=>r.json())}catch(e){
-    document.body.innerHTML='<div style="padding:30px;font-family:sans-serif">无法读取词库。请通过本地服务器或部署后的网址打开，而不是直接双击 index.html。</div>';return;
+  try{db=await loadDatabase()}catch(e){
+    console.error(e);
+    document.body.innerHTML='<div style="padding:30px;font-family:sans-serif">无法读取词库。请检查网络后重新打开 TenWords。</div>';return;
   }
-  db.packs.sort((a,b)=>a.date.localeCompare(b.date));
   const savedTheme=localStorage.getItem(themeKey);if(savedTheme==='dark')document.documentElement.classList.add('dark');
   $$('.tab').forEach(b=>b.onclick=()=>switchView(b.dataset.view));
   $('#searchInput').oninput=()=>renderLibrary();$('#statusFilter').onchange=()=>renderLibrary();
   $('#themeBtn').onclick=()=>{document.documentElement.classList.toggle('dark');localStorage.setItem(themeKey,document.documentElement.classList.contains('dark')?'dark':'light')};
+  $('#refreshBtn').onclick=()=>refreshData(true);
   $('#speakAllBtn').onclick=speakAll;
-  $('#shuffleReviewBtn').onclick=()=>{
-    reviewGroups.forEach(g=>g.words.sort(()=>Math.random()-.5));
-    const box=$('#reviewList');box.innerHTML='';
-    reviewGroups.forEach(group=>{
-      const sec=document.createElement('section');sec.className='review-group';
-      const mastered=group.words.filter(w=>wordStatus(w.id)==='mastered').length;
-      sec.innerHTML=`<div class="review-group-head"><div><div class="review-kicker">${fmtShortDate(group.sourceDate)} 学习的词</div><h4>第 ${group.reviewNumber} 次复习</h4><p>原学习日：${fmtDate(group.sourceDate)} · 学习后 <strong>${group.interval}</strong> 天 · 本组 ${group.words.length} 词</p></div><div class="review-progress">${mastered}/${group.words.length} 已掌握</div></div>`;
-      const list=document.createElement('div');list.className='word-list';group.words.forEach(w=>list.appendChild(createWordCard(w,group)));sec.appendChild(list);box.appendChild(sec);
-    });
-  };
+  $('#shuffleReviewBtn').onclick=()=>{reviewGroups=buildReviewGroups();reviewGroups.forEach(g=>g.words.sort(()=>Math.random()-.5));renderReviewGroups()};
   $('#resetBtn').onclick=()=>{if(confirm('确定要清空所有“掌握/模糊”记录吗？')){localStorage.removeItem(stateKey);renderAll()}};
   window.addEventListener('beforeunload',stopSpeech);
-  renderAll();
-  if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden) stopSpeech()});
+  renderAll();registerServiceWorker();
 }
 init();
