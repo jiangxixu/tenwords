@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-14",
+  "words": [
+    {
+      "id": "2026-09-14-01",
+      "word": "derive",
+      "ipa": "/dɪˈraɪv/",
+      "meaning": "得出；推导；源自",
+      "collocation": "derive a result",
+      "scene": "论文中从数据、公式或实验中推导结论时常用。",
+      "example": "We derive the result from the data.",
+      "translation": "我们从数据中得出这个结果。"
+    },
+    {
+      "id": "2026-09-14-02",
+      "word": "indicate",
+      "ipa": "/ˈɪndɪkeɪt/",
+      "meaning": "表明；指出",
+      "collocation": "indicate that",
+      "scene": "论文中说明实验结果或证据所支持的结论。",
+      "example": "The results indicate that the model is effective.",
+      "translation": "结果表明该模型是有效的。"
+    },
+    {
+      "id": "2026-09-14-03",
+      "word": "occur",
+      "ipa": "/əˈkɜːr/",
+      "meaning": "发生；出现",
+      "collocation": "occur frequently",
+      "scene": "描述错误、现象、事件或问题出现的情况。",
+      "example": "This error occurs frequently during training.",
+      "translation": "这个错误在训练过程中经常出现。"
+    },
+    {
+      "id": "2026-09-14-04",
+      "word": "establish",
+      "ipa": "/ɪˈstæblɪʃ/",
+      "meaning": "建立；确定",
+      "collocation": "establish a baseline",
+      "scene": "研究中建立基线、规则、关系或实验标准。",
+      "example": "We first establish a strong baseline.",
+      "translation": "我们首先建立一个强基线。"
+    },
+    {
+      "id": "2026-09-14-05",
+      "word": "involve",
+      "ipa": "/ɪnˈvɑːlv/",
+      "meaning": "涉及；包含",
+      "collocation": "involve multiple steps",
+      "scene": "说明一个任务、方法或流程由哪些部分组成。",
+      "example": "The process involves multiple steps.",
+      "translation": "这个过程包含多个步骤。"
+    },
+    {
+      "id": "2026-09-14-06",
+      "word": "interpret",
+      "ipa": "/ɪnˈtɜːrprɪt/",
+      "meaning": "解释；理解",
+      "collocation": "interpret results",
+      "scene": "分析实验结果、模型输出或数据含义时常用。",
+      "example": "We need to interpret the results carefully.",
+      "translation": "我们需要谨慎解释这些结果。"
+    },
+    {
+      "id": "2026-09-14-07",
+      "word": "constraint",
+      "ipa": "/kənˈstreɪnt/",
+      "meaning": "约束；限制条件",
+      "collocation": "resource constraint",
+      "scene": "算法、优化、机器人和工程系统中的限制条件。",
+      "example": "The robot operates under strict resource constraints.",
+      "translation": "机器人在严格的资源限制下运行。"
+    },
+    {
+      "id": "2026-09-14-08",
+      "word": "enable",
+      "ipa": "/ɪˈneɪbəl/",
+      "meaning": "使能够；启用",
+      "collocation": "enable access",
+      "scene": "描述某个功能、方法或模块使另一种能力成为可能。",
+      "example": "This feature enables faster access to the data.",
+      "translation": "这个功能可以更快地访问数据。"
+    },
+    {
+      "id": "2026-09-14-09",
+      "word": "estimate",
+      "ipa": "/ˈestɪmeɪt/",
+      "meaning": "估计；估算",
+      "collocation": "estimate the cost",
+      "scene": "估计时间、成本、误差、概率或计算量。",
+      "example": "We estimate the training cost before deployment.",
+      "translation": "我们在部署前估算训练成本。"
+    },
+    {
+      "id": "2026-09-14-10",
+      "word": "correspond",
+      "ipa": "/ˌkɔːrəˈspɑːnd/",
+      "meaning": "对应；相符",
+      "collocation": "correspond to",
+      "scene": "论文和技术文档中说明两个对象之间的一一对应关系。",
+      "example": "Each label corresponds to one category.",
+      "translation": "每个标签对应一个类别。"
+    }
+  ]
+}
