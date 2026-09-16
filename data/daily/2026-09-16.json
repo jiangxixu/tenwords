@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-16",
+  "words": [
+    {
+      "id": "2026-09-16-01",
+      "word": "instruction",
+      "ipa": "/ɪnˈstrʌkʃən/",
+      "meaning": "指令；说明",
+      "collocation": "follow an instruction",
+      "scene": "大模型、Agent 和软件系统中描述用户或系统指令。",
+      "example": "The agent follows the user instruction.",
+      "translation": "智能体遵循用户指令。"
+    },
+    {
+      "id": "2026-09-16-02",
+      "word": "agent",
+      "ipa": "/ˈeɪdʒənt/",
+      "meaning": "智能体；代理",
+      "collocation": "AI agent",
+      "scene": "AI Agent 领域中表示能够感知、推理并执行任务的系统。",
+      "example": "The AI agent can use external tools.",
+      "translation": "AI 智能体可以使用外部工具。"
+    },
+    {
+      "id": "2026-09-16-03",
+      "word": "memory",
+      "ipa": "/ˈmeməri/",
+      "meaning": "记忆；存储",
+      "collocation": "long-term memory",
+      "scene": "Agent 和计算机系统中描述信息的保存与再次使用。",
+      "example": "The agent stores useful information in long-term memory.",
+      "translation": "智能体把有用信息存入长期记忆。"
+    },
+    {
+      "id": "2026-09-16-04",
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɑːnəmi/",
+      "meaning": "自主性",
+      "collocation": "system autonomy",
+      "scene": "机器人、无人机和 Agent 中描述系统自主完成任务的能力。",
+      "example": "Greater autonomy reduces manual control.",
+      "translation": "更高的自主性减少人工控制。"
+    },
+    {
+      "id": "2026-09-16-05",
+      "word": "perception",
+      "ipa": "/pərˈsepʃən/",
+      "meaning": "感知",
+      "collocation": "visual perception",
+      "scene": "机器人和具身智能中表示从视觉或传感器理解环境。",
+      "example": "Visual perception helps the robot understand its surroundings.",
+      "translation": "视觉感知帮助机器人理解周围环境。"
+    },
+    {
+      "id": "2026-09-16-06",
+      "word": "navigation",
+      "ipa": "/ˌnævɪˈɡeɪʃən/",
+      "meaning": "导航",
+      "collocation": "autonomous navigation",
+      "scene": "无人机、移动机器人和 VLN 中描述自主移动与路径选择。",
+      "example": "The drone uses autonomous navigation indoors.",
+      "translation": "无人机在室内使用自主导航。"
+    },
+    {
+      "id": "2026-09-16-07",
+      "word": "controller",
+      "ipa": "/kənˈtroʊlər/",
+      "meaning": "控制器",
+      "collocation": "flight controller",
+      "scene": "无人机与控制系统中负责根据状态计算控制指令。",
+      "example": "The flight controller stabilizes the drone.",
+      "translation": "飞控使无人机保持稳定。"
+    },
+    {
+      "id": "2026-09-16-08",
+      "word": "state",
+      "ipa": "/steɪt/",
+      "meaning": "状态",
+      "collocation": "system state",
+      "scene": "控制、强化学习和状态估计中描述系统当前情况。",
+      "example": "The model estimates the current system state.",
+      "translation": "模型估计当前系统状态。"
+    },
+    {
+      "id": "2026-09-16-09",
+      "word": "action",
+      "ipa": "/ˈækʃən/",
+      "meaning": "动作；行动",
+      "collocation": "select an action",
+      "scene": "Agent 和强化学习中表示智能体可以采取的操作。",
+      "example": "The agent selects an action based on the observation.",
+      "translation": "智能体根据观察选择动作。"
+    },
+    {
+      "id": "2026-09-16-10",
+      "word": "reward",
+      "ipa": "/rɪˈwɔːrd/",
+      "meaning": "奖励",
+      "collocation": "reward signal",
+      "scene": "强化学习中用于评价动作并指导策略学习的反馈。",
+      "example": "The policy learns from the reward signal.",
+      "translation": "策略从奖励信号中学习。"
+    }
+  ]
+}
