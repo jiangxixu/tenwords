@@ -7,7 +7,7 @@
   <title>TenWords · 每日10词</title>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
   <div class="app-shell">
@@ -16,7 +16,10 @@
         <div class="eyebrow">TENWORDS</div>
         <h1>每日 10 词</h1>
       </div>
-      <button class="icon-btn" id="themeBtn" aria-label="切换主题">◐</button>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="icon-btn" id="refreshBtn" aria-label="刷新词库" title="刷新词库">↻</button>
+        <button class="icon-btn" id="themeBtn" aria-label="切换主题">◐</button>
+      </div>
     </header>
 
     <main>
@@ -131,6 +134,6 @@
     </article>
   </template>
 
-  <script src="app.js?v=4" defer></script>
+  <script src="app.js?v=6" defer></script>
 </body>
 </html>
