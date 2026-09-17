@@ -1,81 +1,84 @@
 import fs from 'node:fs/promises';
 
-const DATA_URL = new URL('../data/words.json', import.meta.url);
-const API_KEY = process.env.OPENAI_API_KEY;
-if (!API_KEY) throw new Error('Missing OPENAI_API_KEY');
+const ROOT = new URL('..', import.meta.url);
+const WORDS_URL = new URL('../data/words.json', import.meta.url);
+const DAILY_DIR = new URL('../data/daily/', import.meta.url);
+const INDEX_URL = new URL('../data/daily/index.json', import.meta.url);
+const API_KEY = process.env.DEEPSEEK_API_KEY;
+
+if (!API_KEY) throw new Error('Missing DEEPSEEK_API_KEY');
 
 const today = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'
 }).format(new Date());
 
-const db = JSON.parse(await fs.readFile(DATA_URL, 'utf8'));
-if (db.packs.some(p => p.date === today)) {
-  console.log(`Pack for ${today} already exists. Skip.`);
+const db = JSON.parse(await fs.readFile(WORDS_URL, 'utf8'));
+const used = new Set(db.packs.flatMap(p => p.words.map(w => w.word.toLowerCase())));
+
+const index = JSON.parse(await fs.readFile(INDEX_URL, 'utf8'));
+if (index.dates.includes(today)) {
+  console.log(`Pack ${today} already exists.`);
   process.exit(0);
 }
 
-const used = new Set(db.packs.flatMap(p => p.words.map(w => w.word.toLowerCase())));
-const usedList = [...used].sort().join(', ');
+const usedList = [...used].slice(-500).join(', ');
 
-const prompt = `你正在为一名计算机科学硕士生维护“每日10词”英语学习网站。请为 ${today} 生成恰好10个新的英语单词。
+const prompt = `你正在维护一个计算机科学硕士生的英语学习网站。
+请生成今天 ${today} 的10个新英语单词。
+
 要求：
-1. 以通用高频英语为主，适当加入计算机、AI、论文阅读、机器人/无人机高频词。
-2. 不能重复以下已经学过的词：${usedList}
-3. 每个词必须包含：word, ipa, meaning, collocation, scene, example, translation。
-4. meaning 用简洁中文；collocation 只给1个高频搭配；scene 用一句简短中文说明真实使用场景；example 必须自然、简短、适合朗读；translation 是例句中文翻译。
-5. 不要使用生僻、过时或纯考试技巧型词汇。
-6. 返回严格 JSON，不要 markdown，不要解释，格式：{"words":[{...}]}。`;
+1. 通用高频英语为主。
+2. 适当加入 AI、大模型、Agent、机器人、无人机、论文阅读词汇。
+3. 不允许重复已有词：${usedList}
+4. 每个词返回：word, ipa, meaning, collocation, scene, example, translation。
+5. 返回严格 JSON：{"words":[...]}
+6. 不要 markdown，不要解释。
+`;
 
-const res = await fetch('https://api.openai.com/v1/responses', {
+const response = await fetch('https://api.deepseek.com/chat/completions', {
   method: 'POST',
   headers: {
     'Authorization': `Bearer ${API_KEY}`,
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    model: 'gpt-5.6-luna',
-    input: prompt,
-    reasoning: { effort: 'low' },
-    max_output_tokens: 4500
+    model: 'deepseek-chat',
+    messages: [
+      { role: 'system', content: 'You output valid JSON only.' },
+      { role: 'user', content: prompt }
+    ],
+    response_format: { type: 'json_object' },
+    temperature: 0.7
   })
 });
 
-if (!res.ok) throw new Error(`OpenAI API ${res.status}: ${await res.text()}`);
-const out = await res.json();
-const text = (out.output || [])
-  .flatMap(item => item.content || [])
-  .filter(c => c.type === 'output_text')
-  .map(c => c.text)
-  .join('\n')
-  .trim();
+if (!response.ok) throw new Error(await response.text());
 
-const cleaned = text.replace(/^```json\s*/i, '').replace(/^```\s*/, '').replace(/\s*```$/, '');
-const parsed = JSON.parse(cleaned);
-if (!Array.isArray(parsed.words) || parsed.words.length !== 10) throw new Error('Model did not return exactly 10 words.');
+const result = await response.json();
+const parsed = JSON.parse(result.choices[0].message.content);
 
-const localSeen = new Set();
-const words = parsed.words.map((w, i) => {
-  const word = String(w.word || '').trim();
-  const key = word.toLowerCase();
-  if (!word || used.has(key) || localSeen.has(key)) throw new Error(`Duplicate/invalid word: ${word}`);
-  localSeen.add(key);
-  for (const field of ['ipa','meaning','collocation','scene','example','translation']) {
-    if (!String(w[field] || '').trim()) throw new Error(`Missing ${field} for ${word}`);
-  }
-  return {
-    id: `${today}-${String(i+1).padStart(2,'0')}`,
-    word,
-    ipa: String(w.ipa).trim(),
-    meaning: String(w.meaning).trim(),
-    collocation: String(w.collocation).trim(),
-    scene: String(w.scene).trim(),
-    example: String(w.example).trim(),
-    translation: String(w.translation).trim()
-  };
-});
+if (!Array.isArray(parsed.words) || parsed.words.length !== 10) {
+  throw new Error('Invalid word count');
+}
 
-db.reviewIntervals = db.reviewIntervals || [1, 3, 7, 14, 30];
-db.packs.push({ date: today, words });
-db.packs.sort((a,b) => a.date.localeCompare(b.date));
-await fs.writeFile(DATA_URL, JSON.stringify(db, null, 2) + '\n', 'utf8');
-console.log(`Added ${today}: ${words.map(w => w.word).join(', ')}`);
+const words = parsed.words.map((w, i) => ({
+  id: `${today}-${String(i + 1).padStart(2, '0')}`,
+  word: w.word.trim(),
+  ipa: w.ipa.trim(),
+  meaning: w.meaning.trim(),
+  collocation: w.collocation.trim(),
+  scene: w.scene.trim(),
+  example: w.example.trim(),
+  translation: w.translation.trim()
+}));
+
+await fs.writeFile(
+  new URL(`${today}.json`, DAILY_DIR),
+  JSON.stringify({ date: today, words }, null, 2)
+);
+
+index.dates.push(today);
+index.dates.sort();
+await fs.writeFile(INDEX_URL, JSON.stringify(index, null, 2));
+
+console.log(`Generated ${today}`);
