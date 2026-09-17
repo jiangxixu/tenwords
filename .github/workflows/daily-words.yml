@@ -1,0 +1,32 @@
+name: Generate daily vocabulary
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate words with DeepSeek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: node scripts/generate-daily.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "tenwords-bot"
+          git config user.email "actions@github.com"
+          git add data/daily
+          git commit -m "Add daily vocabulary" || exit 0
+          git push
