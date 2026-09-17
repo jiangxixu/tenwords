@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-17",
+  "words": [
+    {
+      "id": "2026-09-17-01",
+      "word": "leverage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "meaning": "利用；杠杆作用",
+      "collocation": "leverage existing resources",
+      "scene": "论文阅读：作者说明如何借助已有工具提升性能",
+      "example": "We leverage pre-trained language models to reduce annotation costs.",
+      "translation": "我们利用预训练语言模型来降低标注成本。"
+    },
+    {
+      "id": "2026-09-17-02",
+      "word": "surpass",
+      "ipa": "/səˈpɑːs/",
+      "meaning": "超过；胜过",
+      "collocation": "surpass human performance",
+      "scene": "AI 大模型评测：模型在基准上超越人类水平",
+      "example": "The new agent surpasses previous systems on long-horizon tasks.",
+      "translation": "这个新智能体在长时程任务上超越了以往系统。"
+    },
+    {
+      "id": "2026-09-17-03",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航；穿行；应对",
+      "collocation": "navigate complex environments",
+      "scene": "无人机与机器人：在复杂环境中自主导航",
+      "example": "The drone must navigate crowded airspace without human control.",
+      "translation": "无人机必须在无人工控制下穿行于拥挤空域。"
+    },
+    {
+      "id": "2026-09-17-04",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "感知；察觉",
+      "collocation": "perceive the environment",
+      "scene": "机器人感知：通过传感器理解周围环境",
+      "example": "Robots perceive their surroundings using cameras and lidar.",
+      "translation": "机器人利用摄像头和激光雷达感知周围环境。"
+    },
+    {
+      "id": "2026-09-17-05",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meaning": "操作；操控；巧妙处理",
+      "collocation": "manipulate objects",
+      "scene": "机器人：机械臂抓取和操作物体",
+      "example": "The robotic arm can manipulate small objects with high precision.",
+      "translation": "该机械臂能高精度地操作小型物体。"
+    },
+    {
+      "id": "2026-09-17-06",
+      "word": "retention",
+      "ipa": "/rɪˈtenʃn/",
+      "meaning": "保持；记忆保持",
+      "collocation": "knowledge retention",
+      "scene": "英语学习：长期记忆与知识保持",
+      "example": "Spaced repetition improves the retention of new vocabulary.",
+      "translation": "间隔重复能提高新词汇的记忆保持率。"
+    },
+    {
+      "id": "2026-09-17-07",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的；含糊的",
+      "collocation": "ambiguous instruction",
+      "scene": "Agent 任务：指令含糊导致执行困难",
+      "example": "The agent failed because the instruction was ambiguous.",
+      "translation": "由于指令含糊，该智能体执行失败。"
+    },
+    {
+      "id": "2026-09-17-08",
+      "word": "align with",
+      "ipa": "/əˈlaɪn wɪð/",
+      "meaning": "与……一致；符合",
+      "collocation": "align with human values",
+      "scene": "大模型对齐：使模型行为符合人类价值观",
+      "example": "Researchers try to align model outputs with human intentions.",
+      "translation": "研究者试图让模型输出与人类意图一致。"
+    },
+    {
+      "id": "2026-09-17-09",
+      "word": "scenario",
+      "ipa": "/səˈnɑːriəʊ/",
+      "meaning": "情景；设想",
+      "collocation": "real-world scenario",
+      "scene": "论文实验：在真实场景中测试方法",
+      "example": "We evaluate the system in several real-world scenarios.",
+      "translation": "我们在多个真实场景中评估该系统。"
+    },
+    {
+      "id": "2026-09-17-10",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning": "自主的；自治的",
+      "collocation": "autonomous driving",
+      "scene": "自动驾驶与无人机：无需人工干预的自主系统",
+      "example": "Autonomous vehicles rely on robust perception and planning.",
+      "translation": "自动驾驶汽车依赖稳健的感知与规划。"
+    }
+  ]
+}
