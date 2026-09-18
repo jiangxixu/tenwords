@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-18",
+  "words": [
+    {
+      "id": "2026-09-18-01",
+      "word": "remain",
+      "ipa": "/rɪˈmeɪn/",
+      "meaning": "保持；仍然",
+      "collocation": "remain stable",
+      "scene": "描述系统、模型或状态在一段时间内保持不变。",
+      "example": "The system remains stable under heavy load.",
+      "translation": "系统在高负载下仍保持稳定。"
+    },
+    {
+      "id": "2026-09-18-02",
+      "word": "relate",
+      "ipa": "/rɪˈleɪt/",
+      "meaning": "关联；涉及",
+      "collocation": "relate to",
+      "scene": "论文和技术文档中说明两个概念、变量或问题之间的关系。",
+      "example": "This issue relates to data quality.",
+      "translation": "这个问题与数据质量有关。"
+    },
+    {
+      "id": "2026-09-18-03",
+      "word": "decrease",
+      "ipa": "/dɪˈkriːs/",
+      "meaning": "减少；下降",
+      "collocation": "decrease latency",
+      "scene": "描述延迟、误差、损失或资源消耗下降。",
+      "example": "The new method decreases inference latency.",
+      "translation": "新方法降低了推理延迟。"
+    },
+    {
+      "id": "2026-09-18-04",
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "meaning": "解释；说明",
+      "collocation": "explain a result",
+      "scene": "论文、汇报和日常学习中用于说明原因、结果或机制。",
+      "example": "The authors explain the result with an ablation study.",
+      "translation": "作者通过消融实验解释这一结果。"
+    },
+    {
+      "id": "2026-09-18-05",
+      "word": "design",
+      "ipa": "/dɪˈzaɪn/",
+      "meaning": "设计",
+      "collocation": "design a system",
+      "scene": "开发模型、系统、实验或算法方案时常用。",
+      "example": "We design a lightweight system for edge devices.",
+      "translation": "我们为边缘设备设计了一个轻量级系统。"
+    },
+    {
+      "id": "2026-09-18-06",
+      "word": "train",
+      "ipa": "/treɪn/",
+      "meaning": "训练",
+      "collocation": "train a model",
+      "scene": "机器学习和深度学习中描述模型学习参数的过程。",
+      "example": "We train the model on a large dataset.",
+      "translation": "我们在大型数据集上训练该模型。"
+    },
+    {
+      "id": "2026-09-18-07",
+      "word": "test",
+      "ipa": "/test/",
+      "meaning": "测试；检验",
+      "collocation": "test a method",
+      "scene": "软件、算法和实验中验证方法是否有效。",
+      "example": "We test the method in real-world conditions.",
+      "translation": "我们在真实条件下测试该方法。"
+    },
+    {
+      "id": "2026-09-18-08",
+      "word": "store",
+      "ipa": "/stɔːr/",
+      "meaning": "存储；保存",
+      "collocation": "store data",
+      "scene": "数据库、缓存、Agent 记忆和文件系统中保存信息。",
+      "example": "The system stores recent interactions in memory.",
+      "translation": "系统把最近的交互存储在记忆中。"
+    },
+    {
+      "id": "2026-09-18-09",
+      "word": "search",
+      "ipa": "/sɜːrtʃ/",
+      "meaning": "搜索；查找",
+      "collocation": "search for",
+      "scene": "RAG、搜索引擎和日常资料检索中查找相关信息。",
+      "example": "The agent searches for relevant documents.",
+      "translation": "智能体搜索相关文档。"
+    },
+    {
+      "id": "2026-09-18-10",
+      "word": "rank",
+      "ipa": "/ræŋk/",
+      "meaning": "排序；排名",
+      "collocation": "rank results",
+      "scene": "搜索、推荐和 RAG 中按照相关性排列候选结果。",
+      "example": "The retriever ranks documents by relevance.",
+      "translation": "检索器按照相关性对文档进行排序。"
+    }
+  ]
+}
