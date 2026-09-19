@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-19",
+  "words": [
+    {
+      "id": "2026-09-19-01",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "to notice or become aware of something; to understand or interpret in a particular way",
+      "collocation": "perceive a threat / perceive as",
+      "scene": "论文阅读：作者讨论用户如何感知AI系统的行为",
+      "example": "Users often perceive the agent's suggestions as authoritative, even when the model is uncertain.",
+      "translation": "用户常常把智能体的建议视为权威，即使模型本身并不确定。"
+    },
+    {
+      "id": "2026-09-19-02",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "logical, consistent, and easy to understand; forming a unified whole",
+      "collocation": "coherent explanation / coherent response",
+      "scene": "大模型评测：检查生成文本是否连贯",
+      "example": "A good large language model should produce a coherent response across multiple turns of dialogue.",
+      "translation": "一个优秀的大语言模型应当在多轮对话中生成连贯的回答。"
+    },
+    {
+      "id": "2026-09-19-03",
+      "word": "align",
+      "ipa": "/əˈlaɪn/",
+      "meaning": "to arrange in a straight line; to bring into agreement or harmony with something",
+      "collocation": "align with / align objectives",
+      "scene": "AI安全：让模型行为与人类价值观保持一致",
+      "example": "Researchers try to align the model's outputs with human values and safety guidelines.",
+      "translation": "研究人员试图让模型的输出与人类价值观和安全准则保持一致。"
+    },
+    {
+      "id": "2026-09-19-04",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "to find the way from one place to another; to steer a course through a complex situation",
+      "collocation": "navigate an environment / navigate uncertainty",
+      "scene": "无人机与机器人：在未知环境中自主导航",
+      "example": "The drone must navigate a cluttered indoor space without hitting obstacles.",
+      "translation": "这架无人机必须在杂乱的室内空间中导航而不撞到障碍物。"
+    },
+    {
+      "id": "2026-09-19-05",
+      "word": "perception",
+      "ipa": "/pərˈsepʃn/",
+      "meaning": "the ability to see, hear, or become aware of something through the senses; a way of understanding",
+      "collocation": "visual perception / perception module",
+      "scene": "机器人：感知模块处理传感器数据",
+      "example": "The robot's perception module combines camera and lidar data to build a map of the room.",
+      "translation": "机器人的感知模块融合摄像头和激光雷达数据来构建房间地图。"
+    },
+    {
+      "id": "2026-09-19-06",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meaning": "to handle or control something skillfully; to influence or control a person or situation unfairly",
+      "collocation": "manipulate objects / manipulate data",
+      "scene": "机器人：机械臂抓取和操作物体",
+      "example": "The robotic arm can manipulate small objects with high precision.",
+      "translation": "这个机械臂能够高精度地操作小型物体。"
+    },
+    {
+      "id": "2026-09-19-07",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "acting independently or having the freedom to do so; self-governing",
+      "collocation": "autonomous agent / autonomous vehicle",
+      "scene": "Agent与无人机：自主决策系统",
+      "example": "An autonomous agent should be able to plan and act without constant human instructions.",
+      "translation": "一个自主智能体应当能够无需持续的人类指令进行规划和行动。"
+    },
+    {
+      "id": "2026-09-19-08",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "to become aware of something through the senses; to interpret or view in a certain way",
+      "collocation": "perceive a pattern / perceive the world",
+      "scene": "AI：模型如何从数据中感知模式",
+      "example": "The model learns to perceive subtle patterns in the training data.",
+      "translation": "该模型学会从训练数据中感知细微的模式。"
+    },
+    {
+      "id": "2026-09-19-09",
+      "word": "intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "meaning": "based on feelings or instincts rather than conscious reasoning; easy to understand or use",
+      "collocation": "intuitive interface / intuitive explanation",
+      "scene": "人机交互：设计直观的用户界面",
+      "example": "The researchers designed an intuitive interface so that non-experts could control the robot.",
+      "translation": "研究人员设计了一个直观的界面，使非专家也能控制机器人。"
+    },
+    {
+      "id": "2026-09-19-10",
+      "word": "ambiguity",
+      "ipa": "/ˌæmbɪˈɡjuːəti/",
+      "meaning": "the quality of being open to more than one interpretation; uncertainty in meaning",
+      "collocation": "resolve ambiguity / lexical ambiguity",
+      "scene": "论文阅读：自然语言处理中的歧义问题",
+      "example": "The paper discusses how context helps resolve ambiguity in natural language understanding.",
+      "translation": "这篇论文讨论了上下文如何帮助解决自然语言理解中的歧义问题。"
+    }
+  ]
+}
