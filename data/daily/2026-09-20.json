@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-20",
+  "words": [
+    {
+      "id": "2026-09-20-01",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous wording",
+      "scene": "论文阅读：作者描述实验结果时用词含糊，审稿人指出表述不清。",
+      "example": "The instructions were ambiguous, so the model produced inconsistent outputs.",
+      "translation": "这些指令含糊不清，因此模型产生了不一致的输出。"
+    },
+    {
+      "id": "2026-09-20-02",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，有条理的",
+      "collocation": "coherent explanation",
+      "scene": "AI 大模型：评价模型生成的长文本是否逻辑连贯。",
+      "example": "A good agent should produce a coherent plan before taking any action.",
+      "translation": "一个好的智能体在采取行动之前应生成连贯的计划。"
+    },
+    {
+      "id": "2026-09-20-03",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "感知，察觉，理解",
+      "collocation": "perceive the environment",
+      "scene": "机器人/无人机：描述机器人通过传感器感知周围环境。",
+      "example": "The drone uses cameras and LiDAR to perceive obstacles in real time.",
+      "translation": "这架无人机使用摄像头和激光雷达实时感知障碍物。"
+    },
+    {
+      "id": "2026-09-20-04",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航，航行，找到路线",
+      "collocation": "navigate a complex environment",
+      "scene": "无人机/机器人：自主导航穿过复杂地形。",
+      "example": "The robot must navigate crowded streets without hitting pedestrians.",
+      "translation": "机器人必须在拥挤的街道中导航而不撞到行人。"
+    },
+    {
+      "id": "2026-09-20-05",
+      "word": "supervise",
+      "ipa": "/ˈsuːpərvaɪz/",
+      "meaning": "监督，指导，管理",
+      "collocation": "supervised learning",
+      "scene": "AI 基础：说明监督学习需要带标签的数据。",
+      "example": "In supervised learning, each training example comes with a correct label.",
+      "translation": "在监督学习中，每个训练样本都带有正确的标签。"
+    },
+    {
+      "id": "2026-09-20-06",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous query",
+      "scene": "Agent：用户给智能体的指令不明确，需要主动追问。",
+      "example": "When the request is ambiguous, the agent should ask a clarifying question.",
+      "translation": "当请求含糊不清时，智能体应提出澄清性问题。"
+    },
+    {
+      "id": "2026-09-20-07",
+      "word": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "meaning": "共识，一致意见",
+      "collocation": "reach a consensus",
+      "scene": "多智能体系统：多个 Agent 协商后达成一致决策。",
+      "example": "The agents reached a consensus after several rounds of discussion.",
+      "translation": "经过几轮讨论，这些智能体达成了共识。"
+    },
+    {
+      "id": "2026-09-20-08",
+      "word": "intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "meaning": "直观的，易懂的",
+      "collocation": "intuitive interface",
+      "scene": "人机交互：设计让用户容易上手的机器人控制界面。",
+      "example": "The new interface is more intuitive, so users need less training.",
+      "translation": "新界面更直观，因此用户需要的培训更少。"
+    },
+    {
+      "id": "2026-09-20-09",
+      "word": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "meaning": "精确的，准确的",
+      "collocation": "precise measurement",
+      "scene": "实验评估：强调测量结果必须精确到小数点后几位。",
+      "example": "The drone needs precise control to land safely on a moving platform.",
+      "translation": "无人机需要精确控制才能安全降落在移动平台上。"
+    },
+    {
+      "id": "2026-09-20-10",
+      "word": "sufficient",
+      "ipa": "/səˈfɪʃənt/",
+      "meaning": "足够的，充分的",
+      "collocation": "sufficient evidence",
+      "scene": "论文阅读：审稿人认为作者提供的证据不足以支持结论。",
+      "example": "The experiments provide sufficient evidence to support the main claim.",
+      "translation": "这些实验提供了充分的证据来支持主要论点。"
+    }
+  ]
+}
