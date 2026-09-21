@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-21",
+  "words": [
+    {
+      "id": "2026-09-21-01",
+      "word": "converge",
+      "ipa": "/kənˈvɜːrdʒ/",
+      "meaning": "收敛；聚集；趋于一致",
+      "collocation": "converge to a local optimum",
+      "scene": "论文阅读：描述训练过程时，作者说明模型参数最终收敛。",
+      "example": "The training loss gradually converges to a small value after several epochs.",
+      "translation": "训练损失在几个轮次后逐渐收敛到一个很小的值。"
+    },
+    {
+      "id": "2026-09-21-02",
+      "word": "sparse",
+      "ipa": "/spɑːrs/",
+      "meaning": "稀疏的；稀少的",
+      "collocation": "sparse reward signal",
+      "scene": "AI/Agent：讨论强化学习中奖励信号稀疏导致学习困难。",
+      "example": "Sparse rewards make it hard for the agent to learn an effective policy.",
+      "translation": "稀疏奖励使智能体难以学到有效的策略。"
+    },
+    {
+      "id": "2026-09-21-03",
+      "word": "latent",
+      "ipa": "/ˈleɪtnt/",
+      "meaning": "潜在的；隐含的",
+      "collocation": "latent representation",
+      "scene": "大模型：解释模型内部如何形成隐含的语义表示。",
+      "example": "The encoder maps each sentence into a latent representation.",
+      "translation": "编码器把每个句子映射成一个潜在表示。"
+    },
+    {
+      "id": "2026-09-21-04",
+      "word": "threshold",
+      "ipa": "/ˈθreʃhoʊld/",
+      "meaning": "阈值；门槛",
+      "collocation": "set a threshold",
+      "scene": "无人机：设定检测阈值以判断目标是否出现。",
+      "example": "If the confidence score exceeds the threshold, the drone marks the object as detected.",
+      "translation": "如果置信度超过阈值，无人机就把该物体标记为已检测到。"
+    },
+    {
+      "id": "2026-09-21-05",
+      "word": "overhead",
+      "ipa": "/ˈoʊvərhed/",
+      "meaning": "开销；额外负担",
+      "collocation": "computational overhead",
+      "scene": "系统部署：比较不同方案时的计算开销。",
+      "example": "Caching reduces the computational overhead of repeated inference.",
+      "translation": "缓存降低了重复推理的计算开销。"
+    },
+    {
+      "id": "2026-09-21-06",
+      "word": "pipeline",
+      "ipa": "/ˈpaɪplaɪn/",
+      "meaning": "流水线；流程",
+      "collocation": "data processing pipeline",
+      "scene": "工程实践：描述从数据采集到模型训练的整体流程。",
+      "example": "Our pipeline collects raw data, cleans it, and then trains the model.",
+      "translation": "我们的流程先收集原始数据，进行清洗，然后训练模型。"
+    },
+    {
+      "id": "2026-09-21-07",
+      "word": "robustness",
+      "ipa": "/roʊˈbʌstnəs/",
+      "meaning": "鲁棒性；稳健性",
+      "collocation": "improve robustness against noise",
+      "scene": "论文阅读：评估模型在噪声数据下的稳健性。",
+      "example": "The authors test the robustness of their method under noisy inputs.",
+      "translation": "作者测试了他们的方法在噪声输入下的鲁棒性。"
+    },
+    {
+      "id": "2026-09-21-08",
+      "word": "embedding",
+      "ipa": "/ɪmˈbedɪŋ/",
+      "meaning": "嵌入；向量表示",
+      "collocation": "word embedding",
+      "scene": "大模型：讨论词嵌入如何捕捉语义关系。",
+      "example": "Similar words tend to have similar embeddings in the vector space.",
+      "translation": "相似的词在向量空间中往往具有相似的嵌入。"
+    },
+    {
+      "id": "2026-09-21-09",
+      "word": "trajectory",
+      "ipa": "/trəˈdʒektəri/",
+      "meaning": "轨迹；路径",
+      "collocation": "learning trajectory",
+      "scene": "机器人：分析机械臂的运动轨迹是否平滑。",
+      "example": "The robot follows a smooth trajectory to avoid sudden movements.",
+      "translation": "机器人沿着平滑的轨迹运动，以避免突然的动作。"
+    },
+    {
+      "id": "2026-09-21-10",
+      "word": "modality",
+      "ipa": "/moʊˈdæləti/",
+      "meaning": "模态；形式",
+      "collocation": "multimodal learning",
+      "scene": "AI：讨论融合文本、图像等多种模态的多模态学习。",
+      "example": "Multimodal models combine text and image modalities in one framework.",
+      "translation": "多模态模型在一个框架中结合了文本和图像两种模态。"
+    }
+  ]
+}
