@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-22",
+  "words": [
+    {
+      "id": "2026-09-22-01",
+      "word": "subsequent",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "meaning": "coming after something else in time; following",
+      "collocation": "subsequent experiments",
+      "scene": "论文阅读",
+      "example": "Subsequent experiments confirmed that the proposed agent could plan more reliably.",
+      "translation": "随后的实验证实，所提出的智能体能够更可靠地规划。"
+    },
+    {
+      "id": "2026-09-22-02",
+      "word": "notably",
+      "ipa": "/ˈnoʊtəbli/",
+      "meaning": "especially; in a way that is worth attention",
+      "collocation": "notably improve",
+      "scene": "AI 论文",
+      "example": "The new model notably improves performance on long-context reasoning tasks.",
+      "translation": "新模型在长上下文推理任务上的表现显著提升。"
+    },
+    {
+      "id": "2026-09-22-03",
+      "word": "capable",
+      "ipa": "/ˈkeɪpəbl/",
+      "meaning": "having the ability or skill to do something",
+      "collocation": "capable of",
+      "scene": "机器人",
+      "example": "This drone is capable of flying autonomously through dense forests.",
+      "translation": "这架无人机能够在茂密的森林中自主飞行。"
+    },
+    {
+      "id": "2026-09-22-04",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "acting or operating independently without human control",
+      "collocation": "autonomous agent",
+      "scene": "Agent",
+      "example": "An autonomous agent should decide when to call a tool and when to ask for help.",
+      "translation": "自主智能体应决定何时调用工具、何时寻求帮助。"
+    },
+    {
+      "id": "2026-09-22-05",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "to notice, see, or become aware of something",
+      "collocation": "perceive the environment",
+      "scene": "机器人",
+      "example": "The robot uses cameras and lidar to perceive its surroundings in real time.",
+      "translation": "该机器人使用摄像头和激光雷达实时感知周围环境。"
+    },
+    {
+      "id": "2026-09-22-06",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "to find the way from one place to another",
+      "collocation": "navigate complex terrain",
+      "scene": "无人机",
+      "example": "The drone must navigate complex terrain while avoiding sudden obstacles.",
+      "translation": "无人机必须在避开突发障碍的同时穿越复杂地形。"
+    },
+    {
+      "id": "2026-09-22-07",
+      "word": "summarize",
+      "ipa": "/ˈsʌməraɪz/",
+      "meaning": "to give a short statement of the main points",
+      "collocation": "summarize the findings",
+      "scene": "论文阅读",
+      "example": "Before reading the full paper, I usually summarize the abstract and conclusion.",
+      "translation": "在读全文之前，我通常会先概括摘要和结论。"
+    },
+    {
+      "id": "2026-09-22-08",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "logical, clear, and well organized",
+      "collocation": "coherent explanation",
+      "scene": "大模型",
+      "example": "The large language model produced a coherent explanation of the algorithm.",
+      "translation": "该大语言模型对算法给出了条理清晰的解释。"
+    },
+    {
+      "id": "2026-09-22-09",
+      "word": "perturb",
+      "ipa": "/pərˈtɜːrb/",
+      "meaning": "to change something slightly, often causing uncertainty",
+      "collocation": "perturb the input",
+      "scene": "AI 实验",
+      "example": "We perturb the input images to test whether the classifier is truly robust.",
+      "translation": "我们扰动输入图像，以测试分类器是否真正鲁棒。"
+    },
+    {
+      "id": "2026-09-22-10",
+      "word": "synthesize",
+      "ipa": "/ˈsɪnθəsaɪz/",
+      "meaning": "to combine separate things into a whole; to produce artificially",
+      "collocation": "synthesize data",
+      "scene": "AI 数据",
+      "example": "The team used a generative model to synthesize training data for rare cases.",
+      "translation": "该团队使用生成模型为罕见情况合成训练数据。"
+    }
+  ]
+}
