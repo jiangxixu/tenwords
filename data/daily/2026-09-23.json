@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-23",
+  "words": [
+    {
+      "id": "2026-09-23-01",
+      "word": "ubiquitous",
+      "ipa": "/juːˈbɪkwɪtəs/",
+      "meaning": "present or found everywhere",
+      "collocation": "ubiquitous computing",
+      "scene": "When your advisor describes how sensors are now embedded in everyday objects.",
+      "example": "Smartphones have become ubiquitous in modern life, which makes them a natural platform for mobile agent deployment.",
+      "translation": "无处不在的；普遍存在的"
+    },
+    {
+      "id": "2026-09-23-02",
+      "word": "orchestrate",
+      "ipa": "/ˈɔːrkɪstreɪt/",
+      "meaning": "to arrange or coordinate multiple elements to achieve a goal",
+      "collocation": "orchestrate a workflow",
+      "scene": "While reading a paper about multi-agent systems that coordinate several tools.",
+      "example": "The planner is designed to orchestrate multiple specialized agents so that each subtask is routed to the most capable model.",
+      "translation": "编排；协调"
+    },
+    {
+      "id": "2026-09-23-03",
+      "word": "granularity",
+      "ipa": "/ˌɡrænjuˈlærəti/",
+      "meaning": "the level of detail or scale at which something is divided or analyzed",
+      "collocation": "fine granularity",
+      "scene": "Discussing how precisely a robot's actions or a model's outputs are controlled.",
+      "example": "Increasing the granularity of the reward signal helped the drone learn smoother flight trajectories.",
+      "translation": "粒度；细粒度"
+    },
+    {
+      "id": "2026-09-23-04",
+      "word": "perturbation",
+      "ipa": "/ˌpɜːrtərˈbeɪʃn",
+      "meaning": "a small change or disturbance that affects a system",
+      "collocation": "adversarial perturbation",
+      "scene": "When a paper studies how tiny input changes can fool a vision model.",
+      "example": "Even a small perturbation to the image caused the classifier to output a completely wrong label.",
+      "translation": "扰动；微扰"
+    },
+    {
+      "id": "2026-09-23-05",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "logical, consistent, and easy to understand as a whole",
+      "collocation": "coherent explanation",
+      "scene": "Evaluating whether a large language model's reasoning steps actually fit together.",
+      "example": "A good agent should produce a coherent plan before taking any action in the environment.",
+      "translation": "连贯的；条理清晰的"
+    },
+    {
+      "id": "2026-09-23-06",
+      "word": "ambiguity",
+      "ipa": "/ˌæmbɪˈɡjuːəti/",
+      "meaning": "the quality of being open to more than one interpretation",
+      "collocation": "resolve ambiguity",
+      "scene": "When a user's instruction to a robot could mean several different things.",
+      "example": "The dialogue system asks a follow-up question whenever it detects ambiguity in the user's request.",
+      "translation": "歧义；模棱两可"
+    },
+    {
+      "id": "2026-09-23-07",
+      "word": "synthesize",
+      "ipa": "/ˈsɪnθəsaɪz/",
+      "meaning": "to combine separate pieces of information into a unified whole",
+      "collocation": "synthesize findings",
+      "scene": "Writing the related-work section of your thesis by combining results from many papers.",
+      "example": "The survey aims to synthesize recent advances in robot learning into a single taxonomy.",
+      "translation": "综合；合成"
+    },
+    {
+      "id": "2026-09-23-08",
+      "word": "calibrate",
+      "ipa": "/ˈkælɪbreɪt/",
+      "meaning": "to adjust or check something so it measures accurately",
+      "collocation": "calibrate a sensor",
+      "scene": "Before a drone flight experiment, you align its camera and IMU.",
+      "example": "We calibrate the confidence scores so that they better reflect the model's true probability of success.",
+      "translation": "校准；标定"
+    },
+    {
+      "id": "2026-09-23-09",
+      "word": "redundant",
+      "ipa": "/rɪˈdʌndənt/",
+      "meaning": "unnecessarily repeated or no longer needed",
+      "collocation": "redundant information",
+      "scene": "Trimming repeated content when preparing a dataset or a paper draft.",
+      "example": "Removing redundant tokens from the prompt reduced latency without hurting answer quality.",
+      "translation": "冗余的；多余的"
+    },
+    {
+      "id": "2026-09-23-10",
+      "word": "scrutinize",
+      "ipa": "/ˈskruːtənaɪz/",
+      "meaning": "to examine something very carefully and critically",
+      "collocation": "scrutinize the results",
+      "scene": "A reviewer carefully checking every table and figure in your submission.",
+      "example": "Reviewers will scrutinize the ablation study to confirm that each component truly contributes.",
+      "translation": "仔细审查；细看"
+    }
+  ]
+}
