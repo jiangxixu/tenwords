@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-24",
+  "words": [
+    {
+      "id": "2026-09-24-01",
+      "word": "implement",
+      "ipa": "/ˈɪmplɪment/",
+      "meaning": "实现；实施",
+      "collocation": "implement a method",
+      "scene": "论文和工程中描述把算法或方案真正应用到系统中。",
+      "example": "We implement the proposed method in Python.",
+      "translation": "我们用 Python 实现提出的方法。"
+    },
+    {
+      "id": "2026-09-24-02",
+      "word": "monitor",
+      "ipa": "/ˈmɑːnɪtər/",
+      "meaning": "监控；监测",
+      "collocation": "monitor system performance",
+      "scene": "AI 系统、服务器和无人机运行状态监测。",
+      "example": "The system monitors performance in real time.",
+      "translation": "系统实时监控性能。"
+    },
+    {
+      "id": "2026-09-24-03",
+      "word": "handle",
+      "ipa": "/ˈhændl/",
+      "meaning": "处理；应对",
+      "collocation": "handle data",
+      "scene": "描述程序、模型或人处理复杂任务和数据。",
+      "example": "The model can handle large amounts of data.",
+      "translation": "模型可以处理大量数据。"
+    },
+    {
+      "id": "2026-09-24-04",
+      "word": "predict",
+      "ipa": "/prɪˈdɪkt/",
+      "meaning": "预测",
+      "collocation": "predict future trends",
+      "scene": "机器学习中根据输入预测结果。",
+      "example": "The model predicts future states accurately.",
+      "translation": "模型准确预测未来状态。"
+    },
+    {
+      "id": "2026-09-24-05",
+      "word": "extract",
+      "ipa": "/ɪkˈstrækt/",
+      "meaning": "提取",
+      "collocation": "extract features",
+      "scene": "计算机视觉和深度学习中提取特征表示。",
+      "example": "The network extracts useful features from images.",
+      "translation": "网络从图像中提取有用特征。"
+    },
+    {
+      "id": "2026-09-24-06",
+      "word": "combine",
+      "ipa": "/kəmˈbaɪn/",
+      "meaning": "结合；合并",
+      "collocation": "combine information",
+      "scene": "RAG、多模态模型和数据融合场景。",
+      "example": "We combine information from multiple sources.",
+      "translation": "我们结合多个来源的信息。"
+    },
+    {
+      "id": "2026-09-24-07",
+      "word": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "meaning": "重要的；显著的",
+      "collocation": "significant improvement",
+      "scene": "论文实验结果中描述明显提升。",
+      "example": "The method achieves significant improvement.",
+      "translation": "该方法取得了显著提升。"
+    },
+    {
+      "id": "2026-09-24-08",
+      "word": "framework",
+      "ipa": "/ˈfreɪmwɜːrk/",
+      "meaning": "框架；体系",
+      "collocation": "learning framework",
+      "scene": "AI 工程中描述软件框架或研究体系。",
+      "example": "This framework supports large-scale training.",
+      "translation": "该框架支持大规模训练。"
+    },
+    {
+      "id": "2026-09-24-09",
+      "word": "deploy",
+      "ipa": "/dɪˈplɔɪ/",
+      "meaning": "部署",
+      "collocation": "deploy a model",
+      "scene": "机器学习模型上线运行。",
+      "example": "The model is deployed on a cloud server.",
+      "translation": "模型部署在云服务器上。"
+    },
+    {
+      "id": "2026-09-24-10",
+      "word": "verify",
+      "ipa": "/ˈverɪfaɪ/",
+      "meaning": "验证；确认",
+      "collocation": "verify results",
+      "scene": "论文实验和软件测试中确认结果正确。",
+      "example": "We verify the results through experiments.",
+      "translation": "我们通过实验验证结果。"
+    }
+  ]
+}
