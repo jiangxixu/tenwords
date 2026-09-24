@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-25",
+  "words": [
+    {
+      "id": "2026-09-25-01",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简明的，简洁的",
+      "collocation": "a concise summary",
+      "scene": "论文阅读：你向导师汇报一篇长论文的核心贡献。",
+      "example": "Please give me a concise summary of the paper's main contributions.",
+      "translation": "请给我一份这篇论文主要贡献的简明总结。"
+    },
+    {
+      "id": "2026-09-25-02",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous instructions",
+      "scene": "Agent 开发：用户给智能体的指令不够明确，导致任务失败。",
+      "example": "The agent failed because the user's instructions were too ambiguous.",
+      "translation": "智能体失败了，因为用户的指令太含糊不清。"
+    },
+    {
+      "id": "2026-09-25-03",
+      "word": "allocate",
+      "ipa": "/ˈæləkeɪt/",
+      "meaning": "分配，拨给",
+      "collocation": "allocate resources",
+      "scene": "大模型训练：团队讨论如何把有限的 GPU 时间分配给不同实验。",
+      "example": "We need to allocate more GPU hours to the larger model.",
+      "translation": "我们需要给更大的模型分配更多的 GPU 时间。"
+    },
+    {
+      "id": "2026-09-25-04",
+      "word": "collaborate",
+      "ipa": "/kəˈlæbəreɪt/",
+      "meaning": "合作，协作",
+      "collocation": "collaborate with researchers",
+      "scene": "学术交流：你所在的实验室与另一所大学共同开展机器人项目。",
+      "example": "Our lab will collaborate with another university on the drone project.",
+      "translation": "我们实验室将和另一所大学在无人机项目上合作。"
+    },
+    {
+      "id": "2026-09-25-05",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "感知，察觉；理解",
+      "collocation": "perceive the environment",
+      "scene": "机器人：机器人在陌生环境中感知障碍物并规划路径。",
+      "example": "The robot uses cameras and lidar to perceive its surroundings.",
+      "translation": "机器人使用摄像头和激光雷达来感知周围环境。"
+    },
+    {
+      "id": "2026-09-25-06",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航，航行；找到方向",
+      "collocation": "navigate a complex environment",
+      "scene": "无人机：无人机在复杂地形中自主导航。",
+      "example": "The drone can navigate through a dense forest without GPS.",
+      "translation": "这架无人机可以在没有 GPS 的情况下穿越茂密的森林。"
+    },
+    {
+      "id": "2026-09-25-07",
+      "word": "cumulative",
+      "ipa": "/ˈkjuːmjələtɪv/",
+      "meaning": "累积的，渐增的",
+      "collocation": "cumulative effect",
+      "scene": "实验分析：你发现小改进的累积效果非常显著。",
+      "example": "The cumulative effect of these small optimizations was impressive.",
+      "translation": "这些小优化的累积效果令人印象深刻。"
+    },
+    {
+      "id": "2026-09-25-08",
+      "word": "consecutive",
+      "ipa": "/kənˈsekjətɪv/",
+      "meaning": "连续的，接连的",
+      "collocation": "three consecutive epochs",
+      "scene": "模型训练：你观察到模型连续多个 epoch 没有提升。",
+      "example": "The loss stopped decreasing for three consecutive epochs.",
+      "translation": "损失值连续三个 epoch 都没有下降。"
+    },
+    {
+      "id": "2026-09-25-09",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous instructions",
+      "scene": "Agent 开发：用户给智能体的指令不够明确，导致任务失败。",
+      "example": "The agent failed because the user's instructions were too ambiguous.",
+      "translation": "智能体失败了，因为用户的指令太含糊不清。"
+    },
+    {
+      "id": "2026-09-25-10",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简明的，简洁的",
+      "collocation": "a concise summary",
+      "scene": "论文阅读：你向导师汇报一篇长论文的核心贡献。",
+      "example": "Please give me a concise summary of the paper's main contributions.",
+      "translation": "请给我一份这篇论文主要贡献的简明总结。"
+    }
+  ]
+}
