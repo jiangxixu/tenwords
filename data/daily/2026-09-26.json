@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-26",
+  "words": [
+    {
+      "id": "2026-09-26-01",
+      "word": "alignment",
+      "ipa": "/əˈlaɪnmənt/",
+      "meaning": "对齐；一致性；校准",
+      "collocation": "value alignment",
+      "scene": "论文阅读/大模型安全",
+      "example": "Researchers study value alignment to make large language models behave in line with human intentions.",
+      "translation": "研究人员研究价值对齐，以使大语言模型的行为符合人类意图。"
+    },
+    {
+      "id": "2026-09-26-02",
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒnəmi/",
+      "meaning": "自主性；自治",
+      "collocation": "autonomous agent",
+      "scene": "Agent/机器人",
+      "example": "The drone is designed to operate with a high degree of autonomy in unknown environments.",
+      "translation": "这款无人机被设计为能在未知环境中高度自主地运行。"
+    },
+    {
+      "id": "2026-09-26-03",
+      "word": "calibrate",
+      "ipa": "/ˈkælɪbreɪt/",
+      "meaning": "校准；调整",
+      "collocation": "calibrate the model",
+      "scene": "实验/模型评估",
+      "example": "We calibrate the model's confidence scores before deploying it in a real application.",
+      "translation": "在将模型部署到实际应用之前，我们校准其置信度分数。"
+    },
+    {
+      "id": "2026-09-26-04",
+      "word": "coherent",
+      "ipa": "/kəʊˈhɪərənt/",
+      "meaning": "连贯的；条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "论文写作/推理",
+      "example": "A good paper should present a coherent argument supported by clear evidence.",
+      "translation": "一篇好的论文应当提出一个由清晰证据支撑的连贯论证。"
+    },
+    {
+      "id": "2026-09-26-05",
+      "word": "complementary",
+      "ipa": "/ˌkɒmplɪˈmentri/",
+      "meaning": "互补的",
+      "collocation": "complementary information",
+      "scene": "多模态/模型融合",
+      "example": "The two modalities provide complementary information that improves overall performance.",
+      "translation": "这两种模态提供了互补信息，从而提升了整体性能。"
+    },
+    {
+      "id": "2026-09-26-06",
+      "word": "converge",
+      "ipa": "/kənˈvɜːdʒ/",
+      "meaning": "收敛；汇聚",
+      "collocation": "converge to a solution",
+      "scene": "优化/训练",
+      "example": "The optimizer will converge faster if the learning rate is set appropriately.",
+      "translation": "如果学习率设置得当，优化器会更快收敛。"
+    },
+    {
+      "id": "2026-09-26-07",
+      "word": "discriminate",
+      "ipa": "/dɪˈskrɪmɪneɪt/",
+      "meaning": "区分；辨别",
+      "collocation": "discriminate between classes",
+      "scene": "分类/检测",
+      "example": "The classifier must discriminate between visually similar objects under poor lighting.",
+      "translation": "分类器必须能在光线不佳的情况下区分视觉上相似的物体。"
+    },
+    {
+      "id": "2026-09-26-08",
+      "word": "granularity",
+      "ipa": "/ˌɡrænjəˈlærəti/",
+      "meaning": "粒度；精细程度",
+      "collocation": "fine granularity",
+      "scene": "数据处理/标注",
+      "example": "Increasing the granularity of annotations can help the model learn finer distinctions.",
+      "translation": "提高标注的粒度有助于模型学习更细微的差别。"
+    },
+    {
+      "id": "2026-09-26-09",
+      "word": "perturbation",
+      "ipa": "/ˌpɜːtəˈbeɪʃn",
+      "meaning": "扰动；微扰",
+      "collocation": "adversarial perturbation",
+      "scene": "鲁棒性/安全",
+      "example": "Small adversarial perturbations can cause the network to misclassify an image.",
+      "translation": "微小的对抗扰动就能使网络对图像产生误分类。"
+    },
+    {
+      "id": "2026-09-26-10",
+      "word": "semantic",
+      "ipa": "/sɪˈmæntɪk/",
+      "meaning": "语义的",
+      "collocation": "semantic similarity",
+      "scene": "自然语言处理/检索",
+      "example": "The system ranks documents by semantic similarity rather than exact keyword matching.",
+      "translation": "该系统根据语义相似度而非精确关键词匹配来对文档排序。"
+    }
+  ]
+}
