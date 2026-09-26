@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-27",
+  "words": [
+    {
+      "id": "2026-09-27-01",
+      "word": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "meaning": "减轻，缓解（不良影响）",
+      "collocation": "mitigate the risk",
+      "scene": "论文讨论部分说明如何降低模型偏差带来的风险",
+      "example": "We propose a simple calibration step to mitigate the risk of biased outputs in safety-critical applications.",
+      "translation": "我们提出一个简单的校准步骤，以缓解安全关键应用中输出偏差的风险。"
+    },
+    {
+      "id": "2026-09-27-02",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous instruction",
+      "scene": "Agent 执行任务时遇到含义不清的用户指令",
+      "example": "When the user's instruction is ambiguous, the agent should ask a clarifying question instead of guessing.",
+      "translation": "当用户指令含糊不清时，智能体应提出澄清问题，而不是猜测。"
+    },
+    {
+      "id": "2026-09-27-03",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "评价大模型生成的长文本是否逻辑连贯",
+      "example": "The model produces a coherent explanation that links each conclusion to the supporting evidence.",
+      "translation": "该模型给出连贯的解释，把每个结论与支持性证据联系起来。"
+    },
+    {
+      "id": "2026-09-27-04",
+      "word": "supervise",
+      "ipa": "/ˈsuːpərvaɪz/",
+      "meaning": "监督，指导",
+      "collocation": "supervise training",
+      "scene": "描述人在训练数据标注与模型微调中的监督角色",
+      "example": "A human expert supervises the fine-tuning process to keep the model aligned with domain standards.",
+      "translation": "人类专家监督微调过程，使模型符合领域标准。"
+    },
+    {
+      "id": "2026-09-27-05",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "自主的，自治的",
+      "collocation": "autonomous navigation",
+      "scene": "无人机在无 GPS 环境下自主导航",
+      "example": "The drone relies on visual sensors to achieve autonomous navigation in indoor environments.",
+      "translation": "该无人机依靠视觉传感器在室内环境中实现自主导航。"
+    },
+    {
+      "id": "2026-09-27-06",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meaning": "操作，操控；巧妙处理",
+      "collocation": "manipulate data",
+      "scene": "机器人抓取任务中对物体的精细操作",
+      "example": "The robotic arm can manipulate small objects with high precision after reinforcement learning.",
+      "translation": "经过强化学习后，该机械臂能高精度地操作小型物体。"
+    },
+    {
+      "id": "2026-09-27-07",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "感知，察觉，理解",
+      "collocation": "perceive the environment",
+      "scene": "具身智能体通过多模态传感器感知周围环境",
+      "example": "The agent uses cameras and LiDAR to perceive the environment before planning its next move.",
+      "translation": "该智能体使用摄像头和激光雷达感知环境，然后规划下一步行动。"
+    },
+    {
+      "id": "2026-09-27-08",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的，简明的",
+      "collocation": "concise summary",
+      "scene": "论文摘要要求用简洁语言概括核心贡献",
+      "example": "Write a concise summary of the paper in no more than 150 words.",
+      "translation": "用不超过150词写一段简洁的论文摘要。"
+    },
+    {
+      "id": "2026-09-27-09",
+      "word": "contradict",
+      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "meaning": "反驳，与……矛盾",
+      "collocation": "contradict the hypothesis",
+      "scene": "实验结果与原有假设相矛盾时的讨论",
+      "example": "These findings contradict the earlier hypothesis that larger models always generalize better.",
+      "translation": "这些发现与“更大的模型总是泛化更好”这一早期假设相矛盾。"
+    },
+    {
+      "id": "2026-09-27-10",
+      "word": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "meaning": "共识，一致意见",
+      "collocation": "reach a consensus",
+      "scene": "多智能体系统通过协商达成一致决策",
+      "example": "The agents exchange messages until they reach a consensus on the best route.",
+      "translation": "这些智能体交换信息，直到就最佳路线达成共识。"
+    }
+  ]
+}
