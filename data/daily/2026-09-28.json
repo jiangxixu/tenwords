@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-28",
+  "words": [
+    {
+      "id": "2026-09-28-01",
+      "word": "adjacent",
+      "ipa": "/əˈdʒeɪsənt/",
+      "meaning": "相邻的，邻近的",
+      "collocation": "adjacent to",
+      "scene": "论文阅读/图像处理：描述两个区域或像素在空间上紧挨着。",
+      "example": "The model attends to adjacent patches to capture local texture patterns.",
+      "translation": "该模型关注相邻的图像块以捕捉局部纹理模式。"
+    },
+    {
+      "id": "2026-09-28-02",
+      "word": "arbitrary",
+      "ipa": "/ˈɑːrbɪtreri/",
+      "meaning": "任意的，随意的",
+      "collocation": "arbitrary number of",
+      "scene": "AI 论文：说明系统可处理任意数量或任意形式的输入。",
+      "example": "The agent can accept an arbitrary number of tool calls within one episode.",
+      "translation": "该智能体在一个回合内可以接受任意数量的工具调用。"
+    },
+    {
+      "id": "2026-09-28-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "自主的，自治的",
+      "collocation": "autonomous system",
+      "scene": "机器人/无人机：描述无需人工干预即可运行的设备。",
+      "example": "Autonomous drones must replan their routes when unexpected obstacles appear.",
+      "translation": "自主无人机在出现意外障碍时必须重新规划路线。"
+    },
+    {
+      "id": "2026-09-28-04",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "大模型对话：评价模型输出是否逻辑一致、前后连贯。",
+      "example": "A good agent should produce a coherent plan before executing any action.",
+      "translation": "一个好的智能体在执行任何动作之前应该生成一个连贯的计划。"
+    },
+    {
+      "id": "2026-09-28-05",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的，简明的",
+      "collocation": "concise summary",
+      "scene": "论文写作：要求摘要或结论表达简短而信息完整。",
+      "example": "Please write a concise summary of the paper in three sentences.",
+      "translation": "请用三句话写出这篇论文的简洁摘要。"
+    },
+    {
+      "id": "2026-09-28-06",
+      "word": "contradict",
+      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "meaning": "反驳，与……矛盾",
+      "collocation": "contradict the claim",
+      "scene": "论文阅读：指出实验结果与原有假设或论述相冲突。",
+      "example": "The new findings contradict the earlier claim that scaling always helps.",
+      "translation": "新发现与之前“扩大规模总是有帮助”的说法相矛盾。"
+    },
+    {
+      "id": "2026-09-28-07",
+      "word": "discard",
+      "ipa": "/dɪsˈkɑːrd/",
+      "meaning": "丢弃，抛弃",
+      "collocation": "discard the sample",
+      "scene": "数据处理/模型训练：删除无效或低质量的样本。",
+      "example": "We discard noisy training examples before fine-tuning the model.",
+      "translation": "我们在微调模型之前丢弃了有噪声的训练样本。"
+    },
+    {
+      "id": "2026-09-28-08",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meaning": "操作，操控，巧妙处理",
+      "collocation": "manipulate the data",
+      "scene": "机器人/数据科学：对物体或数据进行精细控制与处理。",
+      "example": "The robotic arm can manipulate small objects with high precision.",
+      "translation": "这个机械臂能够以高精度操控小物体。"
+    },
+    {
+      "id": "2026-09-28-09",
+      "word": "notion",
+      "ipa": "/ˈnoʊʃn/",
+      "meaning": "概念，观念",
+      "collocation": "the notion of",
+      "scene": "论文阅读：引入或讨论某个理论概念。",
+      "example": "The paper challenges the notion that bigger datasets always yield better models.",
+      "translation": "这篇论文挑战了“更大的数据集总能产生更好的模型”这一观念。"
+    },
+    {
+      "id": "2026-09-28-10",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "感知，察觉，理解",
+      "collocation": "perceive the environment",
+      "scene": "Agent/机器人：描述智能体通过传感器理解周围环境。",
+      "example": "The agent perceives the environment through a combination of vision and text input.",
+      "translation": "该智能体通过视觉和文本输入的组合来感知环境。"
+    }
+  ]
+}
