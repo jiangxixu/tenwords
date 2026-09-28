@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-29",
+  "words": [
+    {
+      "id": "2026-09-29-01",
+      "word": "prevalent",
+      "ipa": "/ˈprevələnt/",
+      "meaning": "普遍的，流行的",
+      "collocation": "prevalent among users",
+      "scene": "论文阅读：描述某种现象在数据集中很常见",
+      "example": "This bias is prevalent across most publicly available datasets.",
+      "translation": "这种偏差在大多数公开数据集中都很普遍。"
+    },
+    {
+      "id": "2026-09-29-02",
+      "word": "leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "meaning": "利用，借助（资源或优势）",
+      "collocation": "leverage large language models",
+      "scene": "AI 研究：说明如何借助大模型提升系统能力",
+      "example": "We leverage large language models to summarize long research papers.",
+      "translation": "我们借助大语言模型来总结长篇研究论文。"
+    },
+    {
+      "id": "2026-09-29-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning": "自主的，自治的",
+      "collocation": "autonomous agent",
+      "scene": "Agent 与机器人：描述能独立决策的系统",
+      "example": "An autonomous agent can plan and execute tasks without human intervention.",
+      "translation": "自主智能体能够在无人干预的情况下规划和执行任务。"
+    },
+    {
+      "id": "2026-09-29-04",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meaning": "操作，操控，处理",
+      "collocation": "manipulate objects",
+      "scene": "机器人：描述机械臂抓取和移动物体",
+      "example": "The robot learned to manipulate small objects with high precision.",
+      "translation": "该机器人学会了高精度地操控小物体。"
+    },
+    {
+      "id": "2026-09-29-05",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航，穿行，找到路径",
+      "collocation": "navigate complex environments",
+      "scene": "无人机：描述在复杂空间中自主飞行",
+      "example": "Drones must navigate complex environments while avoiding obstacles.",
+      "translation": "无人机必须在避开障碍物的同时穿行复杂环境。"
+    },
+    {
+      "id": "2026-09-29-06",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "论文阅读：评价文章论证是否清晰连贯",
+      "example": "The paper offers a coherent explanation of the proposed mechanism.",
+      "translation": "这篇论文对所提出的机制给出了连贯清晰的解释。"
+    },
+    {
+      "id": "2026-09-29-07",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的，简明的",
+      "collocation": "concise summary",
+      "scene": "学术写作：要求摘要精炼不啰嗦",
+      "example": "A good abstract should be concise yet informative.",
+      "translation": "好的摘要应当简洁而信息充分。"
+    },
+    {
+      "id": "2026-09-29-08",
+      "word": "ambiguity",
+      "ipa": "/ˌæmbɪˈɡjuːəti/",
+      "meaning": "歧义，模糊性",
+      "collocation": "resolve ambiguity",
+      "scene": "自然语言处理：处理语言中的歧义问题",
+      "example": "Context helps the model resolve ambiguity in natural language.",
+      "translation": "上下文有助于模型消解自然语言中的歧义。"
+    },
+    {
+      "id": "2026-09-29-09",
+      "word": "scrutinize",
+      "ipa": "/ˈskruːtənaɪz/",
+      "meaning": "仔细审查，详细检查",
+      "collocation": "scrutinize the results",
+      "scene": "论文评审：仔细检查实验数据与结论",
+      "example": "Reviewers will scrutinize the experimental results before acceptance.",
+      "translation": "评审人会在接收前仔细审查实验结果。"
+    },
+    {
+      "id": "2026-09-29-10",
+      "word": "versatile",
+      "ipa": "/ˈvɜːrsətl/",
+      "meaning": "多才多艺的，多功能的，通用的",
+      "collocation": "versatile framework",
+      "scene": "AI 系统：描述一个框架能适应多种任务",
+      "example": "The proposed framework is versatile enough to handle both vision and language tasks.",
+      "translation": "所提出的框架足够通用，能同时处理视觉和语言任务。"
+    }
+  ]
+}
