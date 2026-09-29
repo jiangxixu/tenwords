@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-30",
+  "words": [
+    {
+      "id": "2026-09-30-01",
+      "word": "leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "meaning": "利用；杠杆作用；影响力",
+      "collocation": "leverage existing resources",
+      "scene": "论文写作 / 资源利用",
+      "example": "We leverage large-scale pretrained models to boost downstream task performance.",
+      "translation": "我们利用大规模预训练模型来提升下游任务的性能。"
+    },
+    {
+      "id": "2026-09-30-02",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的；条理清晰的；一致的",
+      "collocation": "coherent explanation",
+      "scene": "论文阅读 / 表达逻辑",
+      "example": "The paper provides a coherent explanation of why the agent fails in unseen environments.",
+      "translation": "这篇论文对智能体为何在未见环境中失败给出了连贯的解释。"
+    },
+    {
+      "id": "2026-09-30-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "自主的；自治的；独立行动的",
+      "collocation": "autonomous agent",
+      "scene": "AI / Agent / 无人机",
+      "example": "The drone can perform autonomous navigation without human intervention.",
+      "translation": "这架无人机无需人工干预即可执行自主导航。"
+    },
+    {
+      "id": "2026-09-30-04",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "感知；察觉；理解",
+      "collocation": "perceive the environment",
+      "scene": "机器人 / 具身智能",
+      "example": "The robot uses multiple sensors to perceive its surroundings in real time.",
+      "translation": "机器人使用多个传感器实时感知周围环境。"
+    },
+    {
+      "id": "2026-09-30-05",
+      "word": "align",
+      "ipa": "/əˈlaɪn/",
+      "meaning": "使一致；对齐；校准",
+      "collocation": "align the model with human preferences",
+      "scene": "大模型 / 对齐训练",
+      "example": "Reinforcement learning from human feedback is used to align the model with user intent.",
+      "translation": "基于人类反馈的强化学习被用于使模型与用户意图保持一致。"
+    },
+    {
+      "id": "2026-09-30-06",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的；简明的",
+      "collocation": "concise summary",
+      "scene": "论文阅读 / 写作",
+      "example": "A concise summary helps readers quickly grasp the main contribution.",
+      "translation": "简洁的摘要能帮助读者快速把握主要贡献。"
+    },
+    {
+      "id": "2026-09-30-07",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的；含糊不清的",
+      "collocation": "ambiguous instruction",
+      "scene": "Agent / 自然语言理解",
+      "example": "The agent may produce incorrect actions when the instruction is ambiguous.",
+      "translation": "当指令含糊不清时，智能体可能产生错误动作。"
+    },
+    {
+      "id": "2026-09-30-08",
+      "word": "collaborate",
+      "ipa": "/kəˈlæbəreɪt/",
+      "meaning": "合作；协作",
+      "collocation": "collaborate on a project",
+      "scene": "科研合作 / 多智能体",
+      "example": "Multiple agents collaborate to complete a complex task more efficiently.",
+      "translation": "多个智能体协作以更高效地完成复杂任务。"
+    },
+    {
+      "id": "2026-09-30-09",
+      "word": "constraint",
+      "ipa": "/kənˈstreɪnt/",
+      "meaning": "限制；约束条件",
+      "collocation": "under resource constraints",
+      "scene": "系统设计 / 优化",
+      "example": "The algorithm must satisfy strict memory constraints on edge devices.",
+      "translation": "该算法必须在边缘设备上满足严格的内存约束。"
+    },
+    {
+      "id": "2026-09-30-10",
+      "word": "insight",
+      "ipa": "/ˈɪnsaɪt/",
+      "meaning": "洞察力；深刻理解；见解",
+      "collocation": "gain insights from data",
+      "scene": "数据分析 / 论文讨论",
+      "example": "The ablation study offers valuable insights into which components matter most.",
+      "translation": "消融实验为哪些组件最重要提供了有价值的见解。"
+    }
+  ]
+}
