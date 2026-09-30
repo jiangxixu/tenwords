@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-01",
+  "words": [
+    {
+      "id": "2026-10-01-01",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous instruction",
+      "scene": "论文阅读",
+      "example": "The model's output was ambiguous, so the annotators had to discuss the intended label.",
+      "translation": "模型的输出含糊不清，因此标注人员不得不讨论预期的标签。"
+    },
+    {
+      "id": "2026-10-01-02",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "学术写作",
+      "example": "A strong paper presents a coherent argument supported by clear evidence.",
+      "translation": "一篇优秀的论文会提出一个由清晰证据支撑的连贯论证。"
+    },
+    {
+      "id": "2026-10-01-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "自主的，自治的",
+      "collocation": "autonomous agent",
+      "scene": "Agent 与机器人",
+      "example": "The autonomous agent planned its route and avoided obstacles without human input.",
+      "translation": "这个自主智能体在无人输入的情况下规划路线并避开障碍。"
+    },
+    {
+      "id": "2026-10-01-04",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meaning": "操控，操作",
+      "collocation": "manipulate objects",
+      "scene": "机器人",
+      "example": "The robotic arm can manipulate small objects with high precision.",
+      "translation": "这条机械臂能够高精度地操控小型物体。"
+    },
+    {
+      "id": "2026-10-01-05",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航，穿行",
+      "collocation": "navigate complex environments",
+      "scene": "无人机",
+      "example": "Drones must navigate complex environments while maintaining stable flight.",
+      "translation": "无人机必须在保持稳定飞行的同时穿行于复杂环境。"
+    },
+    {
+      "id": "2026-10-01-06",
+      "word": "promptly",
+      "ipa": "/ˈprɑːmptli/",
+      "meaning": "迅速地，及时地",
+      "collocation": "respond promptly",
+      "scene": "通用高频",
+      "example": "Please respond promptly to the reviewer's comments before the deadline.",
+      "translation": "请在截止日期前及时回复审稿人的意见。"
+    },
+    {
+      "id": "2026-10-01-07",
+      "word": "coarse",
+      "ipa": "/kɔːrs/",
+      "meaning": "粗糙的，粗略的",
+      "collocation": "coarse-grained analysis",
+      "scene": "大模型",
+      "example": "The first experiment used a coarse-grained analysis before moving to finer details.",
+      "translation": "第一个实验先采用粗粒度分析，然后再深入到更细的细节。"
+    },
+    {
+      "id": "2026-10-01-08",
+      "word": "discrepancy",
+      "ipa": "/dɪsˈkrepənsi/",
+      "meaning": "差异，不一致",
+      "collocation": "notable discrepancy",
+      "scene": "论文阅读",
+      "example": "There is a notable discrepancy between the reported results and our reproduction.",
+      "translation": "报告的结果与我们的复现之间存在显著差异。"
+    },
+    {
+      "id": "2026-10-01-09",
+      "word": "intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "meaning": "直观的，易懂的",
+      "collocation": "intuitive interface",
+      "scene": "人机交互",
+      "example": "The new interface is more intuitive, so users need less training.",
+      "translation": "新界面更直观，因此用户需要的培训更少。"
+    },
+    {
+      "id": "2026-10-01-10",
+      "word": "cumulative",
+      "ipa": "/ˈkjuːmjəleɪtɪv/",
+      "meaning": "累积的，渐增的",
+      "collocation": "cumulative effect",
+      "scene": "AI 训练",
+      "example": "The cumulative effect of small updates gradually improved the model's performance.",
+      "translation": "小更新的累积效应逐渐提升了模型的性能。"
+    }
+  ]
+}
