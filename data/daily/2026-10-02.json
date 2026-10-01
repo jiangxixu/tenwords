@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-02",
+  "words": [
+    {
+      "id": "2026-10-02-01",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊不清的",
+      "collocation": "ambiguous prompt",
+      "scene": "论文阅读：讨论模型对模糊指令的处理",
+      "example": "The model often fails when the prompt is ambiguous.",
+      "translation": "当提示词含糊不清时，模型常常会失败。"
+    },
+    {
+      "id": "2026-10-02-02",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，条理清晰的",
+      "collocation": "coherent response",
+      "scene": "Agent 对话：评估多轮对话质量",
+      "example": "An agent should keep a coherent response across multiple turns.",
+      "translation": "一个智能体应在多轮对话中保持连贯的回复。"
+    },
+    {
+      "id": "2026-10-02-03",
+      "word": "calibrate",
+      "ipa": "/ˈkælɪbreɪt/",
+      "meaning": "校准，调整",
+      "collocation": "calibrate the sensor",
+      "scene": "无人机：飞行前传感器校准",
+      "example": "Engineers must calibrate the drone's sensors before each flight.",
+      "translation": "工程师必须在每次飞行前校准无人机的传感器。"
+    },
+    {
+      "id": "2026-10-02-04",
+      "word": "intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "meaning": "直观的，易懂的",
+      "collocation": "intuitive interface",
+      "scene": "机器人：人机交互界面设计",
+      "example": "A good robot interface should be intuitive for non-experts.",
+      "translation": "好的机器人界面对非专家来说应当是直观的。"
+    },
+    {
+      "id": "2026-10-02-05",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的，简明的",
+      "collocation": "concise summary",
+      "scene": "论文阅读：撰写摘要",
+      "example": "Please write a concise summary of the paper in three sentences.",
+      "translation": "请用三句话为这篇论文写一个简洁的摘要。"
+    },
+    {
+      "id": "2026-10-02-06",
+      "word": "allocate",
+      "ipa": "/ˈæləkeɪt/",
+      "meaning": "分配，拨给",
+      "collocation": "allocate resources",
+      "scene": "大模型训练：计算资源分配",
+      "example": "The scheduler allocates GPU memory to each training job.",
+      "translation": "调度器为每个训练任务分配 GPU 内存。"
+    },
+    {
+      "id": "2026-10-02-07",
+      "word": "coordinate",
+      "ipa": "/koʊˈɔːrdɪneɪt/",
+      "meaning": "协调，配合",
+      "collocation": "coordinate multiple agents",
+      "scene": "Agent：多智能体协作",
+      "example": "The system must coordinate multiple agents to finish the task.",
+      "translation": "该系统必须协调多个智能体来完成这项任务。"
+    },
+    {
+      "id": "2026-10-02-08",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "感知，察觉",
+      "collocation": "perceive the environment",
+      "scene": "机器人：环境感知",
+      "example": "The robot uses cameras to perceive its surroundings.",
+      "translation": "机器人用摄像头感知周围环境。"
+    },
+    {
+      "id": "2026-10-02-09",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航，穿行",
+      "collocation": "navigate an unknown space",
+      "scene": "无人机：自主导航",
+      "example": "The drone can navigate an unknown space without GPS.",
+      "translation": "这架无人机无需 GPS 就能在未知空间中导航。"
+    },
+    {
+      "id": "2026-10-02-10",
+      "word": "summarize",
+      "ipa": "/ˈsʌməraɪz/",
+      "meaning": "总结，概括",
+      "collocation": "summarize the findings",
+      "scene": "论文阅读：提炼核心结论",
+      "example": "In the final section, the authors summarize their findings.",
+      "translation": "在最后一节，作者总结了他们的研究发现。"
+    }
+  ]
+}
