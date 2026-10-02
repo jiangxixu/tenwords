@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-03",
+  "words": [
+    {
+      "id": "2026-10-03-01",
+      "word": "leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "meaning": "利用（资源、优势等）以取得更好效果",
+      "collocation": "leverage existing data",
+      "scene": "论文写作中描述方法如何利用已有资源",
+      "example": "We leverage pre-trained language models to reduce the amount of labeled data required.",
+      "translation": "我们利用预训练语言模型来减少所需的标注数据量。"
+    },
+    {
+      "id": "2026-10-03-02",
+      "word": "expertise",
+      "ipa": "/ˌekspɜːˈtiːz/",
+      "meaning": "专业知识；专长",
+      "collocation": "domain expertise",
+      "scene": "讨论人机协作或跨学科研究时",
+      "example": "The agent can call a human expert when its own expertise is insufficient.",
+      "translation": "当智能体自身的专业知识不足时，它可以呼叫人类专家。"
+    },
+    {
+      "id": "2026-10-03-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning": "自主的；自主运行的",
+      "collocation": "autonomous agent",
+      "scene": "描述机器人、无人机或智能体的自主性",
+      "example": "The drone follows an autonomous flight plan without human control.",
+      "translation": "这架无人机按照自主飞行计划飞行，无需人工控制。"
+    },
+    {
+      "id": "2026-10-03-04",
+      "word": "perception",
+      "ipa": "/pəˈsepʃn",
+      "meaning": "感知；感知能力",
+      "collocation": "visual perception",
+      "scene": "机器人、自动驾驶中的视觉与环境理解",
+      "example": "Accurate perception is essential for a robot to navigate cluttered environments.",
+      "translation": "准确的感知对于机器人在杂乱环境中导航至关重要。"
+    },
+    {
+      "id": "2026-10-03-05",
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt",
+      "meaning": "操作；操纵；巧妙处理",
+      "collocation": "manipulate objects",
+      "scene": "机器人抓取与操作任务",
+      "example": "The robotic arm can manipulate small objects with high precision.",
+      "translation": "这条机械臂能够高精度地操作小型物体。"
+    },
+    {
+      "id": "2026-10-03-06",
+      "word": "navigation",
+      "ipa": "/ˌnævɪˈɡeɪʃn",
+      "meaning": "导航；航行",
+      "collocation": "autonomous navigation",
+      "scene": "无人机、移动机器人的路径规划",
+      "example": "Indoor navigation remains difficult because GPS signals are weak.",
+      "translation": "由于 GPS 信号较弱，室内导航仍然很困难。"
+    },
+    {
+      "id": "2026-10-03-07",
+      "word": "collaboration",
+      "ipa": "/kəˌlæbəˈreɪʃn",
+      "meaning": "合作；协作",
+      "collocation": "human-robot collaboration",
+      "scene": "多智能体系统或人机协作研究",
+      "example": "Effective collaboration between multiple agents can improve task completion speed.",
+      "translation": "多个智能体之间的有效协作可以提高任务完成速度。"
+    },
+    {
+      "id": "2026-10-03-08",
+      "word": "simulate",
+      "ipa": "/ˈsɪmjuleɪt",
+      "meaning": "模拟；仿真",
+      "collocation": "simulate the environment",
+      "scene": "强化学习、机器人训练中的仿真环境",
+      "example": "We simulate thousands of episodes before testing the policy on a real robot.",
+      "translation": "在真实机器人上测试策略之前，我们先模拟数千个回合。"
+    },
+    {
+      "id": "2026-10-03-09",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv",
+      "meaning": "察觉；感知；理解",
+      "collocation": "perceive the environment",
+      "scene": "智能体感知周围环境或用户意图",
+      "example": "The model must perceive subtle changes in user behavior.",
+      "translation": "该模型必须察觉用户行为中的细微变化。"
+    },
+    {
+      "id": "2026-10-03-10",
+      "word": "coordinate",
+      "ipa": "/kəʊˈɔːdɪneɪt",
+      "meaning": "协调；使配合",
+      "collocation": "coordinate multiple agents",
+      "scene": "多机器人或多智能体协同任务",
+      "example": "The central controller coordinates several drones to cover a large area.",
+      "translation": "中央控制器协调多架无人机覆盖大片区域。"
+    }
+  ]
+}
