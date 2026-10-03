@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-04",
+  "words": [
+    {
+      "id": "2026-10-04-01",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的；含糊不清的",
+      "collocation": "ambiguous wording",
+      "scene": "论文阅读时，作者对实验条件的描述含糊不清，导致你无法判断结论是否成立。",
+      "example": "The paper's definition of 'success' is ambiguous, so the reported gains are hard to compare.",
+      "translation": "这篇论文对“成功”的定义含糊不清，因此所报告的提升难以比较。"
+    },
+    {
+      "id": "2026-10-04-02",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的；简明的",
+      "collocation": "concise summary",
+      "scene": "你在组会上用三句话概括一篇长论文的核心贡献。",
+      "example": "Please give a concise summary of the paper before we discuss the details.",
+      "translation": "在我们讨论细节之前，请先对这篇论文做一个简明的总结。"
+    },
+    {
+      "id": "2026-10-04-03",
+      "word": "deliberate",
+      "ipa": "/dɪˈlɪbərət/",
+      "meaning": "深思熟虑的；故意的（形容词）；仔细考虑（动词）",
+      "collocation": "deliberate design choice",
+      "scene": "分析一个Agent架构时，你发现某些限制并非缺陷，而是有意的设计选择。",
+      "example": "Restricting the agent's action space was a deliberate design choice to reduce unsafe behavior.",
+      "translation": "限制该智能体的动作空间是为了减少不安全行为而有意做出的设计选择。"
+    },
+    {
+      "id": "2026-10-04-04",
+      "word": "intuitive",
+      "ipa": "/ɪnˈtjuːɪtɪv/",
+      "meaning": "直觉的；易于理解的",
+      "collocation": "intuitive explanation",
+      "scene": "你在博客里用一个类比向非专业读者解释大模型的注意力机制。",
+      "example": "Her intuitive explanation of attention made the concept much easier for beginners.",
+      "translation": "她对注意力机制的直观解释让初学者更容易理解这个概念。"
+    },
+    {
+      "id": "2026-10-04-05",
+      "word": "prominent",
+      "ipa": "/ˈprɒmɪnənt/",
+      "meaning": "显著的；重要的；突出的",
+      "collocation": "prominent feature",
+      "scene": "你在论文的消融实验中注意到，某个模块的缺失造成了最显著的效果下降。",
+      "example": "A prominent drop in accuracy appeared once the retrieval module was removed.",
+      "translation": "一旦移除检索模块，准确率就出现了显著下降。"
+    },
+    {
+      "id": "2026-10-04-06",
+      "word": "subsequent",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "meaning": "随后的；后来的",
+      "collocation": "subsequent experiments",
+      "scene": "你描述实验流程时，说明初步结果之后又做了哪些后续实验。",
+      "example": "Subsequent experiments confirmed that the improvement was not due to random seeds.",
+      "translation": "后续实验证实，这一提升并非源于随机种子。"
+    },
+    {
+      "id": "2026-10-04-07",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning": "自主的；自治的",
+      "collocation": "autonomous agent",
+      "scene": "你在讨论一个能自己规划任务、调用工具并完成目标的智能体。",
+      "example": "The autonomous agent planned its route, avoided obstacles, and landed without human input.",
+      "translation": "这个自主智能体自行规划路线、避开障碍，并在无人工干预的情况下着陆。"
+    },
+    {
+      "id": "2026-10-04-08",
+      "word": "navigation",
+      "ipa": "/ˌnævɪˈɡeɪʃn/",
+      "meaning": "导航；航行",
+      "collocation": "indoor navigation",
+      "scene": "你在读一篇关于无人机在无GPS环境中定位与导航的论文。",
+      "example": "The drone relies on visual navigation when GPS signals are unavailable indoors.",
+      "translation": "在室内没有GPS信号时，这架无人机依靠视觉导航。"
+    },
+    {
+      "id": "2026-10-04-09",
+      "word": "calibration",
+      "ipa": "/ˌkælɪˈbreɪʃn/",
+      "meaning": "校准；标定",
+      "collocation": "sensor calibration",
+      "scene": "部署机器人前，你需要对摄像头和激光雷达进行校准以保证数据一致。",
+      "example": "Proper sensor calibration is essential before the robot can map the room accurately.",
+      "translation": "在机器人能够准确绘制房间地图之前，正确的传感器校准至关重要。"
+    },
+    {
+      "id": "2026-10-04-10",
+      "word": "hallucination",
+      "ipa": "/həˌluːsɪˈneɪʃn/",
+      "meaning": "幻觉；凭空捏造（大模型生成不实内容）",
+      "collocation": "model hallucination",
+      "scene": "你在评估大模型问答系统时，发现它会自信地编造不存在的参考文献。",
+      "example": "The chatbot's hallucination produced citations to papers that do not exist.",
+      "translation": "这个聊天机器人的幻觉生成了并不存在的论文引用。"
+    }
+  ]
+}
