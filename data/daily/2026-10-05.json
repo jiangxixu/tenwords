@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-05",
+  "words": [
+    {
+      "id": "2026-10-05-01",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪərənt/",
+      "meaning": "adj. 连贯的；条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "论文阅读：评价一篇论文的论证逻辑",
+      "example": "The authors present a coherent argument for why their method outperforms the baseline.",
+      "translation": "作者们为他们的方法为何优于基线提出了一个条理清晰的论证。"
+    },
+    {
+      "id": "2026-10-05-02",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "adj. 模棱两可的；含糊不清的",
+      "collocation": "ambiguous instruction",
+      "scene": "Agent 任务：给智能体的指令含义不明确",
+      "example": "The agent failed the task because the user's instruction was too ambiguous.",
+      "translation": "由于用户的指令过于含糊，智能体未能完成任务。"
+    },
+    {
+      "id": "2026-10-05-03",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "adj. 简洁的；简明的",
+      "collocation": "concise summary",
+      "scene": "论文阅读：写摘要时需要简明扼要",
+      "example": "Please write a concise summary of the paper in under 150 words.",
+      "translation": "请用不到150词写一段简明的论文摘要。"
+    },
+    {
+      "id": "2026-10-05-04",
+      "word": "plausible",
+      "ipa": "/ˈplɔːzəbl/",
+      "meaning": "adj. 貌似合理的；可信的",
+      "collocation": "plausible explanation",
+      "scene": "论文阅读：判断作者给出的解释是否可信",
+      "example": "The proposed mechanism sounds plausible, but it still needs experimental proof.",
+      "translation": "所提出的机制听起来貌似合理，但仍需实验证明。"
+    },
+    {
+      "id": "2026-10-05-05",
+      "word": "nuance",
+      "ipa": "/ˈnuːɑːns/",
+      "meaning": "n. 细微差别；微妙之处",
+      "collocation": "subtle nuance",
+      "scene": "大模型：理解语言中的细微语义差异",
+      "example": "Large language models often miss the nuance between irony and sincerity.",
+      "translation": "大语言模型常常忽略讽刺与真诚之间的细微差别。"
+    },
+    {
+      "id": "2026-10-05-06",
+      "word": "ambiguousness",
+      "ipa": "/æmˈbɪɡjuəsnəs/",
+      "meaning": "n. 歧义性；模糊性",
+      "collocation": "reduce ambiguousness",
+      "scene": "大模型：减少提示词中的歧义",
+      "example": "Rewriting the prompt helped reduce the ambiguousness of the task description.",
+      "translation": "重写提示词有助于减少任务描述的歧义性。"
+    },
+    {
+      "id": "2026-10-05-07",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "adj. 简洁的；简练的",
+      "collocation": "concise style",
+      "scene": "写作：学术写作强调简练风格",
+      "example": "A concise style makes your paper easier for reviewers to follow.",
+      "translation": "简练的风格能让审稿人更容易读懂你的论文。"
+    },
+    {
+      "id": "2026-10-05-08",
+      "word": "coherently",
+      "ipa": "/koʊˈhɪərəntli/",
+      "meaning": "adv. 连贯地；有条理地",
+      "collocation": "argue coherently",
+      "scene": "论文写作：有条理地组织论点",
+      "example": "You need to argue coherently from the problem statement to the conclusion.",
+      "translation": "你需要从问题陈述到结论有条理地展开论证。"
+    },
+    {
+      "id": "2026-10-05-09",
+      "word": "plausibility",
+      "ipa": "/ˌplɔːzəˈbɪləti/",
+      "meaning": "n. 合理性；可信度",
+      "collocation": "assess plausibility",
+      "scene": "论文阅读：评估假设的合理性",
+      "example": "Reviewers will assess the plausibility of your assumptions before accepting the paper.",
+      "translation": "审稿人会在接收论文前评估你假设的合理性。"
+    },
+    {
+      "id": "2026-10-05-10",
+      "word": "nuanced",
+      "ipa": "/ˈnuːɑːnst/",
+      "meaning": "adj. 细致入微的；有细微差别的",
+      "collocation": "nuanced understanding",
+      "scene": "AI 研究：对复杂问题需要细致入微的理解",
+      "example": "A nuanced understanding of user intent is essential for building a reliable agent.",
+      "translation": "对用户意图细致入微的理解对于构建可靠的智能体至关重要。"
+    }
+  ]
+}
