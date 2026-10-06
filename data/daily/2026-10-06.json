@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-06",
+  "words": [
+    {
+      "id": "2026-10-06-01",
+      "word": "discard",
+      "ipa": "/dɪˈskɑːrd/",
+      "meaning": "to throw away or get rid of something that is no longer useful",
+      "collocation": "discard outdated data",
+      "scene": "When cleaning a training set, you often discard samples with missing labels.",
+      "example": "The preprocessing script will discard any image that fails the quality check.",
+      "translation": "丢弃；抛弃"
+    },
+    {
+      "id": "2026-10-06-02",
+      "word": "trigger",
+      "ipa": "/ˈtrɪɡər/",
+      "meaning": "to cause something to start or happen",
+      "collocation": "trigger a response",
+      "scene": "In an agent system, a user message can trigger a chain of tool calls.",
+      "example": "A sudden drop in accuracy may trigger an automatic rollback of the deployed model.",
+      "translation": "触发；引发"
+    },
+    {
+      "id": "2026-10-06-03",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "to find the way through a place or system; to steer a course",
+      "collocation": "navigate a complex environment",
+      "scene": "Autonomous drones must navigate crowded airspace without human control.",
+      "example": "The robot uses a depth camera to navigate around obstacles in real time.",
+      "translation": "导航；穿行"
+    },
+    {
+      "id": "2026-10-06-04",
+      "word": "calibrate",
+      "ipa": "/ˈkælɪbreɪt/",
+      "meaning": "to adjust an instrument or model so its measurements are accurate",
+      "collocation": "calibrate the sensor",
+      "scene": "Before collecting data, engineers calibrate every camera and lidar unit.",
+      "example": "We calibrate the confidence scores so the model does not appear overconfident.",
+      "translation": "校准；标定"
+    },
+    {
+      "id": "2026-10-06-05",
+      "word": "synthesize",
+      "ipa": "/ˈsɪnθəsaɪz",
+      "meaning": "to combine separate parts into a coherent whole; to produce artificially",
+      "collocation": "synthesize the findings",
+      "scene": "In a literature review, you synthesize results from many papers into one argument.",
+      "example": "The system can synthesize realistic speech from a short text prompt.",
+      "translation": "综合；合成"
+    },
+    {
+      "id": "2026-10-06-06",
+      "word": "ambiguity",
+      "ipa": "/ˌæmbɪˈɡjuːəti/",
+      "meaning": "the quality of being open to more than one interpretation; unclearness",
+      "collocation": "resolve ambiguity",
+      "scene": "Natural language prompts often contain ambiguity that the model must resolve.",
+      "example": "The paper discusses how to handle ambiguity in user instructions for AI agents.",
+      "translation": "歧义；模糊性"
+    },
+    {
+      "id": "2026-10-06-07",
+      "word": "perturb",
+      "ipa": "/pərˈtɜːrb",
+      "meaning": "to disturb or change something slightly, often to test stability",
+      "collocation": "perturb the input",
+      "scene": "Adversarial attacks perturb images so that classifiers make wrong predictions.",
+      "example": "Researchers perturb the parameters slightly to see whether performance remains stable.",
+      "translation": "扰动；微扰"
+    },
+    {
+      "id": "2026-10-06-08",
+      "word": "harness",
+      "ipa": "/ˈhɑːrnɪs",
+      "meaning": "to control and use the power of something for a purpose",
+      "collocation": "harness the power of large models",
+      "scene": "Startups try to harness large language models to automate customer support.",
+      "example": "The team harnessed GPU clusters to train the model in only three days.",
+      "translation": "利用；驾驭"
+    },
+    {
+      "id": "2026-10-06-09",
+      "word": "degrade",
+      "ipa": "/dɪˈɡreɪd",
+      "meaning": "to make something worse in quality or performance",
+      "collocation": "degrade performance",
+      "scene": "Too much noise in the data can degrade the accuracy of a model.",
+      "example": "Long conversations may degrade an agent's ability to track earlier instructions.",
+      "translation": "降低；使退化"
+    },
+    {
+      "id": "2026-10-06-10",
+      "word": "scrutinize",
+      "ipa": "/ˈskruːtənaɪz",
+      "meaning": "to examine something very carefully and critically",
+      "collocation": "scrutinize the results",
+      "scene": "Reviewers scrutinize the experimental setup before accepting a paper.",
+      "example": "We should scrutinize the baseline numbers to make sure the comparison is fair.",
+      "translation": "仔细审查"
+    }
+  ]
+}
