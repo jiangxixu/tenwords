@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-07",
+  "words": [
+    {
+      "id": "2026-10-07-01",
+      "word": "abundant",
+      "ipa": "/əˈbʌndənt/",
+      "meaning": "大量的，充足的",
+      "collocation": "abundant data",
+      "scene": "论文阅读：描述数据规模",
+      "example": "The model was trained on an abundant supply of labeled images.",
+      "translation": "该模型是在大量标注图像上训练的。"
+    },
+    {
+      "id": "2026-10-07-02",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的，条理清晰的",
+      "collocation": "coherent explanation",
+      "scene": "学术写作：评价论证逻辑",
+      "example": "The paper offers a coherent explanation of why the agent failed in unseen environments.",
+      "translation": "论文对智能体在未见环境中失败的原因给出了条理清晰的解释。"
+    },
+    {
+      "id": "2026-10-07-03",
+      "word": "intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "meaning": "直观的，易于理解的",
+      "collocation": "intuitive interface",
+      "scene": "人机交互：评价产品设计",
+      "example": "The drone controller is intuitive enough for beginners to use within minutes.",
+      "translation": "这款无人机控制器足够直观，初学者几分钟内就能上手。"
+    },
+    {
+      "id": "2026-10-07-04",
+      "word": "pertinent",
+      "ipa": "/ˈpɜːrtɪnənt/",
+      "meaning": "相关的，切题的",
+      "collocation": "pertinent question",
+      "scene": "组会讨论：提问环节",
+      "example": "She raised a pertinent question about the safety of autonomous robots.",
+      "translation": "她提出了一个关于自主机器人安全性的切题问题。"
+    },
+    {
+      "id": "2026-10-07-05",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的，含糊的",
+      "collocation": "ambiguous instruction",
+      "scene": "Agent 任务：指令理解",
+      "example": "The agent gave a wrong answer because the instruction was ambiguous.",
+      "translation": "由于指令含糊不清，智能体给出了错误答案。"
+    },
+    {
+      "id": "2026-10-07-06",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简洁的，简明的",
+      "collocation": "concise summary",
+      "scene": "论文阅读：写摘要",
+      "example": "Try to write a concise summary of the paper in under 150 words.",
+      "translation": "试着用不到150词写一份简洁的论文摘要。"
+    },
+    {
+      "id": "2026-10-07-07",
+      "word": "comprehensive",
+      "ipa": "/ˌkɑːmprɪˈhensɪv/",
+      "meaning": "全面的，综合的",
+      "collocation": "comprehensive review",
+      "scene": "文献综述：总结领域进展",
+      "example": "This survey provides a comprehensive review of large language model agents.",
+      "translation": "这篇综述对大语言模型智能体做了全面的回顾。"
+    },
+    {
+      "id": "2026-10-07-08",
+      "word": "preliminary",
+      "ipa": "/prɪˈlɪmɪneri/",
+      "meaning": "初步的，预备的",
+      "collocation": "preliminary results",
+      "scene": "实验汇报：早期结果",
+      "example": "Preliminary results suggest that the new optimizer converges faster.",
+      "translation": "初步结果表明，新优化器收敛得更快。"
+    },
+    {
+      "id": "2026-10-07-09",
+      "word": "subsequent",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "meaning": "随后的，接下来的",
+      "collocation": "subsequent experiments",
+      "scene": "论文阅读：描述实验流程",
+      "example": "Subsequent experiments confirmed that the improvement was not accidental.",
+      "translation": "随后的实验证实这一提升并非偶然。"
+    },
+    {
+      "id": "2026-10-07-10",
+      "word": "notable",
+      "ipa": "/ˈnoʊtəbl/",
+      "meaning": "显著的，值得注意的",
+      "collocation": "notable improvement",
+      "scene": "结果分析：强调变化",
+      "example": "There is a notable improvement in accuracy after fine-tuning.",
+      "translation": "微调之后，准确率有显著提升。"
+    }
+  ]
+}
