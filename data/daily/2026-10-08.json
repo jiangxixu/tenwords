@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-08",
+  "words": [
+    {
+      "id": "2026-10-08-01",
+      "word": "leverage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "meaning": "利用；杠杆作用",
+      "collocation": "leverage existing resources",
+      "scene": "论文阅读：作者说明如何利用已有工具提升效率",
+      "example": "We can leverage pre-trained language models to reduce annotation costs.",
+      "translation": "我们可以利用预训练语言模型来降低标注成本。"
+    },
+    {
+      "id": "2026-10-08-02",
+      "word": "intrinsic",
+      "ipa": "/ɪnˈtrɪnzɪk/",
+      "meaning": "内在的；固有的",
+      "collocation": "intrinsic motivation",
+      "scene": "AI 讨论：描述任务本身具有的奖励或属性",
+      "example": "Curiosity can be viewed as an intrinsic reward for an agent exploring its environment.",
+      "translation": "好奇心可以被视为智能体探索环境时的一种内在奖励。"
+    },
+    {
+      "id": "2026-10-08-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning": "自主的；自治的",
+      "collocation": "autonomous agent",
+      "scene": "Agent/机器人：描述无需人工干预即可行动的系统",
+      "example": "The drone is fully autonomous and can plan its route without human input.",
+      "translation": "这架无人机完全自主，无需人工输入即可规划路线。"
+    },
+    {
+      "id": "2026-10-08-04",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "感知；察觉",
+      "collocation": "perceive the environment",
+      "scene": "机器人：传感器获取周围信息",
+      "example": "A robot must perceive its surroundings before deciding how to move.",
+      "translation": "机器人在决定如何移动之前必须先感知周围环境。"
+    },
+    {
+      "id": "2026-10-08-05",
+      "word": "navigation",
+      "ipa": "/ˌnævɪˈɡeɪʃn/",
+      "meaning": "导航；航行",
+      "collocation": "autonomous navigation",
+      "scene": "无人机：在未知环境中寻找路径",
+      "example": "Vision-based navigation allows drones to fly indoors without GPS.",
+      "translation": "基于视觉的导航使无人机能够在没有 GPS 的室内飞行。"
+    },
+    {
+      "id": "2026-10-08-06",
+      "word": "hallucination",
+      "ipa": "/həˌluːsɪˈneɪʃn/",
+      "meaning": "幻觉；模型编造的内容",
+      "collocation": "model hallucination",
+      "scene": "大模型：生成看似合理但不真实的信息",
+      "example": "The paper proposes a method to detect hallucination in large language model outputs.",
+      "translation": "该论文提出了一种检测大语言模型输出中幻觉的方法。"
+    },
+    {
+      "id": "2026-10-08-07",
+      "word": "alignment",
+      "ipa": "/əˈlaɪnmənt/",
+      "meaning": "对齐；一致性",
+      "collocation": "value alignment",
+      "scene": "AI 安全：让模型行为符合人类意图",
+      "example": "Alignment research aims to make AI systems behave according to human values.",
+      "translation": "对齐研究旨在使 AI 系统的行为符合人类价值观。"
+    },
+    {
+      "id": "2026-10-08-08",
+      "word": "scenario",
+      "ipa": "/səˈnɑːriəʊ/",
+      "meaning": "场景；设想",
+      "collocation": "real-world scenario",
+      "scene": "论文：描述实验或应用的具体情境",
+      "example": "We evaluate the agent in a realistic driving scenario with dynamic obstacles.",
+      "translation": "我们在包含动态障碍物的真实驾驶场景中评估该智能体。"
+    },
+    {
+      "id": "2026-10-08-09",
+      "word": "granularity",
+      "ipa": "/ˌɡrænjuˈlærəti/",
+      "meaning": "粒度；精细程度",
+      "collocation": "fine granularity",
+      "scene": "数据/模型：描述划分或表示的细致程度",
+      "example": "Increasing the granularity of the annotation improves the model's understanding.",
+      "translation": "提高标注的粒度可以改善模型的理解能力。"
+    },
+    {
+      "id": "2026-10-08-10",
+      "word": "synthesize",
+      "ipa": "/ˈsɪnθəsaɪz/",
+      "meaning": "综合；合成",
+      "collocation": "synthesize data",
+      "scene": "AI 训练：生成或整合信息",
+      "example": "The system can synthesize training data from a few examples.",
+      "translation": "该系统能够从少量示例中合成训练数据。"
+    }
+  ]
+}
