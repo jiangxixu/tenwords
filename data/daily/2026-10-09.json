@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-09",
+  "words": [
+    {
+      "id": "2026-10-09-01",
+      "word": "negotiate",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "meaning": "协商；谈判；顺利通过（障碍等）",
+      "collocation": "negotiate a contract / negotiate with sb.",
+      "scene": "论文合作与项目沟通",
+      "example": "The two labs had to negotiate the terms of data sharing before starting the joint project.",
+      "translation": "两个实验室在开始联合项目之前必须协商数据共享的条款。"
+    },
+    {
+      "id": "2026-10-09-02",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的；含糊不清的",
+      "collocation": "ambiguous wording / an ambiguous result",
+      "scene": "论文阅读与写作",
+      "example": "The reviewer rejected the paper because its central claim was ambiguous and unsupported.",
+      "translation": "审稿人拒了这篇论文，因为其核心主张含糊不清且缺乏支撑。"
+    },
+    {
+      "id": "2026-10-09-03",
+      "word": "orchestrate",
+      "ipa": "/ˈɔːrkɪstreɪt/",
+      "meaning": "精心安排；协调；编排",
+      "collocation": "orchestrate a workflow / orchestrate multiple agents",
+      "scene": "Agent 系统设计",
+      "example": "The planner agent orchestrates several specialized agents to complete a complex task.",
+      "translation": "规划智能体协调多个专用智能体来完成一项复杂任务。"
+    },
+    {
+      "id": "2026-10-09-04",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "自主的；自治的；自主运行的",
+      "collocation": "autonomous vehicle / autonomous agent",
+      "scene": "无人机与机器人",
+      "example": "Autonomous drones can inspect power lines without any human operator.",
+      "translation": "自主无人机无需任何人工操作员即可巡检电力线路。"
+    },
+    {
+      "id": "2026-10-09-05",
+      "word": "hallucination",
+      "ipa": "/həˌluːsɪˈneɪʃn",
+      "meaning": "（大模型的）幻觉；虚构内容",
+      "collocation": "reduce hallucination / model hallucination",
+      "scene": "大模型评测",
+      "example": "Retrieval augmentation is often used to reduce hallucination in large language models.",
+      "translation": "检索增强常被用来减少大语言模型中的幻觉。"
+    },
+    {
+      "id": "2026-10-09-06",
+      "word": "calibrate",
+      "ipa": "/ˈkælɪbreɪt/",
+      "meaning": "校准；标定；调整",
+      "collocation": "calibrate a model / calibrate the sensor",
+      "scene": "实验与模型评估",
+      "example": "We calibrate the confidence scores so that they reflect the true probability of correctness.",
+      "translation": "我们校准置信度分数，使其反映正确的真实概率。"
+    },
+    {
+      "id": "2026-10-09-07",
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaning": "连贯的；条理清楚的；一致的",
+      "collocation": "a coherent argument / coherent output",
+      "scene": "论文写作与文本生成",
+      "example": "A good literature review should present a coherent story rather than a list of papers.",
+      "translation": "好的文献综述应呈现一个连贯的脉络，而不是论文的罗列。"
+    },
+    {
+      "id": "2026-10-09-08",
+      "word": "scenario",
+      "ipa": "/səˈnɑːrioʊ/",
+      "meaning": "情景；设想；应用场景",
+      "collocation": "a realistic scenario / in this scenario",
+      "scene": "系统设计与实验设定",
+      "example": "We tested the robot in a cluttered warehouse scenario with moving obstacles.",
+      "translation": "我们在一个布满移动障碍物的杂乱仓库场景中测试了该机器人。"
+    },
+    {
+      "id": "2026-10-09-09",
+      "word": "constrain",
+      "ipa": "/kənˈstreɪn/",
+      "meaning": "限制；约束；强迫",
+      "collocation": "constrain the search space / be constrained by memory",
+      "scene": "算法与资源限制",
+      "example": "Limited GPU memory constrains the maximum batch size we can use during training.",
+      "translation": "有限的 GPU 显存限制了我们在训练时可使用的最大批量大小。"
+    },
+    {
+      "id": "2026-10-09-10",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "meaning": "简明的；简洁的",
+      "collocation": "a concise summary / keep it concise",
+      "scene": "论文摘要与汇报",
+      "example": "Please write a concise abstract that states the problem, method, and main result.",
+      "translation": "请写一段简洁的摘要，说明问题、方法和主要结果。"
+    }
+  ]
+}
