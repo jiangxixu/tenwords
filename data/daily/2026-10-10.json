@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-10",
+  "words": [
+    {
+      "id": "2026-10-10-01",
+      "word": "leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "meaning": "利用；杠杆作用",
+      "collocation": "leverage existing resources",
+      "scene": "在论文写作或项目管理中，强调用有限资源获得更大效果。",
+      "example": "We can leverage pre-trained models to reduce training time.",
+      "translation": "我们可以利用预训练模型来减少训练时间。"
+    },
+    {
+      "id": "2026-10-10-02",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的；含糊不清的",
+      "collocation": "ambiguous instruction",
+      "scene": "描述自然语言任务中指令或数据含义不明确的情况。",
+      "example": "The agent failed because the user's instruction was ambiguous.",
+      "translation": "由于用户的指令含糊不清，智能体执行失败了。"
+    },
+    {
+      "id": "2026-10-10-03",
+      "word": "surveillance",
+      "ipa": "/sərˈveɪləns/",
+      "meaning": "监视；监控",
+      "collocation": "drone surveillance",
+      "scene": "讨论无人机、机器人或安全系统时常见。",
+      "example": "Drone surveillance can help inspect dangerous areas.",
+      "translation": "无人机监控可以帮助检查危险区域。"
+    },
+    {
+      "id": "2026-10-10-04",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaning": "自主的；自治的",
+      "collocation": "autonomous agent",
+      "scene": "描述智能体、机器人或无人机能够独立决策和行动。",
+      "example": "An autonomous agent can plan and execute tasks without human control.",
+      "translation": "自主智能体无需人工控制即可规划和执行任务。"
+    },
+    {
+      "id": "2026-10-10-05",
+      "word": "hallucination",
+      "ipa": "/həˌluːsɪˈneɪʃn/",
+      "meaning": "幻觉；模型生成的错误内容",
+      "collocation": "reduce hallucination",
+      "scene": "大模型和论文阅读中，指模型生成看似合理但不真实的信息。",
+      "example": "The paper proposes a method to reduce hallucination in large language models.",
+      "translation": "该论文提出了一种减少大语言模型幻觉的方法。"
+    },
+    {
+      "id": "2026-10-10-06",
+      "word": "alignment",
+      "ipa": "/əˈlaɪnmənt/",
+      "meaning": "对齐；一致性",
+      "collocation": "model alignment",
+      "scene": "AI 安全和大模型训练中，使模型行为符合人类价值观。",
+      "example": "Alignment research aims to make AI systems helpful and safe.",
+      "translation": "对齐研究旨在使人工智能系统既有用又安全。"
+    },
+    {
+      "id": "2026-10-10-07",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meaning": "感知；察觉",
+      "collocation": "perceive the environment",
+      "scene": "机器人、无人机和智能体通过传感器理解环境。",
+      "example": "The robot uses cameras to perceive its surroundings.",
+      "translation": "机器人使用摄像头感知周围环境。"
+    },
+    {
+      "id": "2026-10-10-08",
+      "word": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meaning": "导航；找到方向",
+      "collocation": "navigate a complex environment",
+      "scene": "无人机、机器人或智能体在环境中移动或完成任务。",
+      "example": "The drone must navigate through narrow spaces safely.",
+      "translation": "无人机必须安全地穿过狭窄空间。"
+    },
+    {
+      "id": "2026-10-10-09",
+      "word": "plausible",
+      "ipa": "/ˈplɔːzəbl/",
+      "meaning": "看似合理的；貌似可信的",
+      "collocation": "plausible explanation",
+      "scene": "论文评审或模型输出分析中，评价解释或结果是否可信。",
+      "example": "The model gave a plausible but incorrect answer.",
+      "translation": "模型给出了一个看似合理但不正确的答案。"
+    },
+    {
+      "id": "2026-10-10-10",
+      "word": "generalization",
+      "ipa": "/ˌdʒenrələˈzeɪʃn/",
+      "meaning": "泛化；一般化",
+      "collocation": "improve generalization",
+      "scene": "机器学习和论文阅读中，指模型在未见数据上的表现能力。",
+      "example": "Regularization can improve the model's generalization.",
+      "translation": "正则化可以提升模型的泛化能力。"
+    }
+  ]
+}
