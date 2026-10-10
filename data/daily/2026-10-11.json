@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-11",
+  "words": [
+    {
+      "id": "2026-10-11-01",
+      "word": "leverage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "meaning": "利用；杠杆作用",
+      "collocation": "leverage existing resources",
+      "scene": "论文阅读：作者说明如何借助已有工具提升方法效果",
+      "example": "We leverage pretrained models to reduce the amount of labeled data needed.",
+      "translation": "我们利用预训练模型来减少所需的标注数据量。"
+    },
+    {
+      "id": "2026-10-11-02",
+      "word": "prevalent",
+      "ipa": "/ˈprevələnt/",
+      "meaning": "普遍的；流行的",
+      "collocation": "widely prevalent among",
+      "scene": "AI 论文讨论某类问题在真实场景中的常见程度",
+      "example": "Data imbalance is prevalent in real-world classification tasks.",
+      "translation": "数据不平衡在真实世界的分类任务中非常普遍。"
+    },
+    {
+      "id": "2026-10-11-03",
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "meaning": "自主的；自治的",
+      "collocation": "autonomous agent",
+      "scene": "Agent 与机器人：描述系统无需人工干预即可行动",
+      "example": "The autonomous agent plans its actions and adapts to new observations.",
+      "translation": "这个自主智能体规划自身行动并适应新的观测。"
+    },
+    {
+      "id": "2026-10-11-04",
+      "word": "trajectory",
+      "ipa": "/trəˈdʒektəri/",
+      "meaning": "轨迹；发展路径",
+      "collocation": "motion trajectory",
+      "scene": "无人机与机器人：描述运动或状态随时间的变化",
+      "example": "The drone follows a smooth trajectory to avoid obstacles.",
+      "translation": "无人机沿着平滑的轨迹飞行以避开障碍物。"
+    },
+    {
+      "id": "2026-10-11-05",
+      "word": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meaning": "模棱两可的；含糊的",
+      "collocation": "ambiguous instruction",
+      "scene": "大模型对话：用户指令不清晰导致模型难以执行",
+      "example": "The prompt was ambiguous, so the model produced two different answers.",
+      "translation": "提示词含糊不清，因此模型给出了两个不同的答案。"
+    },
+    {
+      "id": "2026-10-11-06",
+      "word": "coherent",
+      "ipa": "/kəʊˈhɪərənt/",
+      "meaning": "连贯的；一致的",
+      "collocation": "coherent explanation",
+      "scene": "论文写作与模型输出：评价论述或文本是否逻辑连贯",
+      "example": "A good paper presents a coherent argument supported by experiments.",
+      "translation": "一篇好论文会提出一个由实验支撑的连贯论证。"
+    },
+    {
+      "id": "2026-10-11-07",
+      "word": "synthesize",
+      "ipa": "/ˈsɪnθəsaɪz/",
+      "meaning": "综合；合成",
+      "collocation": "synthesize information",
+      "scene": "论文阅读：把多篇文献的观点整合起来",
+      "example": "The survey synthesizes findings from over one hundred studies.",
+      "translation": "这篇综述综合了一百多项研究的发现。"
+    },
+    {
+      "id": "2026-10-11-08",
+      "word": "ambiguity",
+      "ipa": "/ˌæmbɪˈɡjuːəti/",
+      "meaning": "歧义；不确定性",
+      "collocation": "resolve ambiguity",
+      "scene": "自然语言处理：处理语言中多义或指代不清的问题",
+      "example": "Context helps the system resolve ambiguity in pronoun references.",
+      "translation": "上下文帮助系统消除代词指代中的歧义。"
+    },
+    {
+      "id": "2026-10-11-09",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "感知；察觉",
+      "collocation": "perceive the environment",
+      "scene": "机器人感知：系统通过传感器理解周围环境",
+      "example": "The robot uses cameras and lidar to perceive its surroundings.",
+      "translation": "机器人使用摄像头和激光雷达来感知周围环境。"
+    },
+    {
+      "id": "2026-10-11-10",
+      "word": "generalization",
+      "ipa": "/ˌdʒenrəlaɪˈzeɪʃn/",
+      "meaning": "泛化；概括",
+      "collocation": "poor generalization",
+      "scene": "机器学习：模型在新数据上的表现能力",
+      "example": "Too much fine-tuning can hurt the model's generalization to unseen tasks.",
+      "translation": "过度微调可能会损害模型对未见任务的泛化能力。"
+    }
+  ]
+}
