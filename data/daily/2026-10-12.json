@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-12",
+  "words": [
+    {
+      "id": "2026-10-12-01",
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "meaning": "to notice or become aware of something; to understand or interpret in a particular way",
+      "collocation": "perceive a pattern",
+      "scene": "When reading an AI paper, you need to perceive subtle differences between two model behaviors.",
+      "example": "The agent can perceive changes in its environment and adjust its plan accordingly.",
+      "translation": "察觉；感知；理解"
+    },
+    {
+      "id": "2026-10-12-02",
+      "word": "anticipate",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "meaning": "to expect something and prepare for it before it happens",
+      "collocation": "anticipate a problem",
+      "scene": "In robotics, a drone must anticipate obstacles before they enter its immediate path.",
+      "example": "Good researchers anticipate reviewer questions and address them in the paper.",
+      "translation": "预期；预料；提前准备"
+    },
+    {
+      "id": "2026-10-12-03",
+      "word": "allocate",
+      "ipa": "/ˈæləkeɪt/",
+      "meaning": "to give out or assign resources for a particular purpose",
+      "collocation": "allocate resources",
+      "scene": "When training a large model, you must allocate GPU memory carefully across tasks.",
+      "example": "The system allocates more compute to urgent agent requests.",
+      "translation": "分配；拨给"
+    },
+    {
+      "id": "2026-10-12-04",
+      "word": "complement",
+      "ipa": "/ˈkɒmplɪment/",
+      "meaning": "to add to something in a way that improves or completes it",
+      "collocation": "complement each other",
+      "scene": "In a multi-agent system, different agents may complement each other's skills.",
+      "example": "The new dataset complements existing benchmarks by covering rare edge cases.",
+      "translation": "补充；补足；与…相配"
+    },
+    {
+      "id": "2026-10-12-05",
+      "word": "degrade",
+      "ipa": "/dɪˈɡreɪd/",
+      "meaning": "to make something worse in quality, performance, or condition",
+      "collocation": "degrade performance",
+      "scene": "If the prompt is too long, the model's output quality may degrade.",
+      "example": "Noisy sensor data can degrade the drone's navigation accuracy.",
+      "translation": "降低；使退化；使恶化"
+    },
+    {
+      "id": "2026-10-12-06",
+      "word": "inspect",
+      "ipa": "/ɪnˈspekt/",
+      "meaning": "to look at something carefully in order to check its condition or find problems",
+      "collocation": "inspect the results",
+      "scene": "After an experiment, you should inspect the logs for unexpected errors.",
+      "example": "Engineers inspect the robot's joints before each deployment.",
+      "translation": "检查；审视；检验"
+    },
+    {
+      "id": "2026-10-12-07",
+      "word": "leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "meaning": "to use something you already have in order to achieve something better",
+      "collocation": "leverage existing data",
+      "scene": "You can leverage pretrained models to save time on a new NLP task.",
+      "example": "The team leveraged large-scale annotation to improve the agent's reasoning.",
+      "translation": "利用；借助；发挥…的杠杆作用"
+    },
+    {
+      "id": "2026-10-12-08",
+      "word": "prevalent",
+      "ipa": "/ˈprevələnt/",
+      "meaning": "common or widespread in a particular place or at a particular time",
+      "collocation": "increasingly prevalent",
+      "scene": "Large language models have become prevalent in both industry and academic research.",
+      "example": "This bias is prevalent in datasets collected from a single source.",
+      "translation": "普遍的；流行的；盛行的"
+    },
+    {
+      "id": "2026-10-12-09",
+      "word": "simulate",
+      "ipa": "/ˈsɪmjuleɪt/",
+      "meaning": "to create conditions or processes that imitate real ones, often for study or testing",
+      "collocation": "simulate an environment",
+      "scene": "Researchers simulate drone flights to test algorithms without real-world risk.",
+      "example": "The simulator can simulate thousands of agent interactions per minute.",
+      "translation": "模拟；仿真"
+    },
+    {
+      "id": "2026-10-12-10",
+      "word": "undergo",
+      "ipa": "/ˌʌndəˈɡəʊ/",
+      "meaning": "to experience something, especially a change or a difficult process",
+      "collocation": "undergo training",
+      "scene": "A model may undergo several rounds of fine-tuning before final evaluation.",
+      "example": "The robot underwent extensive testing before being deployed in the field.",
+      "translation": "经历；经受；接受"
+    }
+  ]
+}
