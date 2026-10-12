@@ -7,7 +7,7 @@
   <title>TenWords · 每日10词</title>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
 </head>
 <body>
   <div class="app-shell">
@@ -27,6 +27,7 @@
         <div>
           <div class="hero-date" id="heroDate"></div>
           <h2 id="heroTitle">今天，记住 10 个真正有用的词</h2>
+          <p id="syncStatus" class="sync-status" role="status"></p>
           <p id="heroSubtitle">正在同步最新词库…</p>
         </div>
         <div class="progress-ring" id="progressRing">
@@ -90,15 +91,20 @@
             </select>
           </div>
         </div>
+        <div id="libraryScope" class="library-scope" hidden><span id="libraryScopeText"></span><button id="clearScopeBtn" class="text-btn">查看全部</button></div>
         <div id="libraryList" class="word-list"></div>
+      <button id="loadMoreBtn" class="secondary-btn load-more" hidden></button>
       </section>
     </main>
 
     <footer class="footer">
-      <span>每天 10 个，长期积累。</span>
+      <span>记录保存在本机，建议定期导出备份。</span>
+      <div class="backup-actions"><button id="exportBtn" class="text-btn">导出记录</button><button id="importBtn" class="text-btn">导入记录</button><input id="importFile" type="file" accept=".json,application/json" hidden /></div>
       <button id="resetBtn" class="text-btn">重置学习记录</button>
     </footer>
   </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
   <template id="wordCardTemplate">
     <article class="word-card">
@@ -134,7 +140,7 @@
     </article>
   </template>
 
-  <script src="app.js?v=9" defer></script>
+  <script src="app.js?v=10" defer></script>
 </body>
 </html>
 
