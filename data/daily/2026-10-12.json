@@ -5,101 +5,101 @@
       "id": "2026-10-12-01",
       "word": "perceive",
       "ipa": "/pəˈsiːv/",
-      "meaning": "to notice or become aware of something; to understand or interpret in a particular way",
+      "meaning": "察觉；感知；理解",
       "collocation": "perceive a pattern",
-      "scene": "When reading an AI paper, you need to perceive subtle differences between two model behaviors.",
+      "scene": "论文阅读：察觉两种模型行为之间的细微差异",
       "example": "The agent can perceive changes in its environment and adjust its plan accordingly.",
-      "translation": "察觉；感知；理解"
+      "translation": "智能体能够感知环境中的变化，并相应调整计划。"
     },
     {
       "id": "2026-10-12-02",
       "word": "anticipate",
       "ipa": "/ænˈtɪsɪpeɪt/",
-      "meaning": "to expect something and prepare for it before it happens",
+      "meaning": "预期；预料；提前准备",
       "collocation": "anticipate a problem",
-      "scene": "In robotics, a drone must anticipate obstacles before they enter its immediate path.",
+      "scene": "机器人与无人机：提前预判运动路径中的障碍物",
       "example": "Good researchers anticipate reviewer questions and address them in the paper.",
-      "translation": "预期；预料；提前准备"
+      "translation": "优秀的研究者会预判审稿人的问题，并在论文中予以解答。"
     },
     {
       "id": "2026-10-12-03",
       "word": "allocate",
       "ipa": "/ˈæləkeɪt/",
-      "meaning": "to give out or assign resources for a particular purpose",
+      "meaning": "分配；拨给",
       "collocation": "allocate resources",
-      "scene": "When training a large model, you must allocate GPU memory carefully across tasks.",
+      "scene": "模型训练：合理分配不同任务使用的GPU显存",
       "example": "The system allocates more compute to urgent agent requests.",
-      "translation": "分配；拨给"
+      "translation": "系统为紧急的智能体请求分配更多计算资源。"
     },
     {
       "id": "2026-10-12-04",
       "word": "complement",
       "ipa": "/ˈkɒmplɪment/",
-      "meaning": "to add to something in a way that improves or completes it",
+      "meaning": "补充；补足；与……相配",
       "collocation": "complement each other",
-      "scene": "In a multi-agent system, different agents may complement each other's skills.",
+      "scene": "多智能体系统：不同智能体的技能相互补充",
       "example": "The new dataset complements existing benchmarks by covering rare edge cases.",
-      "translation": "补充；补足；与…相配"
+      "translation": "新数据集通过覆盖罕见的边界情况，对现有基准进行了补充。"
     },
     {
       "id": "2026-10-12-05",
       "word": "degrade",
       "ipa": "/dɪˈɡreɪd/",
-      "meaning": "to make something worse in quality, performance, or condition",
+      "meaning": "降低；使退化；使恶化",
       "collocation": "degrade performance",
-      "scene": "If the prompt is too long, the model's output quality may degrade.",
+      "scene": "大模型应用：提示词过长可能使输出质量下降",
       "example": "Noisy sensor data can degrade the drone's navigation accuracy.",
-      "translation": "降低；使退化；使恶化"
+      "translation": "带有噪声的传感器数据可能降低无人机的导航精度。"
     },
     {
       "id": "2026-10-12-06",
       "word": "inspect",
       "ipa": "/ɪnˈspekt/",
-      "meaning": "to look at something carefully in order to check its condition or find problems",
+      "meaning": "检查；审视；检验",
       "collocation": "inspect the results",
-      "scene": "After an experiment, you should inspect the logs for unexpected errors.",
+      "scene": "实验调试：检查日志中是否存在意外错误",
       "example": "Engineers inspect the robot's joints before each deployment.",
-      "translation": "检查；审视；检验"
+      "translation": "工程师在每次部署前都会检查机器人的关节。"
     },
     {
       "id": "2026-10-12-07",
       "word": "leverage",
       "ipa": "/ˈlevərɪdʒ/",
-      "meaning": "to use something you already have in order to achieve something better",
+      "meaning": "利用；借助",
       "collocation": "leverage existing data",
-      "scene": "You can leverage pretrained models to save time on a new NLP task.",
+      "scene": "自然语言处理：利用预训练模型节省新任务的开发时间",
       "example": "The team leveraged large-scale annotation to improve the agent's reasoning.",
-      "translation": "利用；借助；发挥…的杠杆作用"
+      "translation": "团队利用大规模标注来提升智能体的推理能力。"
     },
     {
       "id": "2026-10-12-08",
       "word": "prevalent",
       "ipa": "/ˈprevələnt/",
-      "meaning": "common or widespread in a particular place or at a particular time",
+      "meaning": "普遍的；流行的；盛行的",
       "collocation": "increasingly prevalent",
-      "scene": "Large language models have become prevalent in both industry and academic research.",
+      "scene": "科研与产业：描述大语言模型被广泛应用的现象",
       "example": "This bias is prevalent in datasets collected from a single source.",
-      "translation": "普遍的；流行的；盛行的"
+      "translation": "这种偏差普遍存在于从单一来源收集的数据集中。"
     },
     {
       "id": "2026-10-12-09",
       "word": "simulate",
       "ipa": "/ˈsɪmjuleɪt/",
-      "meaning": "to create conditions or processes that imitate real ones, often for study or testing",
+      "meaning": "模拟；仿真",
       "collocation": "simulate an environment",
-      "scene": "Researchers simulate drone flights to test algorithms without real-world risk.",
+      "scene": "无人机研究：通过模拟飞行测试算法",
       "example": "The simulator can simulate thousands of agent interactions per minute.",
-      "translation": "模拟；仿真"
+      "translation": "该模拟器每分钟可以模拟数千次智能体交互。"
     },
     {
       "id": "2026-10-12-10",
       "word": "undergo",
       "ipa": "/ˌʌndəˈɡəʊ/",
-      "meaning": "to experience something, especially a change or a difficult process",
+      "meaning": "经历；经受",
       "collocation": "undergo training",
-      "scene": "A model may undergo several rounds of fine-tuning before final evaluation.",
+      "scene": "模型训练：最终评估之前进行多轮微调",
       "example": "The robot underwent extensive testing before being deployed in the field.",
-      "translation": "经历；经受；接受"
+      "translation": "机器人在投入现场使用之前经历了大量测试。"
     }
   ]
 }
