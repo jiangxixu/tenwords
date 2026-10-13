@@ -2,12 +2,20 @@ name: Generate daily vocabulary
 
 on:
   schedule:
-    # 03:00 Asia/Shanghai (UTC+8); GitHub schedules may be delayed.
+    # Primary: 03:00 Asia/Shanghai. Retry: 03:23, 04:23 and 06:23.
+    # GitHub schedule is best-effort and may be delayed.
     - cron: '0 19 * * *'
+    - cron: '23 19,20,22 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-daily.mjs'
+      - 'scripts/fallback-words.json'
+      - '.github/workflows/daily-words.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: daily-vocabulary
@@ -17,18 +25,17 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-
-      - name: Generate words with DeepSeek
+          node-version: 24
+      - name: Generate words with validation and reserve
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: node scripts/generate-daily.mjs
-
       - name: Commit changes
         run: |
           git config user.name "tenwords-bot"
@@ -37,4 +44,27 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Add daily vocabulary"
           git push
+      - name: Prepare published files
+        run: |
+          mkdir -p _site
+          cp index.html app.js styles.css sw.js manifest.webmanifest favicon.svg _site/
+          cp -r data _site/data
+      - name: Upload website including today's words
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish generated words to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
