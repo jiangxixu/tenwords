@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-14",
+  "words": [
+    {
+      "id": "2026-10-14-01",
+      "word": "reconcile",
+      "ipa": "/ˈrekənsaɪl/",
+      "meaning": "调和；使一致",
+      "collocation": "reconcile conflicting results",
+      "scene": "论文阅读：当两篇论文结论矛盾时，尝试调和它们的发现",
+      "example": "The survey attempts to reconcile conflicting results from prior studies.",
+      "translation": "这篇综述试图调和先前研究中相互矛盾的结论。"
+    },
+    {
+      "id": "2026-10-14-02",
+      "word": "elicit",
+      "ipa": "/ɪˈlɪsɪt/",
+      "meaning": "引出；诱发",
+      "collocation": "elicit a response",
+      "scene": "AI 交互：设计提示词以引出模型更可靠的回答",
+      "example": "A well-crafted prompt can elicit more reliable answers from the model.",
+      "translation": "精心设计的提示词可以从模型中引出更可靠的回答。"
+    },
+    {
+      "id": "2026-10-14-03",
+      "word": "disentangle",
+      "ipa": "/ˌdɪsɪnˈtæŋɡl/",
+      "meaning": "解开；理清",
+      "collocation": "disentangle causal effects",
+      "scene": "实验分析：从混杂因素中理清因果关系",
+      "example": "The researchers disentangle causal effects from mere correlations in the data.",
+      "translation": "研究人员从数据中的单纯相关性里理清因果关系。"
+    },
+    {
+      "id": "2026-10-14-04",
+      "word": "reiterate",
+      "ipa": "/riˈɪtəreɪt/",
+      "meaning": "重申；反复强调",
+      "collocation": "reiterate the main point",
+      "scene": "论文写作：在结论部分重申核心论点",
+      "example": "The conclusion reiterates the main point of the paper for clarity.",
+      "translation": "结论部分为清晰起见重申了论文的核心论点。"
+    },
+    {
+      "id": "2026-10-14-05",
+      "word": "repercussion",
+      "ipa": "/ˌriːpəˈkʌʃn/",
+      "meaning": "影响；后果",
+      "collocation": "long-term repercussions",
+      "scene": "AI 伦理：讨论自动化决策带来的长期社会影响",
+      "example": "Automated decisions may have long-term repercussions for society.",
+      "translation": "自动化决策可能会对社会产生长期影响。"
+    },
+    {
+      "id": "2026-10-14-06",
+      "word": "encompass",
+      "ipa": "/ɪnˈkʌmpəs/",
+      "meaning": "包含；涵盖",
+      "collocation": "encompass a wide range",
+      "scene": "课程学习：该领域涵盖从感知到控制的广泛主题",
+      "example": "The field of robotics encompasses a wide range of topics from perception to control.",
+      "translation": "机器人学领域涵盖了从感知到控制的广泛主题。"
+    },
+    {
+      "id": "2026-10-14-07",
+      "word": "conducive",
+      "ipa": "/kənˈdjuːsɪv/",
+      "meaning": "有助于……的；有益的",
+      "collocation": "conducive to learning",
+      "scene": "科研环境：安静的环境有助于深度阅读论文",
+      "example": "A quiet environment is conducive to deep reading of research papers.",
+      "translation": "安静的环境有助于深度阅读研究论文。"
+    },
+    {
+      "id": "2026-10-14-08",
+      "word": "recount",
+      "ipa": "/rɪˈkaʊnt/",
+      "meaning": "叙述；讲述",
+      "collocation": "recount the experiment",
+      "scene": "组会汇报：向导师讲述实验的完整过程",
+      "example": "She recounted the experiment step by step during the group meeting.",
+      "translation": "她在组会上一步一步地讲述了实验过程。"
+    },
+    {
+      "id": "2026-10-14-09",
+      "word": "diagnose",
+      "ipa": "/ˈdaɪəɡnəʊz/",
+      "meaning": "诊断；查明原因",
+      "collocation": "diagnose a problem",
+      "scene": "工程调试：通过日志查明故障原因",
+      "example": "Engineers diagnose the problem by checking the logs.",
+      "translation": "工程师通过检查日志来查明问题。"
+    },
+    {
+      "id": "2026-10-14-10",
+      "word": "paradigm",
+      "ipa": "/ˈpærədaɪm/",
+      "meaning": "范式；典范",
+      "collocation": "shift the paradigm",
+      "scene": "论文阅读：作者提出新的研究范式来重新定义问题",
+      "example": "The paper introduces a new paradigm for human-robot collaboration.",
+      "translation": "这篇论文为人机协作引入了一种新范式。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
