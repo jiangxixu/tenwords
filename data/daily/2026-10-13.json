@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-13",
+  "words": [
+    {
+      "id": "2026-10-13-01",
+      "word": "traverse",
+      "ipa": "/trəˈvɜːrs/",
+      "meaning": "遍历；穿过",
+      "collocation": "traverse a graph",
+      "scene": "算法学习：遍历图或树结构以访问所有节点",
+      "example": "The algorithm traverses the graph to find the shortest path.",
+      "translation": "该算法遍历图以找到最短路径。"
+    },
+    {
+      "id": "2026-10-13-02",
+      "word": "concatenate",
+      "ipa": "/kənˈkætəneɪt/",
+      "meaning": "连接；拼接",
+      "collocation": "concatenate strings",
+      "scene": "编程实践：将多个字符串或数组连接成一个",
+      "example": "You can concatenate the two strings using the plus operator.",
+      "translation": "你可以使用加号运算符连接这两个字符串。"
+    },
+    {
+      "id": "2026-10-13-03",
+      "word": "frugal",
+      "ipa": "/ˈfruːɡəl/",
+      "meaning": "节俭的；节约的",
+      "collocation": "frugal approach",
+      "scene": "AI模型训练：在有限计算资源下设计节俭的训练策略",
+      "example": "The team adopted a frugal approach to train the model within the budget.",
+      "translation": "团队采用了一种节俭的方法，在预算内训练模型。"
+    },
+    {
+      "id": "2026-10-13-04",
+      "word": "vigilant",
+      "ipa": "/ˈvɪdʒɪlənt/",
+      "meaning": "警惕的；警觉的",
+      "collocation": "remain vigilant",
+      "scene": "机器人导航：对动态障碍物保持警惕",
+      "example": "The robot must remain vigilant to avoid sudden obstacles.",
+      "translation": "机器人必须保持警惕，以避免突然出现的障碍物。"
+    },
+    {
+      "id": "2026-10-13-05",
+      "word": "intricate",
+      "ipa": "/ˈɪntrɪkət/",
+      "meaning": "复杂的；错综的",
+      "collocation": "intricate details",
+      "scene": "论文阅读：理解复杂系统的细节",
+      "example": "The paper describes the intricate details of the neural network.",
+      "translation": "这篇论文描述了神经网络的复杂细节。"
+    },
+    {
+      "id": "2026-10-13-06",
+      "word": "meticulous",
+      "ipa": "/məˈtɪkjələs/",
+      "meaning": "一丝不苟的；细致的",
+      "collocation": "meticulous attention",
+      "scene": "实验设计：对细节一丝不苟",
+      "example": "The researcher paid meticulous attention to the experimental setup.",
+      "translation": "研究人员对实验设置给予了细致的关注。"
+    },
+    {
+      "id": "2026-10-13-07",
+      "word": "streamline",
+      "ipa": "/ˈstriːmlaɪn/",
+      "meaning": "简化；使效率更高",
+      "collocation": "streamline the workflow",
+      "scene": "项目管理：优化机器学习实验流程",
+      "example": "We streamlined the workflow by automating data preprocessing.",
+      "translation": "我们通过自动化数据预处理简化了工作流程。"
+    },
+    {
+      "id": "2026-10-13-08",
+      "word": "redundancy",
+      "ipa": "/rɪˈdʌndənsi/",
+      "meaning": "冗余；多余",
+      "collocation": "reduce redundancy",
+      "scene": "数据工程：去除数据中的重复信息",
+      "example": "The new algorithm reduces redundancy in the training data.",
+      "translation": "新算法减少了训练数据中的冗余。"
+    },
+    {
+      "id": "2026-10-13-09",
+      "word": "pragmatic",
+      "ipa": "/præɡˈmætɪk/",
+      "meaning": "务实的；实用主义的",
+      "collocation": "pragmatic solution",
+      "scene": "工程决策：选择实际可行的方案",
+      "example": "We need a pragmatic solution that works within our budget.",
+      "translation": "我们需要一个在预算内可行的务实解决方案。"
+    },
+    {
+      "id": "2026-10-13-10",
+      "word": "scrutiny",
+      "ipa": "/ˈskruːtəni/",
+      "meaning": "详细审查；仔细检查",
+      "collocation": "under scrutiny",
+      "scene": "论文评审：模型结果受到严格审查",
+      "example": "The model's predictions came under close scrutiny during peer review.",
+      "translation": "在同行评审中，模型的预测受到了严格审查。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
