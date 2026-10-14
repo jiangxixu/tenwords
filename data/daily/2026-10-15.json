@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-15",
+  "words": [
+    {
+      "id": "2026-10-15-01",
+      "word": "arbitrate",
+      "ipa": "/ˈɑːbɪtreɪt/",
+      "meaning": "仲裁；公断",
+      "collocation": "arbitrate a dispute",
+      "scene": "多机器人系统：仲裁机器人之间的资源分配冲突",
+      "example": "A central controller arbitrates disputes between robots over shared resources.",
+      "translation": "中央控制器仲裁机器人之间对共享资源的争用。"
+    },
+    {
+      "id": "2026-10-15-02",
+      "word": "coalesce",
+      "ipa": "/ˌkəʊəˈles/",
+      "meaning": "合并；联合",
+      "collocation": "coalesce into clusters",
+      "scene": "数据聚类：将相似的数据点合并成簇",
+      "example": "The algorithm coalesces similar data points into distinct clusters.",
+      "translation": "该算法将相似的数据点合并成不同的簇。"
+    },
+    {
+      "id": "2026-10-15-03",
+      "word": "disseminate",
+      "ipa": "/dɪˈsemɪneɪt/",
+      "meaning": "传播；散布",
+      "collocation": "disseminate information",
+      "scene": "分布式系统：将更新传播到所有节点",
+      "example": "The system disseminates updates to all nodes in the network.",
+      "translation": "系统将更新传播到网络中的所有节点。"
+    },
+    {
+      "id": "2026-10-15-04",
+      "word": "elucidate",
+      "ipa": "/ɪˈluːsɪdeɪt/",
+      "meaning": "阐明；解释",
+      "collocation": "elucidate the mechanism",
+      "scene": "论文阅读：阐明模型的工作原理",
+      "example": "The paper elucidates the underlying mechanism of the proposed model.",
+      "translation": "该论文阐明了所提出模型的潜在机制。"
+    },
+    {
+      "id": "2026-10-15-05",
+      "word": "fabricate",
+      "ipa": "/ˈfæbrɪkeɪt/",
+      "meaning": "制造；装配",
+      "collocation": "fabricate a component",
+      "scene": "机器人制造：使用3D打印制造机器人部件",
+      "example": "The lab fabricates custom robot components using 3D printing.",
+      "translation": "实验室使用3D打印制造定制的机器人部件。"
+    },
+    {
+      "id": "2026-10-15-06",
+      "word": "juxtapose",
+      "ipa": "/ˌdʒʌkstəˈpəʊz/",
+      "meaning": "并置；并列",
+      "collocation": "juxtapose results",
+      "scene": "论文阅读：将不同方法的结果并排比较",
+      "example": "The authors juxtapose the results of different methods in the table.",
+      "translation": "作者在表格中将不同方法的结果并排比较。"
+    },
+    {
+      "id": "2026-10-15-07",
+      "word": "perpetuate",
+      "ipa": "/pəˈpetʃueɪt/",
+      "meaning": "使持续；使永久化",
+      "collocation": "perpetuate a cycle",
+      "scene": "AI伦理：模型可能延续社会偏见",
+      "example": "AI models can perpetuate existing biases if not carefully designed.",
+      "translation": "如果不仔细设计，AI模型可能会延续现有的偏见。"
+    },
+    {
+      "id": "2026-10-15-08",
+      "word": "safeguard",
+      "ipa": "/ˈseɪfɡɑːrd/",
+      "meaning": "保护；防护措施",
+      "collocation": "safeguard data",
+      "scene": "AI安全：设计机制保护用户数据不被滥用",
+      "example": "The new policy aims to safeguard user data from unauthorized access.",
+      "translation": "新政策旨在保护用户数据免遭未经授权的访问。"
+    },
+    {
+      "id": "2026-10-15-09",
+      "word": "versatility",
+      "ipa": "/ˌvɜːrsəˈtɪləti/",
+      "meaning": "多功能性；通用性",
+      "collocation": "versatility of a model",
+      "scene": "机器人设计：强调机器人的多功能适应能力",
+      "example": "The robot's versatility allows it to perform various tasks in different environments.",
+      "translation": "这款机器人的多功能性使其能够在不同环境中执行各种任务。"
+    },
+    {
+      "id": "2026-10-15-10",
+      "word": "streamlined",
+      "ipa": "/ˈstriːmlaɪnd/",
+      "meaning": "精简的；流线型的",
+      "collocation": "streamlined workflow",
+      "scene": "论文写作：优化研究流程以提高效率",
+      "example": "We adopted a streamlined workflow to speed up the experiment cycle.",
+      "translation": "我们采用了精简的工作流程来加快实验周期。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
