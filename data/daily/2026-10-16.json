@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-16",
+  "words": [
+    {
+      "id": "2026-10-16-01",
+      "word": "impede",
+      "ipa": "/ɪmˈpiːd/",
+      "meaning": "阻碍；妨碍",
+      "collocation": "impede progress",
+      "scene": "项目管理：资源不足会阻碍项目进展",
+      "example": "A lack of resources can impede the progress of the project.",
+      "translation": "资源不足可能会阻碍项目的进展。"
+    },
+    {
+      "id": "2026-10-16-02",
+      "word": "incur",
+      "ipa": "/ɪnˈkɜːr/",
+      "meaning": "招致；蒙受",
+      "collocation": "incur costs",
+      "scene": "云计算：使用额外服务会产生费用",
+      "example": "Using additional services may incur extra costs.",
+      "translation": "使用额外服务可能会产生额外费用。"
+    },
+    {
+      "id": "2026-10-16-03",
+      "word": "adhere",
+      "ipa": "/ədˈhɪər/",
+      "meaning": "遵守；坚持",
+      "collocation": "adhere to standards",
+      "scene": "软件开发：必须遵守编码规范",
+      "example": "Developers must adhere to coding standards to ensure quality.",
+      "translation": "开发人员必须遵守编码规范以确保质量。"
+    },
+    {
+      "id": "2026-10-16-04",
+      "word": "contemplate",
+      "ipa": "/ˈkɒntəmpleɪt/",
+      "meaning": "考虑；沉思",
+      "collocation": "contemplate a problem",
+      "scene": "算法设计：在编写代码前仔细考虑问题",
+      "example": "She took a moment to contemplate the problem before writing code.",
+      "translation": "她在编写代码前花了一点时间思考问题。"
+    },
+    {
+      "id": "2026-10-16-05",
+      "word": "deem",
+      "ipa": "/diːm/",
+      "meaning": "认为；视为",
+      "collocation": "deem necessary",
+      "scene": "论文评审：认为某些修改是必要的",
+      "example": "The reviewers deemed the revisions necessary for publication.",
+      "translation": "审稿人认为这些修改对于发表是必要的。"
+    },
+    {
+      "id": "2026-10-16-06",
+      "word": "entail",
+      "ipa": "/ɪnˈteɪl/",
+      "meaning": "需要；涉及",
+      "collocation": "entail risks",
+      "scene": "AI部署：在生产环境部署模型涉及风险",
+      "example": "Deploying AI models in production entails significant risks.",
+      "translation": "在生产环境中部署AI模型涉及重大风险。"
+    },
+    {
+      "id": "2026-10-16-07",
+      "word": "exert",
+      "ipa": "/ɪɡˈzɜːrt/",
+      "meaning": "施加；运用",
+      "collocation": "exert influence",
+      "scene": "机器人控制：控制器对机械臂施加力",
+      "example": "The controller can exert precise force on the robotic arm.",
+      "translation": "控制器可以对机械臂施加精确的力。"
+    },
+    {
+      "id": "2026-10-16-08",
+      "word": "impart",
+      "ipa": "/ɪmˈpɑːrt/",
+      "meaning": "传授；赋予",
+      "collocation": "impart knowledge",
+      "scene": "教育：教授向学生传授知识",
+      "example": "The professor aims to impart practical knowledge to students.",
+      "translation": "教授旨在向学生传授实用知识。"
+    },
+    {
+      "id": "2026-10-16-09",
+      "word": "presume",
+      "ipa": "/prɪˈzjuːm/",
+      "meaning": "假定；推测",
+      "collocation": "presume a fact",
+      "scene": "实验设计：假定某些条件成立",
+      "example": "We presume that the input data is correctly labeled.",
+      "translation": "我们假定输入数据已正确标注。"
+    },
+    {
+      "id": "2026-10-16-10",
+      "word": "refrain",
+      "ipa": "/rɪˈfreɪn/",
+      "meaning": "避免；克制",
+      "collocation": "refrain from",
+      "scene": "学术写作：避免使用模糊语言",
+      "example": "Authors should refrain from using vague language in papers.",
+      "translation": "作者在论文中应避免使用模糊语言。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
