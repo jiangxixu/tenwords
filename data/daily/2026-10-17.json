@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-17",
+  "words": [
+    {
+      "id": "2026-10-17-01",
+      "word": "blueprint",
+      "ipa": "/ˈbluːprɪnt/",
+      "meaning": "蓝图；详细规划",
+      "collocation": "system blueprint",
+      "scene": "系统设计：在编码前先画出整体架构蓝图",
+      "example": "The team drafted a blueprint for the new robot platform before writing any code.",
+      "translation": "团队在编写任何代码之前，为新机器人平台起草了一份蓝图。"
+    },
+    {
+      "id": "2026-10-17-02",
+      "word": "bottleneck",
+      "ipa": "/ˈbɒtlnek/",
+      "meaning": "瓶颈；障碍",
+      "collocation": "performance bottleneck",
+      "scene": "性能调优：定位拖慢训练速度的瓶颈环节",
+      "example": "Profiling revealed that data loading was the main bottleneck in the training loop.",
+      "translation": "性能分析显示，数据加载是训练循环中的主要瓶颈。"
+    },
+    {
+      "id": "2026-10-17-03",
+      "word": "refine",
+      "ipa": "/rɪˈfaɪn/",
+      "meaning": "改进；精炼",
+      "collocation": "refine a technique",
+      "scene": "科研写作：反复打磨实验方法或论文表述",
+      "example": "The team continued to refine the algorithm after the first round of tests.",
+      "translation": "在第一轮测试之后，团队继续改进该算法。"
+    },
+    {
+      "id": "2026-10-17-04",
+      "word": "proficient",
+      "ipa": "/prəˈfɪʃənt/",
+      "meaning": "熟练的；精通的",
+      "collocation": "proficient in programming",
+      "scene": "技能描述：说明自己熟练掌握某种编程语言或工具",
+      "example": "She became proficient in Python before starting her graduate research.",
+      "translation": "她在开始研究生研究之前已经熟练掌握了Python。"
+    },
+    {
+      "id": "2026-10-17-05",
+      "word": "viable",
+      "ipa": "/ˈvaɪəbl/",
+      "meaning": "可行的；能存活的",
+      "collocation": "a viable solution",
+      "scene": "项目讨论：判断某个技术路线是否可行",
+      "example": "This approach seems viable, but it needs more testing.",
+      "translation": "这种方法似乎可行，但还需要更多测试。"
+    },
+    {
+      "id": "2026-10-17-06",
+      "word": "thorough",
+      "ipa": "/ˈθʌrə/",
+      "meaning": "彻底的；详尽的",
+      "collocation": "a thorough review",
+      "scene": "文献阅读：对相关研究进行全面细致的综述",
+      "example": "A thorough review of the literature helped her find the research gap.",
+      "translation": "对文献的详尽综述帮助她找到了研究空白。"
+    },
+    {
+      "id": "2026-10-17-07",
+      "word": "corroborate",
+      "ipa": "/kəˈrɒbəreɪt/",
+      "meaning": "证实；支持",
+      "collocation": "corroborate the findings",
+      "scene": "论文阅读：用额外实验或数据支持已有结论",
+      "example": "Additional experiments corroborate the main findings of the paper.",
+      "translation": "额外的实验证实了论文的主要发现。"
+    },
+    {
+      "id": "2026-10-17-08",
+      "word": "granular",
+      "ipa": "/ˈɡrænjələ(r)/",
+      "meaning": "细粒度的；详细的",
+      "collocation": "granular control",
+      "scene": "AI系统设计：对模型推理过程进行细粒度控制",
+      "example": "The new framework offers granular control over each layer of the neural network.",
+      "translation": "新框架对神经网络的每一层提供了细粒度控制。"
+    },
+    {
+      "id": "2026-10-17-09",
+      "word": "provenance",
+      "ipa": "/ˈprɒvənəns/",
+      "meaning": "来源；出处",
+      "collocation": "data provenance",
+      "scene": "论文阅读：追踪数据集的来源与处理历史",
+      "example": "Researchers must document the provenance of their training data to ensure reproducibility.",
+      "translation": "研究人员必须记录训练数据的来源以确保可复现性。"
+    },
+    {
+      "id": "2026-10-17-10",
+      "word": "heuristic",
+      "ipa": "/hjuˈrɪstɪk/",
+      "meaning": "启发式的；启发法",
+      "collocation": "heuristic search",
+      "scene": "机器人路径规划：使用启发式方法快速找到可行路径",
+      "example": "The robot uses a heuristic search algorithm to find a path through the cluttered environment.",
+      "translation": "机器人使用启发式搜索算法在杂乱环境中找到一条路径。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
