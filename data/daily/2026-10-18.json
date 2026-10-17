@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-18",
+  "words": [
+    {
+      "id": "2026-10-18-01",
+      "word": "consolidate",
+      "ipa": "/kənˈsɒlɪdeɪt/",
+      "meaning": "巩固；合并",
+      "collocation": "consolidate findings",
+      "scene": "论文写作：把多组实验结果整合成统一结论",
+      "example": "The authors consolidate their findings into a single clear table.",
+      "translation": "作者们把他们的发现整合进一张清晰的表格中。"
+    },
+    {
+      "id": "2026-10-18-02",
+      "word": "overview",
+      "ipa": "/ˈəʊvəvjuː/",
+      "meaning": "概览；综述",
+      "collocation": "provide an overview",
+      "scene": "论文阅读：先读摘要获得全文概览",
+      "example": "The abstract gives a brief overview of the whole study.",
+      "translation": "摘要给出了整项研究的简要概览。"
+    },
+    {
+      "id": "2026-10-18-03",
+      "word": "substantiate",
+      "ipa": "/səbˈstænʃieɪt/",
+      "meaning": "证实；为…提供依据",
+      "collocation": "substantiate a claim",
+      "scene": "学术论证：用实验数据支撑论点",
+      "example": "The team needs more data to substantiate this claim.",
+      "translation": "团队需要更多数据来证实这一主张。"
+    },
+    {
+      "id": "2026-10-18-04",
+      "word": "trace",
+      "ipa": "/treɪs/",
+      "meaning": "追踪；追溯",
+      "collocation": "trace the error",
+      "scene": "系统调试：沿着调用链追溯异常来源",
+      "example": "She traced the error back to a misconfigured environment variable.",
+      "translation": "她将错误追溯到一个配置有误的环境变量。"
+    },
+    {
+      "id": "2026-10-18-05",
+      "word": "clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "meaning": "澄清；阐明",
+      "collocation": "clarify the requirement",
+      "scene": "论文写作：把含糊的表述改写得更清楚",
+      "example": "The authors clarify their definition of the term in the second section.",
+      "translation": "作者在第二节中澄清了该术语的定义。"
+    },
+    {
+      "id": "2026-10-18-06",
+      "word": "outline",
+      "ipa": "/ˈaʊtlaɪn/",
+      "meaning": "概述；提纲",
+      "collocation": "outline the plan",
+      "scene": "项目规划：先概述整体方案再展开细节",
+      "example": "The supervisor asked him to outline the main steps of the experiment.",
+      "translation": "导师要求他概述实验的主要步骤。"
+    },
+    {
+      "id": "2026-10-18-07",
+      "word": "decompose",
+      "ipa": "/ˌdiːkəmˈpəʊz/",
+      "meaning": "分解；拆分",
+      "collocation": "decompose the task",
+      "scene": "机器人任务规划：把复杂任务拆成子任务",
+      "example": "The planner decomposes the long-horizon task into several simpler subtasks.",
+      "translation": "规划器将长时程任务分解为若干更简单的子任务。"
+    },
+    {
+      "id": "2026-10-18-08",
+      "word": "ground",
+      "ipa": "/ɡraʊnd/",
+      "meaning": "为……提供依据；使落到实处",
+      "collocation": "ground the claim in data",
+      "scene": "论文阅读：判断论断是否有数据支撑",
+      "example": "A strong paper grounds each claim in data rather than intuition.",
+      "translation": "一篇扎实的论文会为每个论断提供数据依据，而非凭直觉。"
+    },
+    {
+      "id": "2026-10-18-09",
+      "word": "troubleshoot",
+      "ipa": "/ˈtrʌblʃuːt/",
+      "meaning": "排查故障",
+      "collocation": "troubleshoot a system",
+      "scene": "软件开发：逐步定位系统错误",
+      "example": "We troubleshoot the system before deployment.",
+      "translation": "我们在部署前排查系统故障。"
+    },
+    {
+      "id": "2026-10-18-10",
+      "word": "replenish",
+      "ipa": "/rɪˈplenɪʃ/",
+      "meaning": "补充；重新装满",
+      "collocation": "replenish supplies",
+      "scene": "无人机作业：补充任务所需物资",
+      "example": "The team replenishes supplies before the next flight.",
+      "translation": "团队在下一次飞行前补充物资。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 2
+  }
+}
