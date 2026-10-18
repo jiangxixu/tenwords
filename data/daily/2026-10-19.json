@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-19",
+  "words": [
+    {
+      "id": "2026-10-19-01",
+      "word": "remediate",
+      "ipa": "/rɪˈmiːdieɪt/",
+      "meaning": "补救；修复",
+      "collocation": "remediate the defect",
+      "scene": "软件维护：发现缺陷后制定并执行修复方案",
+      "example": "The team will remediate the defect before the next release.",
+      "translation": "团队会在下个版本发布前修复该缺陷。"
+    },
+    {
+      "id": "2026-10-19-02",
+      "word": "stipulate",
+      "ipa": "/ˈstɪpjuleɪt/",
+      "meaning": "明确规定；约定",
+      "collocation": "stipulate the conditions",
+      "scene": "论文写作：在方法部分明确规定实验前提条件",
+      "example": "The protocol stipulates the conditions under which each trial is run.",
+      "translation": "该协议明确规定了每次试验运行的前提条件。"
+    },
+    {
+      "id": "2026-10-19-03",
+      "word": "prune",
+      "ipa": "/pruːn/",
+      "meaning": "剪枝；精简",
+      "collocation": "prune the network",
+      "scene": "深度学习：裁剪神经网络中冗余的连接以减小模型体积",
+      "example": "We prune the network to cut memory usage without hurting precision.",
+      "translation": "我们对网络进行剪枝，以在不损害精度的前提下降低内存占用。"
+    },
+    {
+      "id": "2026-10-19-04",
+      "word": "discern",
+      "ipa": "/dɪˈsɜːn/",
+      "meaning": "辨别；察觉",
+      "collocation": "discern a pattern",
+      "scene": "数据分析：从噪声数据中辨别出隐藏的规律",
+      "example": "It is hard to discern a pattern in such noisy readings.",
+      "translation": "在如此嘈杂的读数中很难辨别出规律。"
+    },
+    {
+      "id": "2026-10-19-05",
+      "word": "rehearse",
+      "ipa": "/rɪˈhɜːs/",
+      "meaning": "预演；排练",
+      "collocation": "rehearse the presentation",
+      "scene": "学术会议：正式报告前预演讲解流程",
+      "example": "She rehearsed the presentation twice to keep it within ten minutes.",
+      "translation": "她把报告预演了两遍，以将时间控制在十分钟内。"
+    },
+    {
+      "id": "2026-10-19-06",
+      "word": "narrow",
+      "ipa": "/ˈnærəʊ/",
+      "meaning": "缩小；变窄",
+      "collocation": "narrow the gap",
+      "scene": "研究进展：新方法缩小了理论与实测之间的差距",
+      "example": "The new design narrows the gap between theory and measurement.",
+      "translation": "新设计缩小了理论与实测之间的差距。"
+    },
+    {
+      "id": "2026-10-19-07",
+      "word": "feasibility",
+      "ipa": "/ˌfiːzəˈbɪləti/",
+      "meaning": "可行性",
+      "collocation": "assess feasibility",
+      "scene": "项目立项：评估方案在真实环境中的可行性",
+      "example": "A short pilot study assessed the feasibility of the plan.",
+      "translation": "一项小型试点研究评估了该方案的可行性。"
+    },
+    {
+      "id": "2026-10-19-08",
+      "word": "iterative",
+      "ipa": "/ˈɪtərətɪv/",
+      "meaning": "迭代的；反复的",
+      "collocation": "iterative refinement",
+      "scene": "系统开发：通过反复改进逐步完善设计",
+      "example": "Iterative refinement helped the robot learn the task faster.",
+      "translation": "反复改进帮助机器人更快地学会了这项任务。"
+    },
+    {
+      "id": "2026-10-19-09",
+      "word": "reconfigure",
+      "ipa": "/ˌriːkənˈfɪɡə/",
+      "meaning": "重新配置；改变设置",
+      "collocation": "reconfigure the system",
+      "scene": "机器人部署：现场环境变化后重新配置传感器参数",
+      "example": "The team had to reconfigure the robot's sensors after moving it to a new lab.",
+      "translation": "团队把机器人搬到新实验室后不得不重新配置它的传感器。"
+    },
+    {
+      "id": "2026-10-19-10",
+      "word": "discernible",
+      "ipa": "/dɪˈsɜːnəbl/",
+      "meaning": "可辨认的；能察觉到的",
+      "collocation": "a discernible pattern",
+      "scene": "论文阅读：从实验结果图中看出可辨认的趋势",
+      "example": "A discernible pattern appears in the results once the noise is filtered out.",
+      "translation": "一旦滤除噪声，结果中就出现了一种可辨认的模式。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
