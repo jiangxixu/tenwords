@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-20",
+  "words": [
+    {
+      "id": "2026-10-20-01",
+      "word": "workflow",
+      "ipa": "/ˈwɜːkfləʊ/",
+      "meaning": "工作流程",
+      "collocation": "design a workflow",
+      "scene": "科研实验：为模型训练设计一套可重复的工作流程",
+      "example": "We designed a workflow to run experiments overnight.",
+      "translation": "我们设计了一套工作流程，以便在夜间运行实验。"
+    },
+    {
+      "id": "2026-10-20-02",
+      "word": "withstand",
+      "ipa": "/wɪðˈstænd/",
+      "meaning": "承受；抵御",
+      "collocation": "withstand strong winds",
+      "scene": "无人机设计：评估抗风能力",
+      "example": "The drone can withstand strong winds.",
+      "translation": "这架无人机能够抵御强风。"
+    },
+    {
+      "id": "2026-10-20-03",
+      "word": "enforce",
+      "ipa": "/ɪnˈfɔːs/",
+      "meaning": "执行；强制实施",
+      "collocation": "enforce a rule",
+      "scene": "系统设计：强制检查输出是否符合规则",
+      "example": "The validator enforces strict formatting rules.",
+      "translation": "校验器强制执行严格的格式规则。"
+    },
+    {
+      "id": "2026-10-20-04",
+      "word": "recover",
+      "ipa": "/rɪˈkʌvə/",
+      "meaning": "恢复；找回",
+      "collocation": "recover from failure",
+      "scene": "可靠性设计：在故障后恢复运行",
+      "example": "The service can recover from a network failure.",
+      "translation": "该服务可以从网络故障中恢复。"
+    },
+    {
+      "id": "2026-10-20-05",
+      "word": "resume",
+      "ipa": "/rɪˈzjuːm/",
+      "meaning": "继续；恢复进行",
+      "collocation": "resume a task",
+      "scene": "智能体执行：从中断位置继续任务",
+      "example": "The agent resumes the task after reconnecting.",
+      "translation": "智能体重新连接后继续执行任务。"
+    },
+    {
+      "id": "2026-10-20-06",
+      "word": "interrupt",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "meaning": "中断；打断",
+      "collocation": "interrupt a process",
+      "scene": "程序运行：停止正在执行的操作",
+      "example": "A network outage may interrupt the download.",
+      "translation": "网络中断可能使下载停止。"
+    },
+    {
+      "id": "2026-10-20-07",
+      "word": "persist",
+      "ipa": "/pəˈsɪst/",
+      "meaning": "持续；保存",
+      "collocation": "persist data",
+      "scene": "数据存储：把状态保存到持久存储中",
+      "example": "The application persists progress on the device.",
+      "translation": "应用把学习进度保存在设备上。"
+    },
+    {
+      "id": "2026-10-20-08",
+      "word": "isolate",
+      "ipa": "/ˈaɪsəleɪt/",
+      "meaning": "隔离；单独分离",
+      "collocation": "isolate a fault",
+      "scene": "工程调试：缩小故障来源范围",
+      "example": "We isolate the faulty module before making changes.",
+      "translation": "我们在修改之前先定位出故障模块。"
+    },
+    {
+      "id": "2026-10-20-09",
+      "word": "omit",
+      "ipa": "/əˈmɪt/",
+      "meaning": "省略；遗漏",
+      "collocation": "omit a detail",
+      "scene": "论文写作：识别说明中遗漏的细节",
+      "example": "Do not omit important experimental details.",
+      "translation": "不要遗漏重要的实验细节。"
+    },
+    {
+      "id": "2026-10-20-10",
+      "word": "rectify",
+      "ipa": "/ˈrektɪfaɪ/",
+      "meaning": "纠正；修正",
+      "collocation": "rectify an error",
+      "scene": "软件维护：修正数据或程序错误",
+      "example": "The update rectifies an error in the date display.",
+      "translation": "此次更新修正了日期显示中的错误。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 9
+  }
+}
