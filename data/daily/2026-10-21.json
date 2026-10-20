@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-21",
+  "words": [
+    {
+      "id": "2026-10-21-01",
+      "word": "prioritize",
+      "ipa": "/praɪˈɒrətaɪz/",
+      "meaning": "优先处理；按优先级排序",
+      "collocation": "prioritize tasks",
+      "scene": "项目管理：在多任务并行时安排处理顺序",
+      "example": "We prioritize tasks that block the release of the new module.",
+      "translation": "我们优先处理那些会阻碍新模块发布的任务。"
+    },
+    {
+      "id": "2026-10-21-02",
+      "word": "concurrent",
+      "ipa": "/kənˈkʌrənt/",
+      "meaning": "并发的；同时发生的",
+      "collocation": "concurrent execution",
+      "scene": "系统设计：多个任务同时运行时的行为分析",
+      "example": "Concurrent execution can cause race conditions if shared memory is not protected.",
+      "translation": "如果共享内存未加保护，并发执行可能引发竞态条件。"
+    },
+    {
+      "id": "2026-10-21-03",
+      "word": "notify",
+      "ipa": "/ˈnəʊtɪfaɪ/",
+      "meaning": "通知；告知",
+      "collocation": "notify the user",
+      "scene": "系统开发：当任务完成时通知用户",
+      "example": "The system will notify the user when the training job finishes.",
+      "translation": "训练任务完成后，系统将通知用户。"
+    },
+    {
+      "id": "2026-10-21-04",
+      "word": "restore",
+      "ipa": "/rɪˈstɔː(r)/",
+      "meaning": "恢复；修复",
+      "collocation": "restore the backup",
+      "scene": "数据管理：从备份中恢复丢失的数据",
+      "example": "We need to restore the backup to recover the deleted files.",
+      "translation": "我们需要恢复备份来找回被删除的文件。"
+    },
+    {
+      "id": "2026-10-21-05",
+      "word": "visualize",
+      "ipa": "/ˈvɪʒuəlaɪz/",
+      "meaning": "可视化；想象",
+      "collocation": "visualize the data",
+      "scene": "数据分析：使用图表可视化数据分布",
+      "example": "The tool helps you visualize the data distribution with charts.",
+      "translation": "该工具帮助您用图表可视化数据分布。"
+    },
+    {
+      "id": "2026-10-21-06",
+      "word": "simplify",
+      "ipa": "/ˈsɪmplɪfaɪ/",
+      "meaning": "简化；使简易",
+      "collocation": "simplify the code",
+      "scene": "软件工程：重构代码以简化逻辑",
+      "example": "We should simplify the code to make it easier to maintain.",
+      "translation": "我们应该简化代码，使其更易于维护。"
+    },
+    {
+      "id": "2026-10-21-07",
+      "word": "cluster",
+      "ipa": "/ˈklʌstə(r)/",
+      "meaning": "聚类；群集",
+      "collocation": "cluster the data",
+      "scene": "机器学习：将相似的数据点聚类",
+      "example": "The algorithm clusters the data points into distinct groups.",
+      "translation": "该算法将数据点聚类成不同的组。"
+    },
+    {
+      "id": "2026-10-21-08",
+      "word": "annotate",
+      "ipa": "/ˈænəteɪt/",
+      "meaning": "注释；标注",
+      "collocation": "annotate the dataset",
+      "scene": "数据标注：为图像数据集添加标签",
+      "example": "Researchers annotate the dataset with bounding boxes for object detection.",
+      "translation": "研究人员为数据集标注边界框以进行目标检测。"
+    },
+    {
+      "id": "2026-10-21-09",
+      "word": "synchronize",
+      "ipa": "/ˈsɪŋkrənaɪz/",
+      "meaning": "同步；使同时",
+      "collocation": "synchronize the clocks",
+      "scene": "分布式系统：同步各节点的时间",
+      "example": "The protocol synchronizes the clocks across all nodes in the network.",
+      "translation": "该协议同步网络中所有节点的时钟。"
+    },
+    {
+      "id": "2026-10-21-10",
+      "word": "supplement",
+      "ipa": "/ˈsʌplɪment/",
+      "meaning": "补充；增补",
+      "collocation": "supplement the data",
+      "scene": "科研实验：增加现有数据之外的材料",
+      "example": "Additional measurements supplement the original data.",
+      "translation": "额外的测量结果补充了原始数据。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 1
+  }
+}
