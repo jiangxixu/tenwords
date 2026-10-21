@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-22",
+  "words": [
+    {
+      "id": "2026-10-22-01",
+      "word": "delegate",
+      "ipa": "/ˈdɛlɪɡeɪt/",
+      "meaning": "委派；授权",
+      "collocation": "delegate tasks",
+      "scene": "项目管理：将任务分配给团队成员",
+      "example": "A good manager knows how to delegate tasks effectively.",
+      "translation": "优秀的管理者懂得如何有效地委派任务。"
+    },
+    {
+      "id": "2026-10-22-02",
+      "word": "diligent",
+      "ipa": "/ˈdɪlɪdʒənt/",
+      "meaning": "勤勉的；用功的",
+      "collocation": "a diligent researcher",
+      "scene": "论文阅读：评价作者严谨的文献梳理工作",
+      "example": "A diligent researcher reads every cited paper before writing the survey.",
+      "translation": "一位勤勉的研究者在撰写综述前会阅读每一篇引用的论文。"
+    },
+    {
+      "id": "2026-10-22-03",
+      "word": "resilient",
+      "ipa": "/rɪˈzɪliənt/",
+      "meaning": "有韧性的；能恢复的",
+      "collocation": "a resilient system",
+      "scene": "机器人：系统在部件故障后仍能恢复运行",
+      "example": "The robot remains resilient even when one of its sensors stops working.",
+      "translation": "即使其中一个传感器停止工作，这台机器人仍能保持韧性。"
+    },
+    {
+      "id": "2026-10-22-04",
+      "word": "convey",
+      "ipa": "/kənˈveɪ/",
+      "meaning": "传达；表达",
+      "collocation": "convey the idea",
+      "scene": "论文写作：清晰表达研究思想",
+      "example": "The introduction should convey the main idea of your research clearly.",
+      "translation": "引言应当清晰地传达你研究的主要思想。"
+    },
+    {
+      "id": "2026-10-22-05",
+      "word": "alleviate",
+      "ipa": "/əˈliːvieɪt/",
+      "meaning": "减轻；缓和",
+      "collocation": "alleviate the burden",
+      "scene": "系统设计：缓解计算负担",
+      "example": "Caching can alleviate the burden on the central server.",
+      "translation": "缓存可以减轻中心服务器的负担。"
+    },
+    {
+      "id": "2026-10-22-06",
+      "word": "elaborate",
+      "ipa": "/ɪˈlæbəreɪt/",
+      "meaning": "详细阐述",
+      "collocation": "elaborate on the design",
+      "scene": "组会汇报：详细说明设计细节",
+      "example": "Could you elaborate on the design choices in your experiment?",
+      "translation": "你能详细说明你实验中的设计选择吗？"
+    },
+    {
+      "id": "2026-10-22-07",
+      "word": "proficiency",
+      "ipa": "/prəˈfɪʃənsi/",
+      "meaning": "熟练程度；精通",
+      "collocation": "technical proficiency",
+      "scene": "论文阅读：描述实验者或系统所需的技能水平",
+      "example": "The study measures each participant's technical proficiency before the experiment begins.",
+      "translation": "该研究在实验开始前测量每位参与者的技术熟练程度。"
+    },
+    {
+      "id": "2026-10-22-08",
+      "word": "incremental",
+      "ipa": "/ˌɪŋkrəˈmentl/",
+      "meaning": "增量的；逐步的",
+      "collocation": "incremental progress",
+      "scene": "机器人学习：描述通过小步迭代逐步提升性能",
+      "example": "The robot achieved steady incremental progress as it practiced the grasping task.",
+      "translation": "机器人在练习抓取任务时取得了稳定的逐步进展。"
+    },
+    {
+      "id": "2026-10-22-09",
+      "word": "transparent",
+      "ipa": "/trænsˈpærənt/",
+      "meaning": "透明的；易懂的",
+      "collocation": "transparent explanation",
+      "scene": "AI可解释性：要求模型给出清晰易懂的决策说明",
+      "example": "Researchers demand a transparent explanation of how the model reached its decision.",
+      "translation": "研究人员要求对模型如何做出决策给出透明易懂的解释。"
+    },
+    {
+      "id": "2026-10-22-10",
+      "word": "audit",
+      "ipa": "/ˈɔːdɪt/",
+      "meaning": "审查；审核",
+      "collocation": "audit a system",
+      "scene": "系统维护：检查日志和权限是否符合要求",
+      "example": "The team audits the system for security issues.",
+      "translation": "团队审查系统是否存在安全问题。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 1
+  }
+}
