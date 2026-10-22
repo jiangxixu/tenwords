@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-23",
+  "words": [
+    {
+      "id": "2026-10-23-01",
+      "word": "diagnostic",
+      "ipa": "/ˌdaɪəɡˈnɒstɪk/",
+      "meaning": "诊断的；用于诊断的",
+      "collocation": "diagnostic tool",
+      "scene": "软件工程：使用诊断工具定位系统故障",
+      "example": "The team used a diagnostic tool to find the root cause of the crash.",
+      "translation": "团队使用诊断工具找到了崩溃的根本原因。"
+    },
+    {
+      "id": "2026-10-23-02",
+      "word": "scalability",
+      "ipa": "/ˌskeɪləˈbɪləti/",
+      "meaning": "可扩展性；可伸缩性",
+      "collocation": "horizontal scalability",
+      "scene": "分布式系统：设计具有水平可扩展性的架构",
+      "example": "The system's scalability allows it to handle growing user demand.",
+      "translation": "系统的可扩展性使其能够应对不断增长的用户需求。"
+    },
+    {
+      "id": "2026-10-23-03",
+      "word": "resilience",
+      "ipa": "/rɪˈzɪliəns/",
+      "meaning": "韧性；恢复力",
+      "collocation": "system resilience",
+      "scene": "容错系统：构建具有韧性的系统以应对故障",
+      "example": "We tested the resilience of the network by simulating failures.",
+      "translation": "我们通过模拟故障来测试网络的韧性。"
+    },
+    {
+      "id": "2026-10-23-04",
+      "word": "traceability",
+      "ipa": "/ˌtreɪsəˈbɪləti/",
+      "meaning": "可追溯性",
+      "collocation": "data traceability",
+      "scene": "软件工程：确保数据在流水线中的可追溯性",
+      "example": "Traceability of data is essential for debugging complex pipelines.",
+      "translation": "数据的可追溯性对于调试复杂流水线至关重要。"
+    },
+    {
+      "id": "2026-10-23-05",
+      "word": "modularity",
+      "ipa": "/ˌmɒdjəˈlærəti/",
+      "meaning": "模块化；模块性",
+      "collocation": "software modularity",
+      "scene": "软件设计：通过模块化提高代码的可维护性",
+      "example": "Modularity in design makes the system easier to maintain and extend.",
+      "translation": "设计中的模块化使系统更易于维护和扩展。"
+    },
+    {
+      "id": "2026-10-23-06",
+      "word": "revision",
+      "ipa": "/rɪˈvɪʒn/",
+      "meaning": "修订；修改版本",
+      "collocation": "a major revision",
+      "scene": "论文写作：根据审稿意见修改论文",
+      "example": "The paper requires a major revision.",
+      "translation": "这篇论文需要进行重大修改。"
+    },
+    {
+      "id": "2026-10-23-07",
+      "word": "milestone",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "meaning": "里程碑；重要阶段",
+      "collocation": "reach a milestone",
+      "scene": "项目管理：记录完成的关键阶段",
+      "example": "The first successful flight is an important milestone.",
+      "translation": "首次成功飞行是一个重要的里程碑。"
+    },
+    {
+      "id": "2026-10-23-08",
+      "word": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "meaning": "截止日期",
+      "collocation": "meet a deadline",
+      "scene": "科研安排：按时完成论文或项目提交",
+      "example": "We need to meet the submission deadline.",
+      "translation": "我们需要按时完成提交。"
+    },
+    {
+      "id": "2026-10-23-09",
+      "word": "scope",
+      "ipa": "/skəʊp/",
+      "meaning": "范围；作用域",
+      "collocation": "define the scope",
+      "scene": "项目规划：明确需要完成的工作范围",
+      "example": "The specification defines the scope of the project.",
+      "translation": "需求说明明确了项目的范围。"
+    },
+    {
+      "id": "2026-10-23-10",
+      "word": "prerequisite",
+      "ipa": "/ˌpriːˈrekwɪzɪt/",
+      "meaning": "先决条件；必备条件",
+      "collocation": "a prerequisite for",
+      "scene": "课程学习：说明学习新内容之前的基础要求",
+      "example": "Basic Python is a prerequisite for this course.",
+      "translation": "基础 Python 知识是学习这门课程的先决条件。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 5
+  }
+}
