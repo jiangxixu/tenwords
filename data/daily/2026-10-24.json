@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-24",
+  "words": [
+    {
+      "id": "2026-10-24-01",
+      "word": "budget",
+      "ipa": "/ˈbʌdʒɪt/",
+      "meaning": "预算；为…安排预算",
+      "collocation": "stay within budget",
+      "scene": "项目管理：为实验算力资源做预算",
+      "example": "We must stay within budget when renting GPU servers for the experiments.",
+      "translation": "我们在租用实验用GPU服务器时必须控制在预算之内。"
+    },
+    {
+      "id": "2026-10-24-02",
+      "word": "schedule",
+      "ipa": "/ˈʃedjuːl/",
+      "meaning": "日程；安排时间",
+      "collocation": "meet the schedule",
+      "scene": "科研管理：按计划推进论文实验进度",
+      "example": "She rearranged her schedule to meet the paper submission deadline.",
+      "translation": "她重新安排了日程，以赶上论文提交截止日期。"
+    },
+    {
+      "id": "2026-10-24-03",
+      "word": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "meaning": "反馈；意见",
+      "collocation": "receive constructive feedback",
+      "scene": "学术交流：导师对初稿给出反馈",
+      "example": "My supervisor gave constructive feedback on the first draft of the paper.",
+      "translation": "我的导师对论文初稿给出了建设性的反馈。"
+    },
+    {
+      "id": "2026-10-24-04",
+      "word": "draft",
+      "ipa": "/drɑːft/",
+      "meaning": "草稿；起草",
+      "collocation": "write a first draft",
+      "scene": "论文写作：先写出初稿再反复修改",
+      "example": "He wrote a rough draft of the related work section in one afternoon.",
+      "translation": "他用一个下午写出了相关工作部分的粗略草稿。"
+    },
+    {
+      "id": "2026-10-24-05",
+      "word": "review",
+      "ipa": "/rɪˈvjuː/",
+      "meaning": "评审；复审；回顾",
+      "collocation": "peer review",
+      "scene": "论文投稿：同行评审给出修改意见",
+      "example": "The paper went through peer review and received useful comments.",
+      "translation": "这篇论文经过了同行评审，并收到了有用的意见。"
+    },
+    {
+      "id": "2026-10-24-06",
+      "word": "cite",
+      "ipa": "/saɪt/",
+      "meaning": "引用；引证",
+      "collocation": "cite a paper",
+      "scene": "论文写作：在文献综述中引用相关工作",
+      "example": "Remember to cite every paper you refer to in the literature review.",
+      "translation": "记得在文献综述中引用你提到的每一篇论文。"
+    },
+    {
+      "id": "2026-10-24-07",
+      "word": "reference",
+      "ipa": "/ˈrefrəns/",
+      "meaning": "参考文献；参考",
+      "collocation": "a list of references",
+      "scene": "论文写作：整理文末参考文献列表",
+      "example": "Please format the reference list according to the conference template.",
+      "translation": "请按照会议模板格式化参考文献列表。"
+    },
+    {
+      "id": "2026-10-24-08",
+      "word": "questionnaire",
+      "ipa": "/ˌkwestʃəˈneə(r)/",
+      "meaning": "问卷；调查表",
+      "collocation": "fill out a questionnaire",
+      "scene": "用户研究：用问卷收集参与者反馈",
+      "example": "Participants filled out a short questionnaire after using the robot.",
+      "translation": "参与者在使用机器人后填写了一份简短的问卷。"
+    },
+    {
+      "id": "2026-10-24-09",
+      "word": "duration",
+      "ipa": "/djʊəˈreɪʃn/",
+      "meaning": "持续时间",
+      "collocation": "training duration",
+      "scene": "机器学习：衡量训练所需的时间",
+      "example": "We record the duration of each training run.",
+      "translation": "我们记录每次训练的持续时间。"
+    },
+    {
+      "id": "2026-10-24-10",
+      "word": "priority",
+      "ipa": "/praɪˈɒrəti/",
+      "meaning": "优先级；优先事项",
+      "collocation": "high priority",
+      "scene": "任务调度：决定先处理哪些任务",
+      "example": "Safety has the highest priority in flight control.",
+      "translation": "安全在飞行控制中具有最高优先级。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 2
+  }
+}
