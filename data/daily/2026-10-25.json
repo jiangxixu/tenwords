@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-25",
+  "words": [
+    {
+      "id": "2026-10-25-01",
+      "word": "faculty",
+      "ipa": "/ˈfækəlti/",
+      "meaning": "能力；全体教员",
+      "collocation": "mental faculty",
+      "scene": "学术写作：讨论人类认知能力与机器智能的差异",
+      "example": "The study compares human mental faculties with the capabilities of modern AI systems.",
+      "translation": "该研究将人类的心理能力与现代人工智能系统的能力进行了比较。"
+    },
+    {
+      "id": "2026-10-25-02",
+      "word": "intuition",
+      "ipa": "/ˌɪntjuˈɪʃn/",
+      "meaning": "直觉；洞察力",
+      "collocation": "rely on intuition",
+      "scene": "科研思考：解释研究者的直觉如何引导假设形成",
+      "example": "Her intuition about the data guided the team toward a promising direction.",
+      "translation": "她对数据的直觉引导团队走向了一个有前景的方向。"
+    },
+    {
+      "id": "2026-10-25-03",
+      "word": "compelling",
+      "ipa": "/kəmˈpelɪŋ/",
+      "meaning": "令人信服的；引人入胜的",
+      "collocation": "compelling evidence",
+      "scene": "论文阅读：评价作者论证的说服力",
+      "example": "The authors present compelling evidence to support their main argument.",
+      "translation": "作者们提供了令人信服的证据来支持他们的主要论点。"
+    },
+    {
+      "id": "2026-10-25-04",
+      "word": "peculiar",
+      "ipa": "/pɪˈkjuːliə(r)/",
+      "meaning": "奇怪的；特有的",
+      "collocation": "peculiar behavior",
+      "scene": "机器人调试：观察机器人在特定环境下的异常行为",
+      "example": "The robot showed peculiar behavior when the sensor signal was weak.",
+      "translation": "当传感器信号微弱时，机器人表现出异常行为。"
+    },
+    {
+      "id": "2026-10-25-05",
+      "word": "rigorous",
+      "ipa": "/ˈrɪɡərəs/",
+      "meaning": "严谨的；严格的",
+      "collocation": "rigorous analysis",
+      "scene": "学术评审：要求实验设计严谨可靠",
+      "example": "Reviewers asked for a more rigorous analysis of the experimental setup.",
+      "translation": "审稿人要求对实验设置进行更严谨的分析。"
+    },
+    {
+      "id": "2026-10-25-06",
+      "word": "postpone",
+      "ipa": "/pəˈspəʊn/",
+      "meaning": "推迟；延期",
+      "collocation": "postpone a test",
+      "scene": "科研安排：由于条件不足而延后测试",
+      "example": "We postpone the outdoor test because of strong winds.",
+      "translation": "由于强风，我们推迟了室外测试。"
+    },
+    {
+      "id": "2026-10-25-07",
+      "word": "justify",
+      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "meaning": "证明合理；说明理由",
+      "collocation": "justify a choice",
+      "scene": "论文写作：解释为何选择某个方法",
+      "example": "The authors justify their choice of baseline models.",
+      "translation": "作者说明了选择这些基线模型的理由。"
+    },
+    {
+      "id": "2026-10-25-08",
+      "word": "refactor",
+      "ipa": "/ˌriːˈfæktə/",
+      "meaning": "重构代码",
+      "collocation": "refactor the code",
+      "scene": "软件开发：改善代码结构并保留原有功能",
+      "example": "We refactor the code to make it easier to maintain.",
+      "translation": "我们重构代码，使其更容易维护。"
+    },
+    {
+      "id": "2026-10-25-09",
+      "word": "rollback",
+      "ipa": "/ˈrəʊlbæk/",
+      "meaning": "回滚；撤回变更",
+      "collocation": "perform a rollback",
+      "scene": "软件发布：在更新出错时恢复旧版本",
+      "example": "The team performs a rollback after the failed update.",
+      "translation": "更新失败后，团队进行了版本回滚。"
+    },
+    {
+      "id": "2026-10-25-10",
+      "word": "snapshot",
+      "ipa": "/ˈsnæpʃɒt/",
+      "meaning": "快照；某一时刻的状态副本",
+      "collocation": "save a snapshot",
+      "scene": "数据管理：保存当前状态以便恢复",
+      "example": "We save a snapshot before changing the database.",
+      "translation": "我们在修改数据库前保存一份快照。"
+    }
+  ],
+  "generation": {
+    "source": "mixed",
+    "reserveWords": 5
+  }
+}
