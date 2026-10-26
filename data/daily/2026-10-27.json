@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-27",
+  "words": [
+    {
+      "id": "2026-10-27-01",
+      "word": "tangible",
+      "ipa": "/ˈtændʒəbl/",
+      "meaning": "有形的；可触摸的；切实的",
+      "collocation": "tangible benefit",
+      "scene": "论文写作：强调研究成果带来的切实收益",
+      "example": "The new interface offers tangible benefits for users who struggle with complex menus.",
+      "translation": "这个新界面对那些难以应对复杂菜单的用户带来了切实的好处。"
+    },
+    {
+      "id": "2026-10-27-02",
+      "word": "tentative",
+      "ipa": "/ˈtentətɪv/",
+      "meaning": "暂定的；试探性的",
+      "collocation": "tentative conclusion",
+      "scene": "实验分析：在数据尚不充分时给出暂定结论",
+      "example": "We reached a tentative conclusion and plan to collect more data next week.",
+      "translation": "我们得出了一个暂定结论，并计划下周收集更多数据。"
+    },
+    {
+      "id": "2026-10-27-03",
+      "word": "tedious",
+      "ipa": "/ˈtiːdiəs/",
+      "meaning": "冗长乏味的；单调的",
+      "collocation": "tedious task",
+      "scene": "数据标注：描述重复性高、枯燥的工作",
+      "example": "Manually labeling thousands of images is a tedious task that slows down research.",
+      "translation": "手动标注数千张图像是一项拖慢研究进度的冗长乏味的任务。"
+    },
+    {
+      "id": "2026-10-27-04",
+      "word": "vivid",
+      "ipa": "/ˈvɪvɪd/",
+      "meaning": "生动的；清晰的",
+      "collocation": "vivid description",
+      "scene": "论文阅读：评价作者对实验现象的生动描述",
+      "example": "The author gives a vivid description of how the robot moves through a crowded room.",
+      "translation": "作者生动地描述了机器人如何在拥挤的房间里穿行。"
+    },
+    {
+      "id": "2026-10-27-05",
+      "word": "subtle",
+      "ipa": "/ˈsʌtl/",
+      "meaning": "微妙的；不易察觉的",
+      "collocation": "subtle difference",
+      "scene": "模型对比：指出两个版本之间细微的差异",
+      "example": "There is a subtle difference between the two versions that only experts notice.",
+      "translation": "这两个版本之间存在一种只有专家才能察觉的细微差异。"
+    },
+    {
+      "id": "2026-10-27-06",
+      "word": "tedium",
+      "ipa": "/ˈtiːdiəm/",
+      "meaning": "单调乏味；冗长",
+      "collocation": "reduce the tedium",
+      "scene": "自动化：说明脚本如何减少重复劳动",
+      "example": "Automating the checks helps reduce the tedium of daily testing.",
+      "translation": "将检查自动化有助于减少日常测试的单调乏味。"
+    },
+    {
+      "id": "2026-10-27-07",
+      "word": "candid",
+      "ipa": "/ˈkændɪd/",
+      "meaning": "坦率的；直言的",
+      "collocation": "candid feedback",
+      "scene": "团队协作：导师给出坦率的反馈",
+      "example": "My advisor gave candid feedback on the weak points of my presentation.",
+      "translation": "我的导师就我报告中的薄弱之处给出了坦率的反馈。"
+    },
+    {
+      "id": "2026-10-27-08",
+      "word": "mature",
+      "ipa": "/məˈtʃʊə(r)/",
+      "meaning": "成熟的；发展完善的",
+      "collocation": "mature technology",
+      "scene": "技术选型：判断某项技术是否已足够成熟",
+      "example": "The team waited until the vision technology was mature enough for real products.",
+      "translation": "团队一直等到视觉技术足够成熟、可以用于真实产品时才动手。"
+    },
+    {
+      "id": "2026-10-27-09",
+      "word": "debug",
+      "ipa": "/ˌdiːˈbʌɡ/",
+      "meaning": "调试；排除故障",
+      "collocation": "debug the code",
+      "scene": "编程实践：定位并修复程序中的错误",
+      "example": "She spent the afternoon debugging the code before the demo.",
+      "translation": "她在演示前花了一下午调试代码。"
+    },
+    {
+      "id": "2026-10-27-10",
+      "word": "workload",
+      "ipa": "/ˈwɜːkləʊd/",
+      "meaning": "工作量；负载",
+      "collocation": "heavy workload",
+      "scene": "科研与工程：描述计算任务或工作负担的规模",
+      "example": "The new GPU cluster can handle a heavy workload without slowing down.",
+      "translation": "新的GPU集群能够处理繁重的工作负载而不会变慢。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
