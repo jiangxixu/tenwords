@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-28",
+  "words": [
+    {
+      "id": "2026-10-28-01",
+      "word": "subsume",
+      "ipa": "/səbˈsjuːm/",
+      "meaning": "包含；归入",
+      "collocation": "subsume under a category",
+      "scene": "论文写作：将多个子类归入统一框架下讨论",
+      "example": "The new taxonomy subsumes several older categories under one unified label.",
+      "translation": "新的分类法将若干旧类别归入一个统一标签之下。"
+    },
+    {
+      "id": "2026-10-28-02",
+      "word": "surmount",
+      "ipa": "/səˈmaʊnt/",
+      "meaning": "克服；战胜",
+      "collocation": "surmount an obstacle",
+      "scene": "项目复盘：团队克服资源不足完成系统上线",
+      "example": "The team surmounted several technical obstacles before the system went live.",
+      "translation": "在系统上线之前，团队克服了若干技术障碍。"
+    },
+    {
+      "id": "2026-10-28-03",
+      "word": "stark",
+      "ipa": "/stɑːk/",
+      "meaning": "鲜明的；严峻的",
+      "collocation": "a stark contrast",
+      "scene": "实验结果：两种方法的表现形成鲜明对比",
+      "example": "There is a stark contrast between the two methods on noisy inputs.",
+      "translation": "在含噪输入上，两种方法之间存在鲜明对比。"
+    },
+    {
+      "id": "2026-10-28-04",
+      "word": "wary",
+      "ipa": "/ˈweəri/",
+      "meaning": "谨慎的；警惕的",
+      "collocation": "be wary of",
+      "scene": "论文阅读：对缺乏对照实验的结论保持警惕",
+      "example": "Readers should be wary of conclusions drawn from a single small experiment.",
+      "translation": "读者应对仅凭单个小规模实验得出的结论保持警惕。"
+    },
+    {
+      "id": "2026-10-28-05",
+      "word": "plummet",
+      "ipa": "/ˈplʌmɪt/",
+      "meaning": "骤降；急剧下降",
+      "collocation": "plummet sharply",
+      "scene": "系统监控：负载突增时吞吐量骤降",
+      "example": "Throughput plummeted sharply once the queue length exceeded its capacity.",
+      "translation": "一旦队列长度超过容量，吞吐量便急剧下降。"
+    },
+    {
+      "id": "2026-10-28-06",
+      "word": "forge",
+      "ipa": "/fɔːdʒ/",
+      "meaning": "建立；锻造",
+      "collocation": "forge a partnership",
+      "scene": "科研合作：与实验室建立长期合作关系",
+      "example": "The two labs forged a long-term partnership on robot learning.",
+      "translation": "这两个实验室在机器人学习方面建立了长期合作关系。"
+    },
+    {
+      "id": "2026-10-28-07",
+      "word": "gauge",
+      "ipa": "/ɡeɪdʒ/",
+      "meaning": "衡量；评估",
+      "collocation": "gauge the impact",
+      "scene": "实验设计：衡量改动对整体性能的影响",
+      "example": "We designed a small pilot study to gauge the impact of the change.",
+      "translation": "我们设计了一项小型预研来衡量该改动的影响。"
+    },
+    {
+      "id": "2026-10-28-08",
+      "word": "daunting",
+      "ipa": "/ˈdɔːntɪŋ/",
+      "meaning": "艰巨的；令人畏难的",
+      "collocation": "a daunting task",
+      "scene": "课题开题：面对数据规模巨大的艰巨任务",
+      "example": "Cleaning such a large corpus is a daunting task for a single student.",
+      "translation": "清洗如此庞大的语料对单个学生而言是一项艰巨的任务。"
+    },
+    {
+      "id": "2026-10-28-09",
+      "word": "curb",
+      "ipa": "/kɜːb/",
+      "meaning": "抑制；控制",
+      "collocation": "curb the growth",
+      "scene": "资源管理：抑制内存占用的过快增长",
+      "example": "A simple cap on the buffer helps curb the growth of memory usage.",
+      "translation": "对缓冲区设置简单上限有助于抑制内存占用的增长。"
+    },
+    {
+      "id": "2026-10-28-10",
+      "word": "inventory",
+      "ipa": "/ˈɪnvəntri/",
+      "meaning": "清单；库存；盘点",
+      "collocation": "take inventory of",
+      "scene": "机器人实验室：清点硬件与软件资产，确认设备是否齐全",
+      "example": "Before the experiment, the team took inventory of all the sensors and cables in the lab.",
+      "translation": "实验开始前，团队清点了实验室里所有的传感器和线缆。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
