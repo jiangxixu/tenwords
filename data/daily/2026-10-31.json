@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-31",
+  "words": [
+    {
+      "id": "2026-10-31-01",
+      "word": "brittle",
+      "ipa": "/ˈbrɪtl/",
+      "meaning": "脆弱的；易碎的",
+      "collocation": "brittle code",
+      "scene": "软件工程：讨论难以维护的脆弱代码",
+      "example": "The legacy system is brittle and breaks whenever a small change is made.",
+      "translation": "这个遗留系统很脆弱，只要做一点小改动就会崩溃。"
+    },
+    {
+      "id": "2026-10-31-02",
+      "word": "intricacy",
+      "ipa": "/ˈɪntrɪkəsi/",
+      "meaning": "复杂性；错综细节",
+      "collocation": "the intricacy of the design",
+      "scene": "论文阅读：评价系统设计的复杂细节",
+      "example": "The paper explains the intricacy of the control logic in detail.",
+      "translation": "这篇论文详细解释了控制逻辑的复杂细节。"
+    },
+    {
+      "id": "2026-10-31-03",
+      "word": "outage",
+      "ipa": "/ˈaʊtɪdʒ/",
+      "meaning": "停机；服务中断",
+      "collocation": "service outage",
+      "scene": "运维场景：讨论线上服务中断",
+      "example": "A brief outage interrupted the robot's remote connection.",
+      "translation": "一次短暂的服务中断打断了机器人的远程连接。"
+    },
+    {
+      "id": "2026-10-31-04",
+      "word": "flaw",
+      "ipa": "/flɔː/",
+      "meaning": "缺陷；瑕疵",
+      "collocation": "design flaw",
+      "scene": "工程评审：指出设计缺陷",
+      "example": "The team found a serious flaw in the sensor calibration routine.",
+      "translation": "团队在传感器校准流程中发现了一个严重缺陷。"
+    },
+    {
+      "id": "2026-10-31-05",
+      "word": "barrier",
+      "ipa": "/ˈbæriə(r)/",
+      "meaning": "障碍；壁垒",
+      "collocation": "language barrier",
+      "scene": "协作场景：跨国团队沟通障碍",
+      "example": "The language barrier slowed down collaboration between the two labs.",
+      "translation": "语言障碍拖慢了两个实验室之间的协作。"
+    },
+    {
+      "id": "2026-10-31-06",
+      "word": "compatible",
+      "ipa": "/kəmˈpætəbl/",
+      "meaning": "兼容的",
+      "collocation": "compatible with",
+      "scene": "系统集成：确认软硬件兼容",
+      "example": "The new library is compatible with the existing runtime environment.",
+      "translation": "这个新库与现有的运行环境兼容。"
+    },
+    {
+      "id": "2026-10-31-07",
+      "word": "fragile",
+      "ipa": "/ˈfrædʒaɪl/",
+      "meaning": "易损的；不稳固的",
+      "collocation": "fragile system",
+      "scene": "机器人：讨论精密部件易损",
+      "example": "The robot's gripper is fragile and must be handled with care.",
+      "translation": "机器人的夹爪很易损，必须小心处理。"
+    },
+    {
+      "id": "2026-10-31-08",
+      "word": "vague",
+      "ipa": "/veɪɡ/",
+      "meaning": "模糊的；含糊的",
+      "collocation": "vague description",
+      "scene": "需求沟通：反馈描述含糊",
+      "example": "The user gave a vague description of the bug, so we asked for details.",
+      "translation": "用户对缺陷的描述很含糊，所以我们要求提供细节。"
+    },
+    {
+      "id": "2026-10-31-09",
+      "word": "deadlock",
+      "ipa": "/ˈdedlɒk/",
+      "meaning": "僵局；死锁",
+      "collocation": "break a deadlock",
+      "scene": "并发编程：两个线程互相等待对方释放资源导致程序停滞",
+      "example": "The system froze because a deadlock occurred between the two threads.",
+      "translation": "由于两个线程之间发生了死锁，系统冻结了。"
+    },
+    {
+      "id": "2026-10-31-10",
+      "word": "elapse",
+      "ipa": "/ɪˈlæps/",
+      "meaning": "（时间）流逝；消逝",
+      "collocation": "time elapses",
+      "scene": "实验记录：记录从提交任务到返回结果之间流逝的时间",
+      "example": "A considerable amount of time elapsed before the system returned any output.",
+      "translation": "在系统返回任何输出之前，已经过去了相当长的一段时间。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
