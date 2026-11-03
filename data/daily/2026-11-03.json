@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-03",
+  "words": [
+    {
+      "id": "2026-11-03-01",
+      "word": "circumvent",
+      "ipa": "/ˌsɜːkəmˈvent/",
+      "meaning": "规避；绕过",
+      "collocation": "circumvent a restriction",
+      "scene": "系统安全：通过设计绕过限制",
+      "example": "The team found a way to circumvent the security restriction without compromising safety.",
+      "translation": "团队找到了一种在不影响安全的情况下规避安全限制的方法。"
+    },
+    {
+      "id": "2026-11-03-02",
+      "word": "hinder",
+      "ipa": "/ˈhɪndə(r)/",
+      "meaning": "阻碍；妨碍",
+      "collocation": "hinder progress",
+      "scene": "团队协作：识别阻碍进展的因素",
+      "example": "A lack of clear communication can hinder progress on the project.",
+      "translation": "缺乏清晰的沟通可能会阻碍项目的进展。"
+    },
+    {
+      "id": "2026-11-03-03",
+      "word": "imminent",
+      "ipa": "/ˈɪmɪnənt/",
+      "meaning": "即将发生的",
+      "collocation": "imminent threat",
+      "scene": "安全监控：检测即将发生的威胁",
+      "example": "The system alerts operators when an imminent threat is detected.",
+      "translation": "当检测到即将发生的威胁时，系统会提醒操作员。"
+    },
+    {
+      "id": "2026-11-03-04",
+      "word": "scaffold",
+      "ipa": "/ˈskæfəʊld/",
+      "meaning": "脚手架；搭建支撑结构",
+      "collocation": "scaffold a prototype",
+      "scene": "软件开发：先搭建项目骨架再逐步填充功能",
+      "example": "The team decided to scaffold a prototype before writing the full implementation.",
+      "translation": "团队决定在编写完整实现之前先搭建一个原型骨架。"
+    },
+    {
+      "id": "2026-11-03-05",
+      "word": "cohesion",
+      "ipa": "/kəʊˈhiːʒn/",
+      "meaning": "凝聚力；连贯性",
+      "collocation": "maintain cohesion",
+      "scene": "论文写作：检查段落之间的逻辑连贯性",
+      "example": "Good transitions help maintain cohesion across the sections of a paper.",
+      "translation": "恰当的过渡有助于保持论文各章节之间的连贯性。"
+    },
+    {
+      "id": "2026-11-03-06",
+      "word": "vigilance",
+      "ipa": "/ˈvɪdʒɪləns/",
+      "meaning": "警觉；警惕",
+      "collocation": "exercise vigilance",
+      "scene": "AI 安全：对模型输出保持持续警惕",
+      "example": "Operators must exercise vigilance when reviewing outputs from an AI system.",
+      "translation": "操作人员在审查人工智能系统的输出时必须保持警惕。"
+    },
+    {
+      "id": "2026-11-03-07",
+      "word": "proximity",
+      "ipa": "/prɒkˈsɪməti/",
+      "meaning": "接近；邻近",
+      "collocation": "in close proximity",
+      "scene": "机器人：传感器与障碍物距离过近时触发避让",
+      "example": "The robot slows down when it detects an obstacle in close proximity.",
+      "translation": "当机器人检测到附近有障碍物时会减速。"
+    },
+    {
+      "id": "2026-11-03-08",
+      "word": "cadence",
+      "ipa": "/ˈkeɪdns/",
+      "meaning": "节奏；周期性频率",
+      "collocation": "release cadence",
+      "scene": "工程管理：团队固定的迭代发布节奏",
+      "example": "A steady release cadence keeps users informed about new changes.",
+      "translation": "稳定的发布节奏能让用户及时了解新的变化。"
+    },
+    {
+      "id": "2026-11-03-09",
+      "word": "discernment",
+      "ipa": "/dɪˈsɜːnmənt/",
+      "meaning": "洞察力；辨别力",
+      "collocation": "exercise discernment",
+      "scene": "文献阅读：在海量论文中辨别真正有价值的工作",
+      "example": "Reading widely helps students develop discernment about which papers matter.",
+      "translation": "广泛阅读有助于学生培养辨别哪些论文真正重要的洞察力。"
+    },
+    {
+      "id": "2026-11-03-10",
+      "word": "coherence",
+      "ipa": "/kəʊˈhɪərəns/",
+      "meaning": "连贯性；一致性",
+      "collocation": "logical coherence",
+      "scene": "论文写作：确保论证结构前后一致",
+      "example": "The reviewer praised the logical coherence of the argument.",
+      "translation": "审稿人称赞了该论证的逻辑连贯性。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
