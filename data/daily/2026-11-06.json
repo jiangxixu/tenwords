@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-06",
+  "words": [
+    {
+      "id": "2026-11-06-01",
+      "word": "adverse",
+      "ipa": "/ˈædvɜːs/",
+      "meaning": "不利的；有害的",
+      "collocation": "adverse effect",
+      "scene": "实验分析：评估某变化对系统性能的负面影响",
+      "example": "The new policy had an adverse effect on the team's productivity.",
+      "translation": "新政策对团队的生产力产生了不利影响。"
+    },
+    {
+      "id": "2026-11-06-02",
+      "word": "cease",
+      "ipa": "/siːs/",
+      "meaning": "停止；终止",
+      "collocation": "cease operation",
+      "scene": "系统运维：某服务因故障而停止运行",
+      "example": "The server will cease operation at midnight for maintenance.",
+      "translation": "服务器将在午夜停止运行以进行维护。"
+    },
+    {
+      "id": "2026-11-06-03",
+      "word": "deliberately",
+      "ipa": "/dɪˈlɪbərətli/",
+      "meaning": "故意地；蓄意地",
+      "collocation": "deliberately designed",
+      "scene": "安全分析：攻击者故意构造对抗样本",
+      "example": "The attacker deliberately crafted inputs to fool the classifier.",
+      "translation": "攻击者故意构造输入来欺骗分类器。"
+    },
+    {
+      "id": "2026-11-06-04",
+      "word": "exempt",
+      "ipa": "/ɪɡˈzempt/",
+      "meaning": "豁免；免除",
+      "collocation": "exempt from",
+      "scene": "实验设置：某些样本被排除在统计之外",
+      "example": "These outliers are exempt from the final statistical analysis.",
+      "translation": "这些离群值被排除在最终统计分析之外。"
+    },
+    {
+      "id": "2026-11-06-05",
+      "word": "forthcoming",
+      "ipa": "/ˌfɔːθˈkʌmɪŋ/",
+      "meaning": "即将到来的；即将出版的",
+      "collocation": "forthcoming paper",
+      "scene": "论文阅读：提及即将发表的后续工作",
+      "example": "The authors mention a forthcoming paper that extends this work.",
+      "translation": "作者提到了一篇扩展此项工作的即将发表的论文。"
+    },
+    {
+      "id": "2026-11-06-06",
+      "word": "notwithstanding",
+      "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
+      "meaning": "尽管；虽然",
+      "collocation": "notwithstanding the difficulty",
+      "scene": "论文讨论：尽管存在困难仍取得进展",
+      "example": "Notwithstanding the difficulties, the team completed the prototype.",
+      "translation": "尽管存在困难，团队仍完成了原型。"
+    },
+    {
+      "id": "2026-11-06-07",
+      "word": "undertake",
+      "ipa": "/ˌʌndəˈteɪk/",
+      "meaning": "承担；着手做",
+      "collocation": "undertake a study",
+      "scene": "研究规划：着手开展一项新的实验研究",
+      "example": "The lab will undertake a large-scale study on robot navigation.",
+      "translation": "该实验室将着手开展一项关于机器人导航的大规模研究。"
+    },
+    {
+      "id": "2026-11-06-08",
+      "word": "stagnant",
+      "ipa": "/ˈstæɡnənt/",
+      "meaning": "停滞的；不流动的",
+      "collocation": "stagnant performance",
+      "scene": "模型评估：训练损失长期不下降，性能停滞",
+      "example": "The model's accuracy stayed stagnant for ten epochs despite further tuning.",
+      "translation": "尽管进一步调参，模型的准确率在十个轮次内仍停滞不前。"
+    },
+    {
+      "id": "2026-11-06-09",
+      "word": "salient",
+      "ipa": "/ˈseɪliənt/",
+      "meaning": "显著的；突出的",
+      "collocation": "salient features",
+      "scene": "论文阅读：作者强调方法中最显著的特征",
+      "example": "The paper highlights the salient differences between the two training regimes.",
+      "translation": "该论文强调了两种训练方式之间最显著的差异。"
+    },
+    {
+      "id": "2026-11-06-10",
+      "word": "contend",
+      "ipa": "/kənˈtend/",
+      "meaning": "声称；争辩；应对",
+      "collocation": "contend with a problem",
+      "scene": "论文阅读：作者在讨论部分提出观点或应对质疑",
+      "example": "The authors contend that their method scales well, though they must contend with noisy labels.",
+      "translation": "作者声称他们的方法扩展性良好，尽管他们必须应对噪声标签的问题。"
+    }
+  ],
+  "generation": {
+    "source": "deepseek",
+    "reserveWords": 0
+  }
+}
